@@ -1,8 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+
+  #controls
+    button#recordButton Record
+    button#pauseButton(disabled='') Pause
+    button#stopButton(disabled='') Stop
+  #formats Format: start recording to see sample rate
+  p
+    strong Recordings:
+  ol#recordingsList
+  //- h1= title
+  //- p Welcome to #{title}
 
   //- #login
   //-   label(for="username") Login
@@ -21,20 +30,9 @@ block content
     input#m(autocomplete='off')
     button Send
 
-
+  script(src="https://cdn.jsdelivr.net/npm/binaryjs@0.2.1/lib/server.min.js")
   script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
+  script(src='https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js')
   script(src="https://code.jquery.com/jquery-1.11.1.js")
-  script.
-    $(function () {
-      var socket = io();
-      $('form').submit(function(e){
-        e.preventDefault(); // prevents page reloading
-        socket.emit('chat message', $('#m').val());
-        $('#m').val('');
-        return false;
-      });
-      socket.on('chat message', function(msg){
-        $('#messages').append($('<li>').text(msg));
-      });
-    });
+  script(src="./javascripts/recorder.js")
   script(src='./javascripts/client.js')

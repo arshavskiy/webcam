@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "binaryjs": "^0.2.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^4.17.1",
@@ -16,6 +17,7 @@
     "morgan": "~1.9.1",
     "pug": "^2.0.4",
     "socket.io": "^2.3.0",
+    "wav": "^1.0.2",
     "ws": "^7.2.1"
   }
 }

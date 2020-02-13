@@ -1,0 +1,307 @@
+[0mGET / [32m200 [0m377.903 ms - 1334[0m
+[0mGET /stylesheets/style.css [32m200 [0m5.073 ms - 2484[0m
+[0mGET /javascripts/recorder.js [32m200 [0m3.647 ms - 6896[0m
+[0mGET /javascripts/client.js [32m200 [0m4.131 ms - 4950[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pjVn [33m404 [0m13.674 ms - 1330[0m
+new connection
+new stream
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pjtN [33m404 [0m9.816 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-plXg [33m404 [0m23.735 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pmmH [33m404 [0m13.015 ms - 1330[0m
+wrote to file demo.wav
+[0mGET /favicon.ico [33m404 [0m22.197 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pn-l [33m404 [0m11.806 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-ppDE [33m404 [0m11.645 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pqRf [33m404 [0m8.272 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-prg3 [33m404 [0m7.283 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-psuR [33m404 [0m7.556 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pu6q [33m404 [0m8.007 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pvLC [33m404 [0m7.446 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pwZa [33m404 [0m8.402 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pxnz [33m404 [0m8.016 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-pz0L [33m404 [0m8.615 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-p-Ej [33m404 [0m11.032 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-p_T9 [33m404 [0m8.513 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q0hW [33m404 [0m5.957 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q1vs [33m404 [0m7.014 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q38D [33m404 [0m6.505 ms - 1330[0m
+[0mGET / [32m200 [0m11.715 ms - 1334[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+[0mGET /stylesheets/style.css [32m200 [0m4.219 ms - 2484[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.197 ms - 6948[0m
+[0mGET /javascripts/client.js [32m200 [0m0.683 ms - 4950[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q3X6 [33m404 [0m356.087 ms - 1330[0m
+new connection
+new stream
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q3zY [33m404 [0m14.765 ms - 1330[0m
+wrote to file demo.wav
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q4ZJ [33m404 [0m9.565 ms - 1330[0m
+[0mGET /favicon.ico [33m404 [0m19.078 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q5W3 [33m404 [0m10.323 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q6kU [33m404 [0m17.874 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q7z0 [33m404 [0m11.988 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q9BT [33m404 [0m11.724 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qAPv [33m404 [0m10.387 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qBeI [33m404 [0m10.573 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qCsk [33m404 [0m6.946 ms - 1330[0m
+[0mGET / [32m200 [0m21.691 ms - 1334[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+[0mGET /stylesheets/style.css [32m200 [0m4.352 ms - 2484[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.085 ms - 6948[0m
+[0mGET /javascripts/client.js [32m200 [0m0.874 ms - 4950[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qE6K [33m404 [0m359.582 ms - 1330[0m
+new connection
+new stream
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qEXK [33m404 [0m12.770 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qE_j [33m404 [0m10.100 ms - 1330[0m
+wrote to file 13-1_15:50_demo.wav
+[0mGET /favicon.ico [33m404 [0m12.381 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qGE9 [33m404 [0m11.190 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qHSb [33m404 [0m15.755 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qIh7 [33m404 [0m12.197 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qJvd [33m404 [0m10.623 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qL82 [33m404 [0m11.568 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qMMU [33m404 [0m9.728 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qNav [33m404 [0m8.244 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qOpI [33m404 [0m7.046 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qQ1g [33m404 [0m7.806 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qRG3 [33m404 [0m7.574 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qSUQ [33m404 [0m9.461 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qTiq [33m404 [0m10.929 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qUxF [33m404 [0m7.908 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qW9e [33m404 [0m11.497 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qXO3 [33m404 [0m7.032 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qYcS [33m404 [0m5.900 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qZqo [33m404 [0m8.684 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qb3B [33m404 [0m5.130 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qcHV [33m404 [0m5.865 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qdVr [33m404 [0m5.364 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qekB [33m404 [0m6.167 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qfyY [33m404 [0m7.270 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qhAw [33m404 [0m5.718 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qiPG [33m404 [0m5.463 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qjdb [33m404 [0m5.887 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qkrx [33m404 [0m8.344 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qm4J [33m404 [0m5.849 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qnIf [33m404 [0m6.016 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qoX0 [33m404 [0m6.463 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qplO [33m404 [0m5.399 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qqzi [33m404 [0m6.690 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qsC1 [33m404 [0m5.112 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qtQO [33m404 [0m5.333 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-quej [33m404 [0m5.163 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qvt4 [33m404 [0m5.144 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qx5Q [33m404 [0m5.761 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qyJn [33m404 [0m5.648 ms - 1330[0m
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-qzY7 [33m404 [0m8.646 ms - 1330[0m
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q-mh [33m404 [0m9.644 ms - 1330[0m
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-q__5 [33m404 [0m5.030 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r1DR [33m404 [0m4.858 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r2Rn [33m404 [0m4.633 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r3g6 [33m404 [0m5.595 ms - 1330[0m
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r4uT [33m404 [0m409.888 ms - 1330[0m
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r6DJ [33m404 [0m12.955 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r7Rn [33m404 [0m12.440 ms - 1330[0m
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r8gD [33m404 [0m410.356 ms - 1330[0m
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rAvg [33m404 [0m12.743 ms - 1330[0m
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+Port 3000 is already in use
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rC87 [33m404 [0m9.583 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rDMX [33m404 [0m12.584 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rEa- [33m404 [0m11.269 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rFpR [33m404 [0m9.129 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rH1q [33m404 [0m11.181 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rIGE [33m404 [0m13.950 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rJUi [33m404 [0m7.128 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rKj4 [33m404 [0m9.482 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rLxY [33m404 [0m9.335 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rN9z [33m404 [0m6.525 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rOOL [33m404 [0m7.542 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rPck [33m404 [0m9.800 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rQr7 [33m404 [0m7.781 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rS3X [33m404 [0m7.822 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rTHv [33m404 [0m7.297 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rUZX [33m404 [0m9.034 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rWGv [33m404 [0m8.125 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rX-I [33m404 [0m5.550 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rZhg [33m404 [0m7.470 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rbP2 [33m404 [0m5.694 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rd6Q [33m404 [0m6.246 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-repn [33m404 [0m6.849 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rgX9 [33m404 [0m10.490 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-riEY [33m404 [0m6.813 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rjxv [33m404 [0m5.269 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rlfH [33m404 [0m5.444 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rnMf [33m404 [0m7.308 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rp42 [33m404 [0m7.115 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rqnP [33m404 [0m6.416 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rsUn [33m404 [0m7.516 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-ruCA [33m404 [0m4.667 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rvvX [33m404 [0m5.890 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rxcw [33m404 [0m4.744 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-rzKH [33m404 [0m5.924 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-r_1f [33m404 [0m5.495 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s0l2 [33m404 [0m7.351 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s2SQ [33m404 [0m5.799 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s49n [33m404 [0m7.114 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s5t9 [33m404 [0m5.753 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s7aY [33m404 [0m5.421 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s9Hv [33m404 [0m5.525 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sA_I [33m404 [0m5.525 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sCig [33m404 [0m6.443 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sEQ2 [33m404 [0m4.971 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sG7Q [33m404 [0m4.724 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sHqo [33m404 [0m5.628 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sJY9 [33m404 [0m6.883 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sLFX [33m404 [0m4.359 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sMyw [33m404 [0m4.500 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sOgI [33m404 [0m4.703 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sS86 [33m404 [0m290.483 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sToP [33m404 [0m5.183 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sVVn [33m404 [0m4.841 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sXD9 [33m404 [0m4.481 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sYwX [33m404 [0m7.532 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sadw [33m404 [0m4.421 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-scLH [33m404 [0m5.629 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-se2g [33m404 [0m4.402 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sfm2 [33m404 [0m5.158 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-shTP [33m404 [0m5.060 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sjAn [33m404 [0m4.431 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sku9 [33m404 [0m4.612 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-smbX [33m404 [0m4.375 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-soIv [33m404 [0m5.384 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sq0I [33m404 [0m4.725 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-srjf [33m404 [0m4.661 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-stR2 [33m404 [0m4.353 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-sv8Q [33m404 [0m4.336 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-swro [33m404 [0m4.598 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-syZ9 [33m404 [0m4.452 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s-GY [33m404 [0m4.674 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-s_zv [33m404 [0m4.370 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t1hH [33m404 [0m5.600 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t3Og [33m404 [0m5.136 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t561 [33m404 [0m4.715 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t6pP [33m404 [0m4.974 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t8Wo [33m404 [0m4.372 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tAEA [33m404 [0m4.569 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tBxY [33m404 [0m4.206 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tDev [33m404 [0m4.524 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tFMI [33m404 [0m4.395 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tH3g [33m404 [0m4.589 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tIn2 [33m404 [0m4.504 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tKUP [33m404 [0m6.008 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tMBn [33m404 [0m4.599 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tNv9 [33m404 [0m4.189 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tPcW [33m404 [0m4.264 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tRJw [33m404 [0m4.297 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tT1I [33m404 [0m4.911 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tUkg [33m404 [0m6.078 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tWS1 [33m404 [0m5.623 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tY9P [33m404 [0m4.398 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tZsn [33m404 [0m4.644 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tba9 [33m404 [0m4.167 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tdHX [33m404 [0m7.033 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-te-v [33m404 [0m4.633 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tgiH [33m404 [0m4.428 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tiPf [33m404 [0m4.575 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tk72 [33m404 [0m4.847 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tlqQ [33m404 [0m4.334 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tnEB [33m404 [0m4.333 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-toSW [33m404 [0m4.138 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tpgp [33m404 [0m5.259 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tqv8 [33m404 [0m4.420 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-ts7S [33m404 [0m6.271 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-ttLp [33m404 [0m4.607 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tua7 [33m404 [0m5.322 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tvoU [33m404 [0m4.963 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tx0p [33m404 [0m6.323 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tyF9 [33m404 [0m6.587 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-tzTU [33m404 [0m5.297 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t-hq [33m404 [0m4.576 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-t_wA [33m404 [0m5.449 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u18W [33m404 [0m4.644 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u2Mr [33m404 [0m6.054 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u3bD [33m404 [0m5.101 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u4pa [33m404 [0m4.423 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u61u [33m404 [0m5.665 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u7GE [33m404 [0m4.573 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u8Ub [33m404 [0m4.039 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-u9iw [33m404 [0m5.559 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uAxG [33m404 [0m4.215 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uC9c [33m404 [0m5.137 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uDNz [33m404 [0m4.177 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uEcH [33m404 [0m4.030 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uFqb [33m404 [0m4.385 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uH2w [33m404 [0m4.424 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uIHF [33m404 [0m6.991 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uJVa [33m404 [0m4.207 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-uKjv [33m404 [0m3.932 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vZkf [33m404 [0m5.985 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vay_ [33m404 [0m5.202 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vcBL [33m404 [0m5.036 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vdPh [33m404 [0m4.301 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vee2 [33m404 [0m4.460 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vfsM [33m404 [0m4.043 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vh4i [33m404 [0m3.927 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vhRu [33m404 [0m4.480 ms - 1330[0m
+new connection
+new stream
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vhb2 [33m404 [0m3.900 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vi0I [33m404 [0m3.505 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-viL9 [33m404 [0m3.575 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vind [33m404 [0m4.746 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vjox [33m404 [0m3.996 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vk2X [33m404 [0m3.904 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-vlGf [33m404 [0m4.288 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-x450 [33m404 [0m8.476 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-x44z [33m404 [0m8.100 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-x6Qj [33m404 [0m4.058 ms - 1330[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N0-x6Qk [33m404 [0m8.615 ms - 1330[0m
