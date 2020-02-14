@@ -21,7 +21,7 @@
             "type": "node",
             "request": "launch",
             "name": "launch program",
-            "program": "${workspaceFolder}/app.js"
+            "program": "${workspaceFolder}/./bin/www"
         },
         {
             "type": "chrome",

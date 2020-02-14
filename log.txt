@@ -5305,3 +5305,1982 @@ new stream
 [0mGET /socket.io/?EIO=3&transport=polling&t=N158ev9 [33m404 [0m6.307 ms - 1299[0m
 [0mGET /socket.io/?EIO=3&transport=polling&t=N158f-8 [33m404 [0m8.956 ms - 1299[0m
 [0mGET /socket.io/?EIO=3&transport=polling&t=N158gcX [33m404 [0m8.459 ms - 1299[0m
+listening on *:3000
+[0mGET /records/14-1_21.30_demo.wav [32m206 [0m5.042 ms - 102444[0m
+[0mGET /admin/ [32m200 [0m332.540 ms - 1602[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.964 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m1.610 ms - 6712[0m
+[0mGET /admin/javascripts/admin.js [32m200 [0m1.496 ms - 120[0m
+[0mGET /records/demo.wav [32m206 [0m0.659 ms - 278572[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15cuuw [33m404 [0m17.874 ms - 1299[0m
+new connection
+new stream
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15cvEV [33m404 [0m8.439 ms - 1299[0m
+[0mGET /favicon.ico [33m404 [0m11.837 ms - 1299[0m
+[0mGET /records/demo.wav [32m206 [0m0.608 ms - 16428[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15cvs_ [33m404 [0m9.996 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15cx5Q [33m404 [0m12.919 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15cyJv [33m404 [0m12.657 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15czYM [33m404 [0m11.439 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15c-mn [33m404 [0m12.015 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15c__E [33m404 [0m10.257 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d1Df [33m404 [0m10.651 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d2S3 [33m404 [0m12.027 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d3gW [33m404 [0m8.273 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d4uu [33m404 [0m10.123 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d67J [33m404 [0m9.027 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d7Li [33m404 [0m6.946 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d8Zx [33m404 [0m9.682 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15d9oM [33m404 [0m6.458 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dB0j [33m404 [0m7.955 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dCF6 [33m404 [0m6.309 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dDTT [33m404 [0m7.465 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dEhr [33m404 [0m7.239 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dFwB [33m404 [0m10.996 ms - 1299[0m
+listening on *:3000
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dH8c [33m404 [0m312.187 ms - 1299[0m
+[0mGET /socket.io/?EIO=3&transport=polling&t=N15dIVl [33m404 [0m12.095 ms - 1299[0m
+[0mGET /admin/ [32m200 [0m30.185 ms - 1624[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.488 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.567 ms - 6712[0m
+[0mGET /records/14-1_23.29record.wav [32m206 [0m1.685 ms - 44[0m
+[0mGET /records/14-1_21.30_demo.wav [32m206 [0m1.570 ms - 135212[0m
+[0mGET /records/demo.wav [32m206 [0m1.758 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/14-1_23.31_record.wav
+listening on *:3000
+[0mGET /admin/ [32m200 [0m341.726 ms - 1821[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.468 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.957 ms - 6712[0m
+[0mGET /records/14-1_23.29record.wav [32m206 [0m2.159 ms - 44[0m
+[0mGET /records/14-1_21.30_demo.wav [32m206 [0m2.130 ms - 135212[0m
+[0mGET /records/14-1_23.31_record.wav [32m206 [0m1.713 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m2.114 ms - 278572[0m
+new connection
+new stream
+listening on *:3000
+[0mGET /admin/ [32m200 [0m330.668 ms - 1601[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.395 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.913 ms - 6712[0m
+[0mGET /records/14-1_21.30_demo.wav [32m206 [0m2.149 ms - 135212[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.337 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m2.160 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/14-1__23.34_record.wav
+[0mGET /favicon.ico [33m404 [0m26.031 ms - 1299[0m
+[0mGET /favicon.ico [33m404 [0m12.452 ms - 1299[0m
+new connection
+new stream
+[0mGET /adin/ [33m404 [0m13.977 ms - 1299[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /adin/stylesheets/style.css [33m404 [0m322.300 ms - 1299[0m
+[0mGET /admin/ [32m200 [0m33.755 ms - 1610[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m1.797 ms - -[0m
+[0mGET /admin/javascripts/recorder.js [36m304 [0m2.081 ms - -[0m
+[0mGET /records/14-1__23.34_record.wav [32m206 [0m2.846 ms - 44[0m
+new connection
+new stream
+[0mGET /admin/stylesheets/style.css [36m304 [0m1.116 ms - -[0m
+res:  ServerResponse {
+  _events:
+   { finish:
+      [ [Function: bound resOnFinish],
+        [Function],
+        [Function: onevent] ],
+     end: [Function: onevent] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  socket:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        onread: [Function: onStreamRead],
+        onconnection: null,
+        _consumed: true,
+        [Symbol(owner)]: [Circular] },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        emitClose: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      { end: [Array],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Array],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     _server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     timeout: 120000,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [IncomingMessage],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming],
+        parsingHeadersStart: 0 },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage: [Circular],
+     _peername: { address: '::1', family: 'IPv6', port: 58735 },
+     [Symbol(asyncId)]: 168,
+     [Symbol(lastWriteQueueSize)]: 0,
+     [Symbol(timeout)]:
+      Timeout {
+        _called: false,
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 12493,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(unrefed)]: true,
+        [Symbol(asyncId)]: 169,
+        [Symbol(triggerId)]: 168 },
+     [Symbol(kBytesRead)]: 0,
+     [Symbol(kBytesWritten)]: 0 },
+  connection:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        onread: [Function: onStreamRead],
+        onconnection: null,
+        _consumed: true,
+        [Symbol(owner)]: [Circular] },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        emitClose: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      { end: [Array],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Array],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     _server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     timeout: 120000,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [IncomingMessage],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming],
+        parsingHeadersStart: 0 },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage: [Circular],
+     _peername: { address: '::1', family: 'IPv6', port: 58735 },
+     [Symbol(asyncId)]: 168,
+     [Symbol(lastWriteQueueSize)]: 0,
+     [Symbol(timeout)]:
+      Timeout {
+        _called: false,
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 12493,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(unrefed)]: true,
+        [Symbol(asyncId)]: 169,
+        [Symbol(triggerId)]: 168 },
+     [Symbol(kBytesRead)]: 0,
+     [Symbol(kBytesWritten)]: 0 },
+  _header: null,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        emitClose: true,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object],
+        [Symbol(asyncId)]: 168,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 12493,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 169,
+           [Symbol(triggerId)]: 168 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object],
+        [Symbol(asyncId)]: 168,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 12493,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 169,
+           [Symbol(triggerId)]: 168 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: false,
+     headers:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Mobile Safari/537.36',
+        'sec-fetch-dest': 'document',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,he;q=0.8,ru;q=0.7,la;q=0.6,es;q=0.5',
+        cookie: 'io=92YGb7-J0XmfOSqUAAAC' },
+     rawHeaders:
+      [ 'Host',
+        'localhost:3000',
+        'Connection',
+        'keep-alive',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache',
+        'Upgrade-Insecure-Requests',
+        '1',
+        'User-Agent',
+        'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Mobile Safari/537.36',
+        'Sec-Fetch-Dest',
+        'document',
+        'Accept',
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'Sec-Fetch-Site',
+        'none',
+        'Sec-Fetch-Mode',
+        'navigate',
+        'Sec-Fetch-User',
+        '?1',
+        'Accept-Encoding',
+        'gzip, deflate, br',
+        'Accept-Language',
+        'en-US,en;q=0.9,he;q=0.8,ru;q=0.7,la;q=0.6,es;q=0.5',
+        'Cookie',
+        'io=92YGb7-J0XmfOSqUAAAC' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url: '/',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object],
+        [Symbol(asyncId)]: 168,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 12493,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 169,
+           [Symbol(triggerId)]: 168 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _consuming: false,
+     _dumped: false,
+     next: [Function: next],
+     baseUrl: '/users',
+     originalUrl: '/users/',
+     _parsedUrl:
+      Url {
+        protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/',
+        path: '/',
+        href: '/',
+        _raw: '/' },
+     params: {},
+     query: {},
+     res: [Circular],
+     _startAt: [ 139501, 385510600 ],
+     _startTime: 2020-02-14T21:35:38.478Z,
+     _remoteAddress: '::1',
+     body: {},
+     secret: undefined,
+     cookies: { io: '92YGb7-J0XmfOSqUAAAC' },
+     signedCookies: {},
+     route: Route { path: '/', stack: [Array], methods: [Object] } },
+  locals: {},
+  _startAt: undefined,
+  _startTime: undefined,
+  writeHead: [Function: writeHead],
+  __onFinished: { [Function: listener] queue: [ [Function: logRequest] ] },
+  [Symbol(isCorked)]: false,
+  [Symbol(outHeadersKey)]: { 'x-powered-by': [ 'X-Powered-By', 'Express' ] } }
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.34_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m35.801 ms - 1335[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /users/stylesheets/style.css [32m200 [0m5.190 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.290 ms - 24620[0m
+[0mGET /records/demo.wav [32m206 [0m0.950 ms - 278572[0m
+res:  ServerResponse {
+  _events:
+   { finish:
+      [ [Function: bound resOnFinish],
+        [Function],
+        [Function: onevent] ],
+     end: [Function: onevent] },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  output: [],
+  outputEncodings: [],
+  outputCallbacks: [],
+  outputSize: 0,
+  writable: true,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  socket:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        onread: [Function: onStreamRead],
+        onconnection: null,
+        _consumed: true,
+        [Symbol(owner)]: [Circular] },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        emitClose: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      { end: [Array],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Array],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     _server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     timeout: 120000,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [IncomingMessage],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming],
+        parsingHeadersStart: 0 },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage: [Circular],
+     _peername: { address: '::1', family: 'IPv6', port: 58758 },
+     [Symbol(asyncId)]: 175,
+     [Symbol(lastWriteQueueSize)]: 0,
+     [Symbol(timeout)]:
+      Timeout {
+        _called: false,
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 31442,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(unrefed)]: true,
+        [Symbol(asyncId)]: 176,
+        [Symbol(triggerId)]: 175 },
+     [Symbol(kBytesRead)]: 0,
+     [Symbol(kBytesWritten)]: 0 },
+  connection:
+   Socket {
+     connecting: false,
+     _hadError: false,
+     _handle:
+      TCP {
+        reading: true,
+        onread: [Function: onStreamRead],
+        onconnection: null,
+        _consumed: true,
+        [Symbol(owner)]: [Circular] },
+     _parent: null,
+     _host: null,
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: true,
+        ended: false,
+        endEmitted: false,
+        reading: true,
+        sync: false,
+        needReadable: true,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        emitClose: false,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: false,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events:
+      { end: [Array],
+        drain: [Array],
+        timeout: [Function: socketOnTimeout],
+        data: [Function: bound socketOnData],
+        error: [Array],
+        close: [Array],
+        resume: [Function: onSocketResume],
+        pause: [Function: onSocketPause] },
+     _eventsCount: 8,
+     _maxListeners: undefined,
+     _writableState:
+      WritableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        finalCalled: false,
+        needDrain: false,
+        ending: false,
+        ended: false,
+        finished: false,
+        destroyed: false,
+        decodeStrings: false,
+        defaultEncoding: 'utf8',
+        length: 0,
+        writing: false,
+        corked: 0,
+        sync: true,
+        bufferProcessing: false,
+        onwrite: [Function: bound onwrite],
+        writecb: null,
+        writelen: 0,
+        bufferedRequest: null,
+        lastBufferedRequest: null,
+        pendingcb: 0,
+        prefinished: false,
+        errorEmitted: false,
+        emitClose: false,
+        bufferedRequestCount: 0,
+        corkedRequestsFree: [Object] },
+     writable: true,
+     allowHalfOpen: true,
+     _sockname: null,
+     _pendingData: null,
+     _pendingEncoding: '',
+     server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     _server:
+      Server {
+        _events: [Object],
+        _eventsCount: 4,
+        _maxListeners: undefined,
+        _connections: 1,
+        _handle: [TCP],
+        _usingWorkers: false,
+        _workers: [],
+        _unref: false,
+        allowHalfOpen: true,
+        pauseOnConnect: false,
+        httpAllowHalfOpen: false,
+        timeout: 120000,
+        keepAliveTimeout: 5000,
+        _pendingResponseData: 0,
+        maxHeadersCount: null,
+        headersTimeout: 40000,
+        _connectionKey: '6::::3000',
+        [Symbol(IncomingMessage)]: [Function],
+        [Symbol(ServerResponse)]: [Function],
+        [Symbol(asyncId)]: 37 },
+     timeout: 120000,
+     parser:
+      HTTPParser {
+        '0': [Function: parserOnHeaders],
+        '1': [Function: parserOnHeadersComplete],
+        '2': [Function: parserOnBody],
+        '3': [Function: parserOnMessageComplete],
+        '4': [Function: bound onParserExecute],
+        _headers: [],
+        _url: '',
+        _consumed: true,
+        socket: [Circular],
+        incoming: [IncomingMessage],
+        outgoing: null,
+        maxHeaderPairs: 2000,
+        onIncoming: [Function: bound parserOnIncoming],
+        parsingHeadersStart: 0 },
+     on: [Function: socketOnWrap],
+     _paused: false,
+     _httpMessage: [Circular],
+     _peername: { address: '::1', family: 'IPv6', port: 58758 },
+     [Symbol(asyncId)]: 175,
+     [Symbol(lastWriteQueueSize)]: 0,
+     [Symbol(timeout)]:
+      Timeout {
+        _called: false,
+        _idleTimeout: 120000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 31442,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(unrefed)]: true,
+        [Symbol(asyncId)]: 176,
+        [Symbol(triggerId)]: 175 },
+     [Symbol(kBytesRead)]: 0,
+     [Symbol(kBytesWritten)]: 0 },
+  _header: null,
+  _onPendingData: [Function: bound updateOutgoingData],
+  _sent100: false,
+  _expect_continue: false,
+  req:
+   IncomingMessage {
+     _readableState:
+      ReadableState {
+        objectMode: false,
+        highWaterMark: 16384,
+        buffer: BufferList { head: null, tail: null, length: 0 },
+        length: 0,
+        pipes: null,
+        pipesCount: 0,
+        flowing: null,
+        ended: false,
+        endEmitted: false,
+        reading: false,
+        sync: true,
+        needReadable: false,
+        emittedReadable: false,
+        readableListening: false,
+        resumeScheduled: false,
+        emitClose: true,
+        destroyed: false,
+        defaultEncoding: 'utf8',
+        awaitDrain: 0,
+        readingMore: true,
+        decoder: null,
+        encoding: null },
+     readable: true,
+     _events: {},
+     _eventsCount: 0,
+     _maxListeners: undefined,
+     socket:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object],
+        [Symbol(asyncId)]: 175,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 31442,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 176,
+           [Symbol(triggerId)]: 175 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     connection:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object],
+        [Symbol(asyncId)]: 175,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 31442,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 176,
+           [Symbol(triggerId)]: 175 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     httpVersionMajor: 1,
+     httpVersionMinor: 1,
+     httpVersion: '1.1',
+     complete: false,
+     headers:
+      { host: 'localhost:3000',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Mobile Safari/537.36',
+        'sec-fetch-dest': 'document',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'sec-fetch-user': '?1',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'en-US,en;q=0.9,he;q=0.8,ru;q=0.7,la;q=0.6,es;q=0.5',
+        cookie: 'io=92YGb7-J0XmfOSqUAAAC' },
+     rawHeaders:
+      [ 'Host',
+        'localhost:3000',
+        'Connection',
+        'keep-alive',
+        'Pragma',
+        'no-cache',
+        'Cache-Control',
+        'no-cache',
+        'Upgrade-Insecure-Requests',
+        '1',
+        'User-Agent',
+        'Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.100 Mobile Safari/537.36',
+        'Sec-Fetch-Dest',
+        'document',
+        'Accept',
+        'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+        'Sec-Fetch-Site',
+        'none',
+        'Sec-Fetch-Mode',
+        'navigate',
+        'Sec-Fetch-User',
+        '?1',
+        'Accept-Encoding',
+        'gzip, deflate, br',
+        'Accept-Language',
+        'en-US,en;q=0.9,he;q=0.8,ru;q=0.7,la;q=0.6,es;q=0.5',
+        'Cookie',
+        'io=92YGb7-J0XmfOSqUAAAC' ],
+     trailers: {},
+     rawTrailers: [],
+     aborted: false,
+     upgrade: false,
+     url: '/',
+     method: 'GET',
+     statusCode: null,
+     statusMessage: null,
+     client:
+      Socket {
+        connecting: false,
+        _hadError: false,
+        _handle: [TCP],
+        _parent: null,
+        _host: null,
+        _readableState: [ReadableState],
+        readable: true,
+        _events: [Object],
+        _eventsCount: 8,
+        _maxListeners: undefined,
+        _writableState: [WritableState],
+        writable: true,
+        allowHalfOpen: true,
+        _sockname: null,
+        _pendingData: null,
+        _pendingEncoding: '',
+        server: [Server],
+        _server: [Server],
+        timeout: 120000,
+        parser: [HTTPParser],
+        on: [Function: socketOnWrap],
+        _paused: false,
+        _httpMessage: [Circular],
+        _peername: [Object],
+        [Symbol(asyncId)]: 175,
+        [Symbol(lastWriteQueueSize)]: 0,
+        [Symbol(timeout)]:
+         Timeout {
+           _called: false,
+           _idleTimeout: 120000,
+           _idlePrev: [TimersList],
+           _idleNext: [TimersList],
+           _idleStart: 31442,
+           _onTimeout: [Function: bound ],
+           _timerArgs: undefined,
+           _repeat: null,
+           _destroyed: false,
+           [Symbol(unrefed)]: true,
+           [Symbol(asyncId)]: 176,
+           [Symbol(triggerId)]: 175 },
+        [Symbol(kBytesRead)]: 0,
+        [Symbol(kBytesWritten)]: 0 },
+     _consuming: false,
+     _dumped: false,
+     next: [Function: next],
+     baseUrl: '/users',
+     originalUrl: '/users/',
+     _parsedUrl:
+      Url {
+        protocol: null,
+        slashes: null,
+        auth: null,
+        host: null,
+        port: null,
+        hostname: null,
+        hash: null,
+        search: null,
+        query: null,
+        pathname: '/',
+        path: '/',
+        href: '/',
+        _raw: '/' },
+     params: {},
+     query: {},
+     res: [Circular],
+     _startAt: [ 139532, 918178600 ],
+     _startTime: 2020-02-14T21:36:10.008Z,
+     _remoteAddress: '::1',
+     body: {},
+     secret: undefined,
+     cookies: { io: '92YGb7-J0XmfOSqUAAAC' },
+     signedCookies: {},
+     route: Route { path: '/', stack: [Array], methods: [Object] } },
+  locals: {},
+  _startAt: undefined,
+  _startTime: undefined,
+  writeHead: [Function: writeHead],
+  __onFinished: { [Function: listener] queue: [ [Function: logRequest] ] },
+  [Symbol(isCorked)]: false,
+  [Symbol(outHeadersKey)]: { 'x-powered-by': [ 'X-Powered-By', 'Express' ] } }
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.34_record.wav',
+  '14-1__23.35_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m395.575 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.331 ms - 2484[0m
+[0mGET /records/14-1__23.34_record.wav [32m206 [0m1.177 ms - 44[0m
+[0mGET /records/14-1__23.35_record.wav [32m206 [0m0.931 ms - 44[0m
+listening on *:3000
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /admin/ [32m200 [0m329.702 ms - 1381[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.737 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.877 ms - 6712[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.300 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m1.791 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/14-1__23.37_record.wav
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /users/ [32m200 [0m23.371 ms - 1106[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.221 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.526 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m1.622 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /users/ [32m200 [0m26.351 ms - 1106[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.746 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.616 ms - 253996[0m
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /users/ [32m200 [0m21.955 ms - 1106[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.765 ms - 2484[0m
+[0mGET /records/demo.wav [32m206 [0m0.553 ms - 245804[0m
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /users/ [32m200 [0m14.614 ms - 1106[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.018 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.545 ms - 253996[0m
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /users/ [32m200 [0m14.188 ms - 1106[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.640 ms - 2484[0m
+[0mGET /records/demo.wav [32m206 [0m0.699 ms - 245804[0m
+files:  [ '14-1__23.31_record.wav', 'demo.wav' ]
+[0mGET /admin/ [32m200 [0m19.021 ms - 1381[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m8.053 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m9.249 ms - 6712[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.046 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m2.071 ms - 278572[0m
+new connection
+new stream
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m347.572 ms - 1610[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.126 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m7.015 ms - 6712[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.413 ms - 307244[0m
+new connection
+new stream
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m333.746 ms - 1839[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m7.075 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m8.824 ms - 6712[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.742 ms - 44[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.852 ms - 253996[0m
+[0mGET /records/demo.wav [32m206 [0m0.761 ms - 278572[0m
+new connection
+new stream
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m328.534 ms - 1839[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m12.519 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m12.461 ms - 6712[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m6.248 ms - 286764[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m2.593 ms - 44[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m10.478 ms - 307244[0m
+new connection
+new stream
+[0mGET /favicon.ico [33m404 [0m318.682 ms - 1299[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m5.292 ms - 12332[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m29.241 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.355 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.327 ms - 286764[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.806 ms - 44[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.837 ms - 307244[0m
+[0mGET /records/demo.wav [32m206 [0m1.827 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m28.931 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.741 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.340 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m1.162 ms - 245804[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.359 ms - 286764[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m22.469 ms - 1839[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m7.332 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m7.719 ms - 6712[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.974 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.109 ms - 307244[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m0.736 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m0.740 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/14-1__23.40_record.wav
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m348.342 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.364 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.706 ms - 286764[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m2.964 ms - 44[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m3.130 ms - 307244[0m
+[0mGET /records/demo.wav [32m206 [0m2.726 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m26.366 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.038 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.593 ms - 253996[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m23.140 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.006 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.323 ms - 44[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.752 ms - 274476[0m
+[0mGET /records/demo.wav [32m206 [0m1.540 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m22.799 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.853 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.576 ms - 286764[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.585 ms - 44[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.593 ms - 307244[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m17.047 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.890 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.579 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m1.158 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m19.116 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.816 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.333 ms - 44[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.275 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.196 ms - 307244[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m12.050 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.674 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m0.993 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m0.758 ms - 278572[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.139 ms - 221228[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m18.197 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.750 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m2.560 ms - 44[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.344 ms - 253996[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.715 ms - 307244[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m17.514 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.833 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.915 ms - 286764[0m
+[0mGET /records/demo.wav [32m206 [0m0.868 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m18.772 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.921 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.324 ms - 44[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.672 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.517 ms - 307244[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m12.976 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.826 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.738 ms - 44[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.871 ms - 253996[0m
+[0mGET /records/demo.wav [32m206 [0m1.670 ms - 278572[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m14.597 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.984 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.894 ms - 44[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.644 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.691 ms - 307244[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.38_record.wav',
+  'demo.wav' ]
+[0mGET /users/ [32m200 [0m13.926 ms - 1564[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.721 ms - 2484[0m
+[0mGET /records/14-1__23.38_record.wav [32m206 [0m1.162 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m0.989 ms - 278572[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.594 ms - 221228[0m
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '14-1__23.47_record.wav',
+  '14-1__23.53_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.10_record.wav',
+  '15-1__0.11_record.wav',
+  '15-1__0.6_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m349.464 ms - 3424[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m7.294 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.380 ms - 6786[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.422 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.801 ms - 307244[0m
+[0mGET /records/14-1__23.53_record.wav [32m206 [0m3.611 ms - 44[0m
+[0mGET /records/14-1__23.47_record.wav [32m206 [0m2.451 ms - 44[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m3.493 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m3.603 ms - 499756[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m1.212 ms - 229420[0m
+[0mGET /records/15-1__0.10_record.wav [32m206 [0m0.600 ms - 44[0m
+[0mGET /records/15-1__0.11_record.wav [32m206 [0m1.205 ms - 44[0m
+[0mGET /records/15-1__0.6_record.wav [32m206 [0m1.037 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m0.817 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/15-1__0.13_record.wav
+new connection
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '14-1__23.47_record.wav',
+  '14-1__23.53_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.10_record.wav',
+  '15-1__0.11_record.wav',
+  '15-1__0.13_record.wav',
+  '15-1__0.6_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m340.003 ms - 3650[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.781 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.801 ms - 6792[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.095 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.644 ms - 307244[0m
+[0mGET /records/14-1__23.47_record.wav [32m206 [0m2.339 ms - 44[0m
+[0mGET /records/14-1__23.53_record.wav [32m206 [0m2.431 ms - 44[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m2.103 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m2.655 ms - 499756[0m
+[0mGET /records/15-1__0.10_record.wav [32m206 [0m1.269 ms - 44[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m1.139 ms - 229420[0m
+[0mGET /records/15-1__0.11_record.wav [32m206 [0m0.609 ms - 44[0m
+[0mGET /records/15-1__0.13_record.wav [32m206 [0m0.600 ms - 44[0m
+[0mGET /records/15-1__0.6_record.wav [32m206 [0m0.560 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m0.794 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/15-1__0.14_record.wav
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '14-1__23.47_record.wav',
+  '14-1__23.53_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.10_record.wav',
+  '15-1__0.11_record.wav',
+  '15-1__0.13_record.wav',
+  '15-1__0.6_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m32.011 ms - 3650[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.328 ms - 6792[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m12.494 ms - 2484[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.784 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.312 ms - 307244[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m0.601 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m0.861 ms - 499756[0m
+[0mGET /records/14-1__23.47_record.wav [33m404 [0m374.562 ms - 1299[0m
+new connection
+[0mGET /records/14-1__23.53_record.wav [33m404 [0m21.788 ms - 1299[0m
+[0mGET /records/15-1__0.10_record.wav [33m404 [0m29.915 ms - 1299[0m
+[0mGET /records/15-1__0.11_record.wav [33m404 [0m44.636 ms - 1299[0m
+[0mGET /records/15-1__0.13_record.wav [33m404 [0m62.405 ms - 1299[0m
+new stream
+[0mGET /records/15-1__0.6_record.wav [33m404 [0m20.318 ms - 1299[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m85.724 ms - 229420[0m
+[0mGET /records/demo.wav [32m206 [0m1.600 ms - 278572[0m
+end stream
+wrote to file public/records/15-1__0.20_record.wav
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m334.204 ms - 2743[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.099 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.386 ms - 6789[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.162 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.377 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m3.649 ms - 229420[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m2.716 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m4.567 ms - 499756[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m3.350 ms - 495660[0m
+[0mGET /records/demo.wav [32m206 [0m1.129 ms - 278572[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m2.060 ms - 1622060[0m
+new connection
+new stream
+[0mGET /records/14-1__23.31_record.wav [32m200 [0m0.972 ms - 286764[0m
+end stream
+wrote to file public/records/15-1__0.22_record.wav
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m31.291 ms - 2743[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.924 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m8.254 ms - 6789[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.799 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.578 ms - 307244[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m0.612 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m0.705 ms - 499756[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m0.607 ms - 229420[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m0.605 ms - 495660[0m
+[0mGET /records/demo.wav [32m206 [0m1.147 ms - 278572[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.628 ms - 1622060[0m
+new connection
+new stream
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m344.273 ms - 3195[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.376 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.030 ms - 6771[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.313 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.732 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m1.953 ms - 229420[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m2.660 ms - 499756[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m2.719 ms - 602156[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m1.796 ms - 495660[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.790 ms - 1622060[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m1.228 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m1.282 ms - 278572[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.487 ms - 2453548[0m
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m26.874 ms - 3195[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.105 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m1.010 ms - 6771[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m0.782 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.509 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m3.165 ms - 229420[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m2.493 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m4.222 ms - 499756[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m2.508 ms - 495660[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m2.456 ms - 1622060[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m1.505 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m1.037 ms - 278572[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.529 ms - 2453548[0m
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m339.606 ms - 3195[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.961 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.542 ms - 6768[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.773 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.661 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m3.357 ms - 229420[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m3.098 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m3.694 ms - 499756[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m2.803 ms - 495660[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m1.712 ms - 1622060[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m1.282 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m1.466 ms - 278572[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.414 ms - 2453548[0m
+new connection
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m26.962 ms - 3195[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.483 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m8.246 ms - 6768[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.314 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.168 ms - 307244[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m0.741 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m0.800 ms - 499756[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m0.763 ms - 44[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m0.748 ms - 131116[0m
+new connection
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  '15-1__0.29_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m335.869 ms - 3421[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.781 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.423 ms - 6735[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.099 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.255 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m2.637 ms - 229420[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m3.156 ms - 499756[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m3.230 ms - 602156[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m1.890 ms - 495660[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.854 ms - 1622060[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m1.134 ms - 44[0m
+[0mGET /records/15-1__0.29_record.wav [32m206 [0m1.137 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m1.153 ms - 278572[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.467 ms - 2453548[0m
+new connection
+new stream
+end stream
+wrote to file public/records/15-1__0.30_record.wav
+new connection
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  '15-1__0.29_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m31.983 ms - 3421[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.894 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m8.878 ms - 6735[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.059 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.628 ms - 307244[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m0.654 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m1.278 ms - 499756[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m0.763 ms - 229420[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m0.668 ms - 495660[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m2.455 ms - 44[0m
+[0mGET /records/15-1__0.29_record.wav [32m206 [0m1.668 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m1.773 ms - 278572[0m
+new connection
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.556 ms - 1622060[0m
+new stream
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m0.606 ms - 2453548[0m
+end stream
+wrote to file public/records/15-1__0.32_record.wav
+new connection
+new connection
+new connection
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  '15-1__0.29_record.wav',
+  '15-1__0.30_record.wav',
+  '15-1__0.32_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m347.632 ms - 3873[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.492 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m3.722 ms - 6741[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.171 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m2.494 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m2.829 ms - 229420[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m3.207 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m3.770 ms - 499756[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m2.171 ms - 495660[0m
+[0mGET /records/15-1__0.24_record.wav [32m206 [0m2.014 ms - 44[0m
+[0mGET /records/15-1__0.29_record.wav [32m206 [0m2.021 ms - 44[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.630 ms - 1622060[0m
+[0mGET /records/15-1__0.30_record.wav [32m206 [0m0.987 ms - 44[0m
+[0mGET /records/15-1__0.32_record.wav [32m206 [0m1.173 ms - 44[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.199 ms - 2453548[0m
+[0mGET /records/demo.wav [32m206 [0m0.633 ms - 278572[0m
+new connection
+new stream
+end stream
+wrote to file public/records/15-1__0.34_record.wav
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.24_record.wav',
+  '15-1__0.29_record.wav',
+  '15-1__0.30_record.wav',
+  '15-1__0.32_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m31.745 ms - 3873[0m
+{ Error: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27) errno: 'ECONNRESET', code: 'ECONNRESET', syscall: 'read' }
+listening on *:3000
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.919 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m7.410 ms - 6741[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.350 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m1.116 ms - 307244[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m0.702 ms - 602156[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m0.756 ms - 499756[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m0.673 ms - 229420[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m0.654 ms - 495660[0m
+[0mGET /records/15-1__0.24_record.wav [33m404 [0m346.367 ms - 1299[0m
+[0mGET /records/15-1__0.29_record.wav [33m404 [0m17.759 ms - 1299[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.640 ms - 1622060[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m0.664 ms - 2453548[0m
+new connection
+[0mGET /records/15-1__0.32_record.wav [33m404 [0m21.958 ms - 1299[0m
+[0mGET /records/15-1__0.30_record.wav [33m404 [0m40.866 ms - 1299[0m
+new stream
+[0mGET /records/demo.wav [32m206 [0m45.923 ms - 278572[0m
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.34_record.wav',
+  '15-1__0.35_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m344.066 ms - 3442[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.167 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.040 ms - 6811[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m2.247 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m3.619 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m2.810 ms - 229420[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m2.800 ms - 499756[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m3.304 ms - 602156[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m2.205 ms - 495660[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m1.423 ms - 1622060[0m
+[0mGET /records/15-1__0.35_record.wav [32m206 [0m2.228 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m4.159 ms - 278572[0m
+[0mGET /records/15-1__0.34_record.wav [32m206 [0m1.267 ms - 1060908[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.508 ms - 2453548[0m
+new connection
+new stream

@@ -9,16 +9,14 @@ html
   body
     a(href='/admin/') 
       h5 Admin
-
     br
-    p
-      strong Live:
-      br
-      br
+    strong Live:
+    br
     ol#recordingsList
-      li
-        audio(controls="" src="//localhost:3000/records/demo.wav" type="audio/wav")
-        a(href="//localhost:3000/records/demo.wav" download="playlist.wav") Save to disk  
+      each r in records
+        li= r
+          audio(controls="" src="//localhost:3000/records/" + r type="audio/wav")
+          a(href="//localhost:3000/records/" + r download="playlist.wav") Save to disk  
 
     ul#messages
     form(action='')
@@ -27,4 +25,4 @@ html
     
     //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
     script(src="https://code.jquery.com/jquery-1.11.1.js")
-    script(src='./javascripts/client.js')
+    //- script(src='./javascripts/client.js')

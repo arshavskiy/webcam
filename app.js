@@ -36,31 +36,13 @@ let counter = 0;
 
 // catch 404 and forward to error handler
 
+
+
+
+
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/admin', express.static(path.join(__dirname, 'public')));
 app.use('/chat', express.static(path.join(__dirname, 'public')));
-
-
-app.use('/users', function(req, res, next){
-
-  let files = fs.readdirSync(path.join(__dirname, 'public/records'), function (err, files) {
-    let fileList = [];
-    if (err) {
-        return console.log('Unable to scan directory: ' + err);
-    } 
-    files.forEach(function (file) {
-        fileList.push(file);
-        // Do whatever you want to do with the file
-        console.log(file); 
-    });
-    return fileList;
-  });
-
-  console.log('files: ', files);
-  next();
-
-});
-
 app.use('/users',  express.static(path.join(__dirname, 'public')));
 
 app.use(function(req, res, next) {
@@ -79,20 +61,20 @@ app.use(function(err, req, res, next) {
 });
 
 
-var http = require('http').Server(app);
-var io = require('socket.io')(http);
+// var http = require('http').Server(app);
+// var io = require('socket.io')(http);
 
-io.on('connection', function(socket){
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
-  });
-});
+// io.on('connection', function(socket){
+//   socket.on('chat message', function(msg){
+//     io.emit('chat message', msg);
+//   });
+// });
 
 
 const now = new Date(Date.now());
-const date = now.getDate() + '-' + now.getMonth() + '_' + now.getHours() + '.' + now.getMinutes();
+const date = now.getDate() + '-' + now.getMonth() + '__' + now.getHours() + '.' + now.getMinutes();
 
-var outFile = 'public/records' + date + 'record.wav';
+var outFile = 'public/records/' + date + '_record.wav';
 // var outFile = 'public/demo.wav';
 
 const BinaryServer = require('binaryjs').BinaryServer;
@@ -108,12 +90,10 @@ BinaryServer({port: 9001}).on('connection', function(client) {
 
   client.on('stream', function(stream, meta) {
     console.log('new stream');
-
     stream.pipe(fileWriter);
 
     stream.on('end', function() {
       console.log('end stream');
-
       fileWriter.end();
 
       console.log('wrote to file ' + outFile);
