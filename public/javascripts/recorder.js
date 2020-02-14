@@ -1,72 +1,72 @@
-(function(window) {
-    var client = new BinaryClient('ws://localhost:9001');
-  
-    client.on('open', function() {
-      window.Stream = client.createStream();
-  
-      if (!navigator.getUserMedia)
-        navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
-      navigator.mozGetUserMedia || navigator.msGetUserMedia;
-  
-      if (navigator.getUserMedia) {
-        navigator.getUserMedia({audio:true}, success, function(e) {
-          alert('Error capturing audio.');
-        });
-      } else alert('getUserMedia not supported in this browser.');
-  
-      var recording = false;
-  
-      window.startRecording = function() {
-        recording = true;
-      }
-  
-      window.stopRecording = function() {
-        recording = false;
-        window.Stream.end();
-      }
-  
-      function success(e) {
-        audioContext = window.AudioContext || window.webkitAudioContext;
-        context = new audioContext();
-  
-        // the sample rate is in context.sampleRate
-        audioInput = context.createMediaStreamSource(e);
-  
-        var bufferSize = 2048;
-        recorder = context.createScriptProcessor(bufferSize, 1, 1);
-  
-        recorder.onaudioprocess = function(e){
-          if(!recording) return;
-          console.log ('recording');
-          var left = e.inputBuffer.getChannelData(0);
-          window.Stream.write(convertoFloat32ToInt16(left));
-        }
-  
-        audioInput.connect(recorder)
-        recorder.connect(context.destination); 
-      }
-  
-      function convertoFloat32ToInt16(buffer) {
-        var l = buffer.length;
-        var buf = new Int16Array(l)
-  
-        while (l--) {
-          buf[l] = buffer[l]*0xFFFF;    //convert to 16 bit
-        }
-        return buf.buffer
-      }
-    });
+(function (window) {
+	var client = new BinaryClient('ws://localhost:9001');
 
+	client.on('open', function (stream, meta) {
 
+		window.Stream = client.createStream();
 
+		if (!navigator.getUserMedia)
+			navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
+			navigator.mozGetUserMedia || navigator.msGetUserMedia;
 
+		if (navigator.getUserMedia) {
+			navigator.getUserMedia({
+				audio: true
+			}, success, function (e) {
+				alert('Error capturing audio.');
+			});
+		} else alert('getUserMedia not supported in this browser.');
 
-    //webkitURL is deprecated but nevertheless
+		var recording = false;
+
+		window.startStream = function () {
+			recording = true;
+		};
+
+		window.stopStream = function () {
+			recording = false;
+			window.Stream.end();
+		};
+
+		function success(e) {
+			audioContext = window.AudioContext || window.webkitAudioContext;
+			context = new audioContext();
+
+			// the sample rate is in context.sampleRate
+			audioInput = context.createMediaStreamSource(e);
+
+			var bufferSize = 2048;
+			recorder = context.createScriptProcessor(bufferSize, 1, 1);
+
+			recorder.onaudioprocess = function (e) {
+				if (!recording) return;
+				console.log('recording');
+				var left = e.inputBuffer.getChannelData(0);
+				window.Stream.write(convertoFloat32ToInt16(left));
+			}
+
+			audioInput.connect(recorder)
+			recorder.connect(context.destination);
+		}
+
+		function convertoFloat32ToInt16(buffer) {
+			var l = buffer.length;
+			var buf = new Int16Array(l)
+
+			while (l--) {
+				buf[l] = buffer[l] * 0xFFFF; //convert to 16 bit
+			}
+			return buf.buffer
+		}
+	});
+})(this);
+
+//webkitURL is deprecated but nevertheless
 URL = window.URL || window.webkitURL;
 
-var gumStream; 						//stream from getUserMedia()
-var rec; 							//Recorder.js object
-var input; 							//MediaStreamAudioSourceNode we'll be recording
+var gumStream; //stream from getUserMedia()
+var rec; //Recorder.js object
+var input; //MediaStreamAudioSourceNode we'll be recording
 
 // shim for AudioContext when it's not avb. 
 var AudioContext = window.AudioContext || window.webkitAudioContext;
@@ -84,7 +84,7 @@ pauseButton.addEventListener("click", pauseRecording);
 
 
 function startRecording() {
-	window.startRecording();
+	window.startStream();
 
 	console.log("recordButton clicked");
 	recording = true;
@@ -93,11 +93,14 @@ function startRecording() {
 		Simple constraints object, for more advanced audio features see
 		https://addpipe.com/blog/audio-constraints-getusermedia/
 	*/
-    
-    var constraints = { audio: true, video:false }
 
- 	/*
-    	Disable the record button until we get a success or fail from getUserMedia() 
+	var constraints = {
+		audio: true,
+		video: false
+	}
+
+	/*
+		Disable the record button until we get a success or fail from getUserMedia() 
 	*/
 
 	recordButton.disabled = true;
@@ -105,11 +108,11 @@ function startRecording() {
 	pauseButton.disabled = false
 
 	/*
-    	We're using the standard promise based getUserMedia() 
-    	https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
+		We're using the standard promise based getUserMedia() 
+		https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
 	*/
 
-	navigator.mediaDevices.getUserMedia(constraints).then(function(stream) {
+	navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
 		console.log("getUserMedia() success, stream created, initializing Recorder.js ...");
 
 		/*
@@ -121,11 +124,11 @@ function startRecording() {
 		audioContext = new AudioContext();
 
 		//update the format 
-		document.getElementById("formats").innerHTML="Format: 1 channel pcm @ "+audioContext.sampleRate/1000+"kHz"
+		document.getElementById("formats").innerHTML = "Format: 1 channel pcm @ " + audioContext.sampleRate / 1000 + "kHz"
 
 		/*  assign to gumStream for later use  */
 		gumStream = stream;
-		
+
 		/* use the stream */
 		input = audioContext.createMediaStreamSource(stream);
 
@@ -133,37 +136,39 @@ function startRecording() {
 			Create the Recorder object and configure to record mono sound (1 channel)
 			Recording 2 channels  will double the file size
 		*/
-		rec = new Recorder(input,{numChannels:1})
+		rec = new Recorder(input, {
+			numChannels: 1
+		})
 
 		//start the recording process
 		rec.record()
 
 		console.log("Recording started");
 
-	}).catch(function(err) {
-	  	//enable the record button if getUserMedia() fails
-    	recordButton.disabled = false;
-    	stopButton.disabled = true;
-    	pauseButton.disabled = true
+	}).catch(function (err) {
+		//enable the record button if getUserMedia() fails
+		recordButton.disabled = false;
+		stopButton.disabled = true;
+		pauseButton.disabled = true
 	});
 }
 
-function pauseRecording(){
-	console.log("pauseButton clicked rec.recording=",rec.recording );
-	if (rec.recording){
+function pauseRecording() {
+	console.log("pauseButton clicked rec.recording=", rec.recording);
+	if (rec.recording) {
 		//pause
 		rec.stop();
-		pauseButton.innerHTML="Resume";
-	}else{
+		pauseButton.innerHTML = "Resume";
+	} else {
 		//resume
 		rec.record()
-		pauseButton.innerHTML="Pause";
+		pauseButton.innerHTML = "Pause";
 
 	}
 }
 
 function stopRecording() {
-	window.stopRecording();
+
 	console.log("stopButton clicked");
 
 	//disable the stop button, enable the record too allow for new recordings
@@ -172,21 +177,21 @@ function stopRecording() {
 	pauseButton.disabled = true;
 
 	//reset button just in case the recording is stopped while paused
-	pauseButton.innerHTML="Pause";
-	
+	pauseButton.innerHTML = "Pause";
+
 	//tell the recorder to stop the recording
 	rec.stop();
 
 	//stop microphone access
 	gumStream.getAudioTracks()[0].stop();
-
+	window.stopStream();
 
 	//create the wav blob and pass it on to createDownloadLink
 	rec.exportWAV(createDownloadLink);
 }
 
 function createDownloadLink(blob) {
-	
+
 	var url = URL.createObjectURL(blob);
 	var au = document.createElement('audio');
 	var li = document.createElement('li');
@@ -201,18 +206,18 @@ function createDownloadLink(blob) {
 
 	//save to disk link
 	link.href = url;
-	link.download = filename+".wav"; //download forces the browser to donwload the file using the  filename
+	link.download = filename + ".wav"; //download forces the browser to donwload the file using the  filename
 	link.innerHTML = "Save to disk";
 
 	//add the new audio element to li
 	li.appendChild(au);
-	
+
 	//add the filename to the li
-	li.appendChild(document.createTextNode(filename+".wav "));
+	li.appendChild(document.createTextNode(filename + ".wav "));
 
 	//add the save to disk link to li
 	li.appendChild(link);
-	
+
 	//upload link
 	// var upload = document.createElement('a');
 	// upload.href="#";
@@ -235,5 +240,3 @@ function createDownloadLink(blob) {
 	//add the li element to the ol
 	recordingsList.appendChild(li);
 }
-
-  })(this);
