@@ -8246,3 +8246,143 @@ date:  [ '06.1.2020 12:45', '06.1.2020 13:01', '06.1.2020 13:04' ]
 [0mGET /javascripts/stopwatch.js [36m304 [0m0.286 ms - -[0m
 [0mGET /javascripts/recorder.js [36m304 [0m0.543 ms - -[0m
 [0mGET /javascripts/chat.js [36m304 [0m0.587 ms - -[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+0 ' connection opened'
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 12:45', '06.1.2020 13:01', '06.1.2020 13:04' ]
+[0mGET / [32m200 [0m338.300 ms - 1196[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.174 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.803 ms - 811[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.960 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.704 ms - 794668[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.581 ms - 446508[0m
+1 ' connection opened'
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+0 ' connection opened'
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 12:45', '06.1.2020 13:01', '06.1.2020 13:04' ]
+[0mGET / [32m200 [0m345.145 ms - 1196[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.268 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m3.261 ms - 811[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m1.583 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m1.829 ms - 794668[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.379 ms - 446508[0m
+1 ' connection opened'
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.642 ms - 622716[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.503 ms - 421879[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 13:04', '06.1.2020 13:01', '06.1.2020 12:45' ]
+[0mGET / [32m200 [0m25.340 ms - 1196[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 12:45', '06.1.2020 13:01', '06.1.2020 13:04' ]
+[0mGET /admin/? [32m200 [0m24.838 ms - 1968[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.839 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.800 ms - 811[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.710 ms - 446508[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.772 ms - 417836[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.642 ms - 598060[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.309 ms - 3232[0m
+1 ' connection opened'
+[0mGET /javascripts/stopwatch.js [32m200 [0m2.113 ms - 1590[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.602 ms - 811[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.494 ms - 7600[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.684 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.587 ms - 794668[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.573 ms - 446508[0m
+2 ' connection opened'
+1. new connection
+2. new stream
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 13:04', '06.1.2020 13:01', '06.1.2020 12:45' ]
+[0mGET /admin/? [32m200 [0m31.661 ms - 1968[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.732 ms - 1590[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.947 ms - 3232[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.620 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.439 ms - 811[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.660 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.581 ms - 630828[0m
+2 ' connection opened'
+1. new connection
+2. new stream
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 12:45', '06.1.2020 13:01', '06.1.2020 13:04' ]
+[0mGET /admin/? [32m200 [0m23.748 ms - 1968[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.835 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.053 ms - 811[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.870 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.980 ms - 7600[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.574 ms - 614444[0m
+1 ' connection opened'
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m1.342 ms - 794668[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.591 ms - 446508[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 13:04', '06.1.2020 13:01', '06.1.2020 12:45' ]
+[0mGET /admin/? [32m200 [0m22.500 ms - 1968[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.967 ms - 3232[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.485 ms - 7600[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.523 ms - 1590[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.609 ms - 811[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.668 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.660 ms - 630828[0m
+1 ' connection opened'
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 12:45', '06.1.2020 13:01', '06.1.2020 13:04' ]
+[0mGET /admin/? [32m200 [0m19.307 ms - 1968[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.604 ms - 3232[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.043 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.156 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.342 ms - 811[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.594 ms - 413740[0m
+1 ' connection opened'
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+date:  [ '06.1.2020 13:04', '06.1.2020 13:01', '06.1.2020 12:45' ]
+[0mGET /admin/? [32m200 [0m17.574 ms - 1968[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.686 ms - 3232[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.453 ms - 1590[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.622 ms - 811[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.612 ms - 7600[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.961 ms - 450604[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.864 ms - 794668[0m
+1 ' connection opened'
