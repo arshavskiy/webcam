@@ -25,13 +25,9 @@ let files = fs.readdir(DIR, (err, files)=>{
       bigfiles.push(file);
     }
         // Do whatever you want to do with the file
-    console.log('file size:' , size); 
-    console.log('file mtime:' , mtime); 
   });
 
   router.get('/', function(req, res, next) {
-    console.log('files: ', files);
-    console.log('date: ', fileDate);
     res.render('users', { title: 'Express', records: bigfiles.reverse(), date: fileDate.reverse() });
   });
   

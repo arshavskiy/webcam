@@ -30,8 +30,6 @@ let files = fs.readdir(DIR, (err, files)=>{
       });
     }
         // Do whatever you want to do with the file
-    console.log('file size:' , size); 
-    console.log('file mtime:' , mtime); 
   });
 
   router.get('/', function(req, res, next) {
