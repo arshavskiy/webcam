@@ -2,7 +2,7 @@
 extends layout
 
 block content
-  main
+  main#users
     a(href='/admin/') 
       h5 Admin
     br
@@ -15,11 +15,11 @@ block content
           audio(controls="" src="/records/" + r type="audio/wav")
         //- a(href="/records/" + r download="playlist.wav") Save to disk  
 
-  //- ul#messages
-  //- form(action='')
-    input#m(autocomplete='off')
-    button Send
+    ul#messages
+    form(action='')
+        input#m(autocomplete='off')
+        button#msgAction Send
   
   //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
-  //- script(src="https://code.jquery.com/jquery-1.11.1.js")
-  //- script(src='./javascripts/chat.js')
+  script(src="https://code.jquery.com/jquery-1.11.1.js")
+  script(src='/javascripts/chat.js')

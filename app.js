@@ -1,4 +1,3 @@
-
 const createError = require('http-errors');
 const express = require('express');
 const path = require('path');
@@ -18,7 +17,9 @@ app.set('view engine', 'pug');
 
 app.use(logger('dev'));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({
+  extended: false
+}));
 app.use(cookieParser());
 
 app.use('/', usersRouter);
@@ -41,14 +42,14 @@ let counter = 0;
 app.use('/', express.static(path.join(__dirname, 'public')));
 app.use('/admin', express.static(path.join(__dirname, 'public')));
 app.use('/chat', express.static(path.join(__dirname, 'public')));
-app.use('/users',  express.static(path.join(__dirname, 'public')));
+app.use('/users', express.static(path.join(__dirname, 'public')));
 
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
   next(createError(404));
 });
 
 // error handler
-app.use(function(err, req, res, next) {
+app.use(function (err, req, res, next) {
   // set locals, only providing error in development
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
@@ -61,34 +62,42 @@ app.use(function(err, req, res, next) {
 
 const WebSocket = require('ws');
 const ws = new WebSocket('ws://localhost:8080');
-const wss = new WebSocket.Server({ port: 8080 });
-
-wss.on('connection', function connection(ws) {
-  ws.on('message', function incoming(message) {
-    console.log('received: %s', message);
-  });
-
-  ws.send('connection opened');
+const wss = new WebSocket.Server({
+  port: 8080
 });
 
+const messages = {};
 
-wss.on('connection', function connection(ws) {
+wss.on('connection', function connection(ws, req) {
+  const ip = req.connection.remoteAddress;
+
+  wss.clients.forEach(function each(client) {
+    if (client == ws && client.readyState === WebSocket.OPEN) {
+      client.send(wss.clients.size - 1, 'connection opened');
+      console.log(wss.clients.size - 1 , ' connection opened' );
+    }
+  });
+
   ws.on('message', function incoming(message) {
     wss.clients.forEach(function each(client) {
       if (client.readyState === WebSocket.OPEN) {
-        client.send(message);
+        messages[ip] = [];
+        messages[ip].push(message);
+        console.log('received: %s', messages[ip]);
+        client.send(ip + ' : ' + message);
       }
+
     });
   });
+
+  ws.on('open', function open() {
+    ws.send('open something');
+  });
+
+
 });
 
-ws.on('open', function open() {
-  ws.send('open something');
-});
 
-ws.on('message', function incoming(data) {
-  console.log(data);
-});
 
 // let http = require('http').Server(app);
 // let io = require('socket.io')(http);
@@ -109,20 +118,22 @@ let outFile = 'public/records/' + date + '.wav';
 
 const BinaryServer = require('binaryjs').BinaryServer;
 
-BinaryServer({port: 9001}).on('connection', function(client) {
+BinaryServer({
+  port: 9001
+}).on('connection', function (client) {
   console.log('1. new connection');
- 
+
   let fileWriter = new wav.FileWriter(outFile, {
     channels: 1,
     sampleRate: 48000,
     bitDepth: 16
   });
 
-  client.on('stream', function(stream, meta) {
+  client.on('stream', function (stream, meta) {
     console.log('2. new stream');
     stream.pipe(fileWriter);
 
-    stream.on('end', function() {
+    stream.on('end', function () {
       console.log('3 end stream');
       fileWriter.end();
 
@@ -133,4 +144,3 @@ BinaryServer({port: 9001}).on('connection', function(client) {
 
 
 module.exports = app;
-
