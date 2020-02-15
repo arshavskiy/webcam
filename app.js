@@ -67,6 +67,7 @@ const wss = new WebSocket.Server({
 });
 
 const messages = {};
+const messagesAll = [];
 
 wss.on('connection', function connection(ws, req) {
   const ip = req.connection.remoteAddress;
@@ -74,15 +75,29 @@ wss.on('connection', function connection(ws, req) {
   wss.clients.forEach(function each(client) {
     if (client == ws && client.readyState === WebSocket.OPEN) {
       client.send(wss.clients.size - 1, 'connection opened');
+
+      if (messagesAll.length > 0){
+        messagesAll.forEach( msg=>{
+          client.send(msg);
+        });
+      }
+     
       console.log(wss.clients.size - 1 , ' connection opened' );
     }
   });
 
   ws.on('message', function incoming(message) {
+
+    if ( Object.keys(messages)!= ip){
+      messages[ip] = [];
+    }
+    messages[ip].push(message);
+    messagesAll.push(ip + ' : ' + message);
+
+
     wss.clients.forEach(function each(client) {
       if (client.readyState === WebSocket.OPEN) {
-        messages[ip] = [];
-        messages[ip].push(message);
+       
         console.log('received: %s', messages[ip]);
         client.send(ip + ' : ' + message);
       }
