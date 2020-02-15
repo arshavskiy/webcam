@@ -14,17 +14,8 @@ function handle(stream, meta) {
 		});
 	} else alert('getUserMedia not supported in this browser.');
 
-	var recording = false;
 
-	window.startStream = function () {
-		recording = true;
-	};
 
-	window.stopStream = function () {
-		recording = false;
-		window.Stream.end();
-		// client.close();
-	};
 
 	function success(e) {
 		audioContext = window.AudioContext || window.webkitAudioContext;
@@ -39,8 +30,12 @@ function handle(stream, meta) {
 		recorder.onaudioprocess = function (e) {
 			if (!recording) return;
 			console.log('recording');
+
+			// let today = new Date();
+			// let time = today.getMinutes() + ":" + today.getSeconds();
 			
-			document.querySelector('#time').innerHTML = Date.now() / 1000;
+			// document.querySelector('#time').innerHTML = time;
+		
 
 			var left = e.inputBuffer.getChannelData(0);
 			window.Stream.write(convertoFloat32ToInt16(left));
@@ -61,9 +56,25 @@ function handle(stream, meta) {
 	}
 }
 
+document.querySelector('#time').innerHTML = '00:00:00';
 
-var client = new BinaryClient('ws://localhost:9001');
-client.on('open', handle);
+var recording = false;
+
+window.startStream = function () {
+	recording = true;
+	stopWatch.startCounter();
+};
+
+window.stopStream = function () {
+	recording = false;
+	window.Stream.end();
+	stopWatch.stopCounter();
+	// client.close();
+};
+
+window.onbeforeunload = function(){
+	client.close();
+}
 
 
 
@@ -90,6 +101,9 @@ pauseButton.addEventListener("click", pauseRecording);
 
 
 function startRecording() {
+	window.client || {};
+	window.client = new BinaryClient('ws://localhost:9001');
+	client.on('open', handle);
 	window.startStream();
 
 	console.log("recordButton clicked");
@@ -130,7 +144,8 @@ function startRecording() {
 		audioContext = new AudioContext();
 
 		//update the format 
-		document.getElementById("formats").innerHTML = "Format: 1 channel pcm @ " + audioContext.sampleRate / 1000 + "kHz"
+		// audioContextOptions.sampleRate = 24000;
+		document.getElementById("formats").innerHTML = "Format: 1 channel pcm @ " + audioContext.sampleRate / 1000 + "kHz";
 
 		/*  assign to gumStream for later use  */
 		gumStream = stream;
@@ -207,7 +222,8 @@ function createDownloadLink(blob) {
 	var link = document.createElement('a');
 
 	//name of .wav file to use during upload and download (without extendion)
-	var filename = new Date().toISOString();
+	const now = new Date(Date.now());
+	const filename = now.getDate() + '.' + now.getMonth() + '__' + Date.now();
 
 	//add controls to the <audio> element
 	au.controls = true;

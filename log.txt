@@ -7284,3 +7284,367 @@ files:  [ '14-1__23.31_record.wav',
 [0mGET /records/15-1__0.22_record.wav [32m206 [0m1.508 ms - 2453548[0m
 new connection
 new stream
+listening on *:3000
+files:  [ '14-1__23.31_record.wav',
+  '14-1__23.37_record.wav',
+  '14-1__23.40_record.wav',
+  '14-1__23.45_record.wav',
+  '15-1__0.0_record.wav',
+  '15-1__0.14_record.wav',
+  '15-1__0.20_record.wav',
+  '15-1__0.22_record.wav',
+  '15-1__0.34_record.wav',
+  '15-1__0.35_record.wav',
+  '15-1__0.37_record.wav',
+  'demo.wav' ]
+[0mGET /admin/ [32m200 [0m347.259 ms - 3668[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m5.835 ms - 2484[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.037 ms - 6815[0m
+[0mGET /records/14-1__23.31_record.wav [32m206 [0m1.799 ms - 286764[0m
+[0mGET /records/14-1__23.37_record.wav [32m206 [0m3.478 ms - 307244[0m
+[0mGET /records/15-1__0.0_record.wav [32m206 [0m3.224 ms - 229420[0m
+[0mGET /records/14-1__23.45_record.wav [32m206 [0m3.527 ms - 499756[0m
+[0mGET /records/14-1__23.40_record.wav [32m206 [0m3.225 ms - 602156[0m
+[0mGET /records/15-1__0.14_record.wav [32m206 [0m2.894 ms - 495660[0m
+[0mGET /records/15-1__0.20_record.wav [32m206 [0m0.546 ms - 1622060[0m
+[0mGET /records/15-1__0.35_record.wav [32m206 [0m2.870 ms - 44[0m
+[0mGET /records/demo.wav [32m206 [0m2.382 ms - 278572[0m
+[0mGET /records/15-1__0.34_record.wav [32m206 [0m2.552 ms - 1060908[0m
+[0mGET /records/15-1__0.22_record.wav [32m206 [0m1.527 ms - 2453548[0m
+[0mGET /records/15-1__0.37_record.wav [32m206 [0m3.122 ms - 1409068[0m
+new connection
+new stream
+end stream
+wrote to file public/records/15-1__0.38_record.wav
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+D:\Web\stream\app.js:9
+const wav = require('wav');
+      ^
+
+SyntaxError: Identifier 'wav' has already been declared
+    at new Script (vm.js:79:7)
+    at createScript (vm.js:251:10)
+    at Object.runInThisContext (vm.js:303:10)
+    at Module._compile (internal/modules/cjs/loader.js:656:28)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+    at Module.require (internal/modules/cjs/loader.js:636:17)
+    at Module.Hook._require.Module.require (C:\Users\Pavel\AppData\Roaming\npm\node_modules\pm2\node_modules\require-in-the-middle\index.js:80:39)
+listening on *:3000
+files:  [ '15-1__0.38_record.wav', 'demo.wav' ]
+[0mGET /admin/ [31m500 [0m373.785 ms - 1560[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m4.934 ms - 2484[0m
+listening on *:3000
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /admin/ [32m200 [0m346.559 ms - 1520[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.009 ms - 2645[0m
+[0mGET /admin/javascripts/stopwatch.js [32m200 [0m4.496 ms - 1590[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m4.593 ms - 7129[0m
+[0mGET /records/15-1__12.7_record.wav [32m206 [0m0.922 ms - 44[0m
+new connection
+new stream
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m42.506 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.769 ms - 2645[0m
+[0mGET /records/15-1__12.6_record.wav [33m416 [0m14.909 ms - 776[0m
+[0mGET /records/15-1__12.7_record.wav [32m206 [0m15.337 ms - 44[0m
+end stream
+wrote to file public/records/15-1__12.8_record.wav
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m26.824 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.205 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m25.552 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.921 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m14.788 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.727 ms - 2645[0m
+[0mGET /favicon.ico [33m404 [0m11.839 ms - 1222[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m16.379 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.109 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m15.564 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.684 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m13.456 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.829 ms - 2645[0m
+[0mGET /favicon.ico [33m404 [0m7.726 ms - 1222[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m15.422 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.862 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m13.815 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.766 ms - 2645[0m
+[0mGET /favicon.ico [33m404 [0m8.550 ms - 1222[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /admin/ [32m200 [0m22.906 ms - 1520[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.024 ms - 2645[0m
+[0mGET /admin/javascripts/stopwatch.js [32m200 [0m1.557 ms - 1590[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m1.626 ms - 7129[0m
+[0mGET /records/15-1__12.6_record.wav [33m416 [0m11.463 ms - 776[0m
+[0mGET /records/15-1__12.7_record.wav [32m206 [0m0.578 ms - 44[0m
+new connection
+new stream
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m18.286 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.791 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /users/ [32m200 [0m10.970 ms - 1142[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m0.884 ms - 2645[0m
+files:  [ '15-1__12.6_record.wav', '15-1__12.7_record.wav' ]
+[0mGET /admin/ [32m200 [0m13.359 ms - 1520[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.563 ms - 2645[0m
+[0mGET /admin/javascripts/stopwatch.js [32m200 [0m1.307 ms - 1590[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m1.338 ms - 7129[0m
+[0mGET /records/15-1__12.6_record.wav [33m416 [0m6.877 ms - 776[0m
+[0mGET /records/15-1__12.7_record.wav [32m206 [0m7.151 ms - 44[0m
+new connection
+new stream
+listening on *:3000
+files:  [ '15-1__12.6_record.wav',
+  '15-1__12.7_record.wav',
+  '15-1__12.8_record.wav' ]
+[0mGET /admin/ [32m200 [0m343.396 ms - 1746[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m7.795 ms - 2645[0m
+[0mGET /admin/javascripts/stopwatch.js [32m200 [0m5.912 ms - 1590[0m
+[0mGET /admin/javascripts/recorder.js [32m200 [0m5.978 ms - 7129[0m
+[0mGET /records/15-1__12.6_record.wav [33m416 [0m13.034 ms - 776[0m
+[0mGET /records/15-1__12.7_record.wav [32m206 [0m14.412 ms - 44[0m
+[0mGET /records/15-1__12.8_record.wav [32m206 [0m1.341 ms - 44[0m
+new connection
+new stream
+files:  [ '15-1__12.6_record.wav',
+  '15-1__12.7_record.wav',
+  '15-1__12.8_record.wav' ]
+[0mGET /users/ [32m200 [0m22.122 ms - 1368[0m
+[0mGET /users/stylesheets/style.css [32m200 [0m1.046 ms - 2645[0m
+[0mGET /records/15-1__12.6_record.wav [33m416 [0m14.505 ms - 776[0m
+[0mGET /records/15-1__12.7_record.wav [32m206 [0m1.262 ms - 44[0m
+[0mGET /records/15-1__12.8_record.wav [32m206 [0m1.214 ms - 44[0m

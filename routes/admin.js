@@ -8,10 +8,21 @@ const files = fs.readdirSync('d:\\web\\stream\\public\\records', function (err, 
     if (err) {
         return console.log('Unable to scan directory: ' + err);
     } 
+    function getFilesizeInBytes(filename) {
+      const stats = fs.statSync(filename);
+      const fileSizeInBytes = stats.size;
+      return fileSizeInBytes;
+  }
+    if (err) {
+        return console.log('Unable to scan directory: ' + err);
+    } 
     files.forEach(function (file) {
-        fileList.push(file);
+        const size = getFilesizeInBytes(file);
+        if (size > 512){
+          fileList.push(file);
+        }
         // Do whatever you want to do with the file
-        console.log(file); 
+        console.log('file size:' , size); 
     });
     return fileList;
   });
@@ -19,7 +30,7 @@ const files = fs.readdirSync('d:\\web\\stream\\public\\records', function (err, 
 /* GET users listing. */
 router.get('/', function(req, res, next) {
   console.log('files: ', files);
-  res.render('admin', { title: 'Express' , records: files});
+  res.render('admin', { title: 'Express' , records: files.reverse()});
 });
 
 module.exports = router;
