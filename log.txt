@@ -7691,3 +7691,259 @@ files:  [ '15.1__1581763534427.wav',
   '15.1__1581764629040.wav' ]
 [0mGET / [31m500 [0m326.749 ms - 1360[0m
 [0mGET /stylesheets/style.css [32m200 [0m4.400 ms - 2744[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET / [32m200 [0m372.556 ms - 1090[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.785 ms - 2744[0m
+[0mGET /records/15.1__1581789360438.wav [32m206 [0m1.495 ms - 1728556[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m3.124 ms - 282668[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.695 ms - 151596[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET / [31m500 [0m333.877 ms - 1687[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.683 ms - 2744[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 19:57',
+  '06.1.2020 13:04',
+  '06.1.2020 13:01',
+  '06.1.2020 12:45' ]
+[0mGET / [31m500 [0m11.797 ms - 1687[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.887 ms - 2744[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET / [31m500 [0m348.452 ms - 1412[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.900 ms - 2744[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET / [31m500 [0m355.343 ms - 1412[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.743 ms - 2744[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 19:57',
+  '06.1.2020 13:04',
+  '06.1.2020 13:01',
+  '06.1.2020 12:45' ]
+[0mGET / [31m500 [0m19.674 ms - 1412[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.719 ms - 2744[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET / [32m200 [0m341.836 ms - 1103[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.481 ms - 2744[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m2.725 ms - 446508[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m2.634 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m2.689 ms - 794668[0m
+[0mGET /records/15.1__1581789360438.wav [32m206 [0m3.723 ms - 1728556[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET / [32m200 [0m339.769 ms - 1103[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.664 ms - 2885[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m2.165 ms - 446508[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m2.515 ms - 614444[0m
+[0mGET /records/15.1__1581789360438.wav [32m206 [0m2.428 ms - 1728556[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m2.183 ms - 794668[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET /admin/ [32m200 [0m32.830 ms - 1983[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m2.999 ms - 2885[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.553 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.871 ms - 7219[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m1.735 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m2.022 ms - 663596[0m
+[0mGET /records/15.1__1581789360438.wav [32m206 [0m1.933 ms - 1728556[0m
+listening on *:3000
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+file size: 446508
+file mtime: 06.1.2020 12:45
+file size: 794668
+file mtime: 06.1.2020 13:01
+file size: 614444
+file mtime: 06.1.2020 13:04
+file size: 1728556
+file mtime: 06.1.2020 19:57
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 12:45',
+  '06.1.2020 13:01',
+  '06.1.2020 13:04',
+  '06.1.2020 19:57' ]
+[0mGET /admin/ [32m200 [0m350.290 ms - 1983[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.802 ms - 2922[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m4.239 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m4.249 ms - 7219[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m2.016 ms - 614444[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m2.066 ms - 446508[0m
+[0mGET /records/15.1__1581789360438.wav [32m206 [0m1.562 ms - 1728556[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m3.106 ms - 794668[0m
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav',
+  '15.1__1581789360438.wav' ]
+date:  [ '06.1.2020 19:57',
+  '06.1.2020 13:04',
+  '06.1.2020 13:01',
+  '06.1.2020 12:45' ]
+[0mGET /admin/ [32m200 [0m31.968 ms - 1983[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m2.702 ms - 2922[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.357 ms - 7219[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.590 ms - 1590[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m0.835 ms - 614444[0m
+[0mGET /records/15.1__1581789360438.wav [32m206 [0m0.718 ms - 1728556[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m1.205 ms - 598060[0m

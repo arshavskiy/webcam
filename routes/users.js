@@ -20,7 +20,7 @@ let files = fs.readdir(DIR, (err, files)=>{
     const stats = fs.statSync(path.join(DIR, file));
     const date = (stats.mtime.getDay() < 10 ? '0' + stats.mtime.getDay(): stats.mtime.getDay()) + '.' + stats.mtime.getMonth() + '.' + stats.mtime.getFullYear();
     const mtime = date + ' ' + stats.mtime.getHours() + ':' + (stats.mtime.getMinutes() < 10 ? '0' + stats.mtime.getMinutes() : stats.mtime.getMinutes());
-    if (size > 10240){
+    if (size > 200484){
       fileDate.push(mtime);
       bigfiles.push(file);
     }

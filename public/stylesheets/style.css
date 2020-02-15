@@ -167,7 +167,7 @@ audio {
 
 li {
   list-style: none;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 #formats {
@@ -197,4 +197,15 @@ main{
   max-width: 28em;
   margin: 0 auto;
 }
+
+.record_title{
+  display: flex;
+    justify-content: center;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+
+#recordButton{
+  color: #fff;
 }

@@ -220,10 +220,14 @@ function createDownloadLink(blob) {
 	var au = document.createElement('audio');
 	var li = document.createElement('li');
 	var link = document.createElement('a');
+	
 
 	//name of .wav file to use during upload and download (without extendion)
 	const now = new Date(Date.now());
 	const filename = now.getDate() + '.' + now.getMonth() + '__' + Date.now();
+
+	const date = (now.getDay() < 10 ? '0' + now.getDay(): now.getDay()) + '.' + now.getMonth() + '.' + now.getFullYear();
+	const recordTitleName = date + ' ' + now.getHours() + ':' + (now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes());
 
 	//add controls to the <audio> element
 	au.controls = true;
@@ -238,10 +242,14 @@ function createDownloadLink(blob) {
 	li.appendChild(au);
 
 	//add the filename to the li
-	li.appendChild(document.createTextNode(filename + ".wav "));
+	// li.appendChild();
 
 	//add the save to disk link to li
-	li.appendChild(link);
+	// li.appendChild(link);
+	const span = document.createElement('span');
+	span.innerHTML = recordTitleName;
+	span.className = 'record_title';
+	li.insertBefore( span, li.childNodes[0]);
 
 	//upload link
 	// var upload = document.createElement('a');
