@@ -39,7 +39,7 @@ form {
   padding: 3px;
   position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 28em;
   display: flex;
 }
 
@@ -59,7 +59,7 @@ form button {
 #messages {
   list-style-type: none;
   position: absolute;
-  width: 95%;
+  width: 28em;
   bottom: 50px;
   padding: 0;
   background: lightseagreen;
