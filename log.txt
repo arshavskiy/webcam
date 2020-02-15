@@ -7648,3 +7648,46 @@ files:  [ '15-1__12.6_record.wav',
 [0mGET /records/15-1__12.6_record.wav [33m416 [0m14.505 ms - 776[0m
 [0mGET /records/15-1__12.7_record.wav [32m206 [0m1.262 ms - 44[0m
 [0mGET /records/15-1__12.8_record.wav [32m206 [0m1.214 ms - 44[0m
+listening on *:3000
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+[0mGET / [32m200 [0m1670.352 ms - 1190[0m
+[0mGET /stylesheets/style.css [32m200 [0m7.568 ms - 2744[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m26.828 ms - 794668[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m18.481 ms - 614444[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m50.278 ms - 446508[0m
+[0mGET /favicon.ico [33m404 [0m12.900 ms - 1222[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.220 ms - -[0m
+files:  [ '15.1__1581764629040.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581763534427.wav' ]
+[0mGET / [32m200 [0m20.046 ms - 1190[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.806 ms - 2744[0m
+listening on *:3000
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+[0mGET / [32m200 [0m327.282 ms - 802[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.655 ms - 2744[0m
+[0mGET /records/15.1__1581764629040.wav [32m206 [0m1.018 ms - 614444[0m
+[0mGET /records/15.1__1581764481153.wav [32m206 [0m0.656 ms - 794668[0m
+[0mGET /records/15.1__1581763534427.wav [32m206 [0m0.478 ms - 446508[0m
+listening on *:3000
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+[0mGET / [31m500 [0m325.406 ms - 1325[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.901 ms - 2744[0m
+listening on *:3000
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+[0mGET / [31m500 [0m346.976 ms - 1325[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.139 ms - 2744[0m
+listening on *:3000
+files:  [ '15.1__1581763534427.wav',
+  '15.1__1581764481153.wav',
+  '15.1__1581764629040.wav' ]
+[0mGET / [31m500 [0m326.749 ms - 1360[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.400 ms - 2744[0m

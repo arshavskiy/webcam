@@ -3,32 +3,55 @@ var router = express.Router();
 var path = require('path');
 var fs = require('fs');
 
-const files = fs.readdirSync('d:\\web\\stream\\public\\records', function (err, files) {
-    let fileList = [];
+const DIR = 'd:\\web\\stream\\public\\records';
 
-    function getFilesizeInBytes(filename) {
-      const stats = fs.statSync(filename);
-      const fileSizeInBytes = stats.size;
-      return fileSizeInBytes;
-  }
-    if (err) {
-        return console.log('Unable to scan directory: ' + err);
-    } 
-    files.forEach(function (file) {
-        const size = getFilesizeInBytes(file);
-        if (size > 512){
-          fileList.push(file);
-        }
+function getFilesizeInBytes(filename) {
+  const stats = fs.statSync(path.join(DIR, filename));
+  const fileSizeInBytes = stats.size;
+  return fileSizeInBytes;
+}
+
+// let files = fs.readdirSync(DIR);
+let files = fs.readdir(DIR, (err, files)=>{
+  let fileDate = [];
+  let bigfiles = [];
+  files.forEach( file =>{
+    const size = getFilesizeInBytes(file);
+    const stats = fs.statSync(path.join(DIR, file));
+    const date = (stats.mtime.getDay() < 10 ? '0' + stats.mtime.getDay(): stats.mtime.getDay()) + '.' + stats.mtime.getMonth() + '.' + stats.mtime.getFullYear();
+    const mtime = date + ' ' + stats.mtime.getHours() + ':' + (stats.mtime.getMinutes() < 10 ? '0' + stats.mtime.getMinutes() : stats.mtime.getMinutes());
+    if (size > 10240){
+      fileDate.push(mtime);
+      bigfiles.push(file);
+    }
         // Do whatever you want to do with the file
-        console.log('file size:' , size); 
-    });
-    return fileList;
+    console.log('file size:' , size); 
+    console.log('file mtime:' , mtime); 
   });
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  console.log('files: ', files);
-  res.render('users', { title: 'Express', records: files.reverse() });
+  router.get('/', function(req, res, next) {
+    console.log('files: ', files);
+    console.log('date: ', fileDate);
+    res.render('users', { title: 'Express', records: bigfiles.reverse(), date: fileDate.reverse() });
+  });
+  
 });
+// let date = files.forEach( file =>{
+//   let fileDate = [];
+
+//   const size = getFilesizeInBytes(file);
+//   const stats = fs.statSync(path.join(DIR, file));
+//   const mtime = stats.mtime.getHours() + ':' + stats.mtime.getMinutes();
+//   if (size > 1024){
+//     fileDate.push(mtime);
+//   }
+//       // Do whatever you want to do with the file
+//   console.log('file size:' , size); 
+//   return fileDate;
+// });
+   
+
+/* GET users listing. */
+
 
 module.exports = router;

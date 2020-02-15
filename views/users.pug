@@ -8,10 +8,11 @@ block content
   strong Live:
   br
   ol#recordingsList
-    each r in records
-      li= r
+    each r, inedx in records
+      li
+        span.record_title= date[inedx]
         audio(controls="" src="/records/" + r type="audio/wav")
-        a(href="/records/" + r download="playlist.wav") Save to disk  
+        //- a(href="/records/" + r download="playlist.wav") Save to disk  
 
   //- ul#messages
   //- form(action='')
@@ -19,5 +20,5 @@ block content
     button Send
   
   //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
-  script(src="https://code.jquery.com/jquery-1.11.1.js")
+  //- script(src="https://code.jquery.com/jquery-1.11.1.js")
   //- script(src='./javascripts/chat.js')

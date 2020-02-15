@@ -14,10 +14,11 @@ block content
     strong Live:
       br
       ol#recordingsList
-        each r in records
-          li= r
+        each r, inedx in records
+          li
+            span.record_title= date[inedx]
             audio(controls="" src="/records/" + r type="audio/wav")
-          a(href="/records/" + r download="playlist.wav") Save to disk  
+              a(href="/records/" + r download="playlist.wav") Save to disk  
 
     ul#messages
 
