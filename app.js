@@ -59,6 +59,37 @@ app.use(function(err, req, res, next) {
 });
 
 
+const WebSocket = require('ws');
+const ws = new WebSocket('ws://localhost:8080');
+const wss = new WebSocket.Server({ port: 8080 });
+
+wss.on('connection', function connection(ws) {
+  ws.on('message', function incoming(message) {
+    console.log('received: %s', message);
+  });
+
+  ws.send('connection opened');
+});
+
+
+wss.on('connection', function connection(ws) {
+  ws.on('message', function incoming(message) {
+    wss.clients.forEach(function each(client) {
+      if (client.readyState === WebSocket.OPEN) {
+        client.send(message);
+      }
+    });
+  });
+});
+
+ws.on('open', function open() {
+  ws.send('open something');
+});
+
+ws.on('message', function incoming(data) {
+  console.log(data);
+});
+
 // let http = require('http').Server(app);
 // let io = require('socket.io')(http);
 

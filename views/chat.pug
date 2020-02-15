@@ -10,18 +10,7 @@ body
     form(action='')
         input#m(autocomplete='off')
         button Send
-    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
+    //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
     script(src='https://code.jquery.com/jquery-1.11.1.js')
-    script.
-        $(function () {
-            var socket = io();
-            $('form').submit(function(){
-                socket.emit('chat message', $('#m').val());
-                $('#m').val('');
-                return false;
-            });
-            socket.on('chat message', function(msg){
-                $('#messages').append($('<li>').text(msg));
-                window.scrollTo(0, document.body.scrollHeight);
-            });
-        });
+    script(src="/javascripts/chat.js")
+
