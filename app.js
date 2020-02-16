@@ -6,6 +6,8 @@ const logger = require('morgan');
 const wav = require('wav');
 const app = express();
 const fs = require('fs');
+const multer = require('multer'); //use multer to upload blob data
+const upload = multer(); // set multer to be the upload variable (just like express, see above ( include it, then use it/set it up))
 
 const indexRouter = require('./routes/index');
 const chatRouter = require('./routes/chat');
@@ -37,6 +39,18 @@ app.use('/', usersRouter);
 app.use('/users', usersRouter);
 app.use('/chat/', chatRouter);
 app.use('/admin/', adminRouter);
+
+
+app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
+  // console.log(req.file); // see what got uploaded
+  let uploadLocation = __DIR + '\\records\\' + req.file.originalname // where to save the file to. make sure the incoming name has a .wav extension
+  fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
+    console.log('4 wrote to file ' + req.file.originalname);
+    res.sendStatus(200);
+  });
+
+});
+
 
 app.use(function (req, res, next) {
   next(createError(404));
@@ -84,29 +98,29 @@ let messagesAll = [];
 let textedMsgs;
 
 
-fs.readdir(__DIR, (err, files)=> {
+fs.readdir(__DIR, (err, files) => {
   let fileDate = [];
   files = files.join(',');
-  if (files.includes('messages')){
+  if (files.includes('messages')) {
     let data = fs.readFileSync(__DIR + '/messages.txt', 'utf8');
     textedMsgs = data.split('_EOL_');
   } else {
-    fs.writeFile(__DIR +'/messages.txt','',err =>{
+    fs.writeFile(__DIR + '/messages.txt', '', err => {
       if (err) throw err;
       console.log('File is created successfully.');
     });
   }
 
-wss.on('connection', function connection(ws, req) {
-  const ip = req.connection.remoteAddress;
+  wss.on('connection', function connection(ws, req) {
+    const ip = req.connection.remoteAddress;
 
     console.log(textedMsgs);
 
     wss.clients.forEach(function each(client) {
       if (client == ws && client.readyState === WebSocket.OPEN) {
         client.send(wss.clients.size - 1, 'connection opened');
-        if (textedMsgs.length>0){
-          textedMsgs.forEach( msg=>{
+        if (textedMsgs.length > 0) {
+          textedMsgs.forEach(msg => {
             client.send(msg);
           });
         }
@@ -116,88 +130,68 @@ wss.on('connection', function connection(ws, req) {
         //   });
         // }
 
-        console.log(wss.clients.size - 1 , ' connection opened' );
+        console.log(wss.clients.size - 1, ' connection opened');
       }
     });
 
-  ws.on('message', function incoming(message) {
-    if ( Object.keys(messages)!= ip){
-      messages[ip] = [];
-    }
-    messages[ip].push(message);
-    // messagesAll.push(ip + ' : ' + message);
-    fs.appendFile(__DIR + '/messages.txt', ip + ' : ' + message + '_EOL_ \r\n', function (err) {
-      if (err) throw err;
-      console.log('Saved!');
-    });
-
-    wss.clients.forEach(function each(client) {
-      if (client.readyState === WebSocket.OPEN) {
-        console.log('received: %s', messages[ip]);
-        client.send(ip + ' : ' + message);
+    ws.on('message', function incoming(message) {
+      if (Object.keys(messages) != ip) {
+        messages[ip] = [];
       }
+      messages[ip].push(message);
+      // messagesAll.push(ip + ' : ' + message);
+      fs.appendFile(__DIR + '/messages.txt', ip + ' : ' + message + '_EOL_ \r\n', function (err) {
+        if (err) throw err;
+        console.log('Saved!');
+      });
 
+      wss.clients.forEach(function each(client) {
+        if (client.readyState === WebSocket.OPEN) {
+          console.log('received: %s', messages[ip]);
+          client.send(ip + ' : ' + message);
+        }
+
+      });
     });
-  });
 
-  ws.on('open', function open() {
-    ws.send('open something');
-  });
+    ws.on('open', function open() {
+      ws.send('open something');
+    });
 
+  });
 });
 
 
 
+// const BinaryServer = require('binaryjs').BinaryServer;
 
+// const now = new Date(Date.now());
+// const date = now.getDate() + '.' + now.getMonth() + '__' + Date.now();
+// let outFile = 'public/records/' + date + '.wav';
 
+// BinaryServer({
+//   port: 9001
+// }).on('connection', function (client) {
+//   console.log('1. new connection');
 
+//   let fileWriter = new wav.FileWriter(outFile, {
+//     channels: 1,
+//     sampleRate: 48000,
+//     bitDepth: 16
+//   });
 
-});
+//   client.on('stream', function (stream, meta) {
+//     console.log('2. new stream');
+//     stream.pipe(fileWriter);
 
+//     stream.on('end', function () {
+//       console.log('3 end stream');
+//       fileWriter.end();
 
-
-// let http = require('http').Server(app);
-// let io = require('socket.io')(http);
-
-// io.on('connection', function(socket){
-//   socket.on('chat message', function(msg){
-//     io.emit('chat message', msg);
+//       console.log('4 wrote to file ' + outFile);
+//     });
 //   });
 // });
-
-
-const now = new Date(Date.now());
-// const date = now.getDate() + '_' + now.getMonth() + '__' + now.getHours() + '.' + now.getMinutes();
-const date = now.getDate() + '.' + now.getMonth() + '__' + Date.now();
-
-let outFile = 'public/records/' + date + '.wav';
-// let outFile = 'public/demo.wav';
-
-const BinaryServer = require('binaryjs').BinaryServer;
-
-BinaryServer({
-  port: 9001
-}).on('connection', function (client) {
-  console.log('1. new connection');
-
-  let fileWriter = new wav.FileWriter(outFile, {
-    channels: 1,
-    sampleRate: 48000,
-    bitDepth: 16
-  });
-
-  client.on('stream', function (stream, meta) {
-    console.log('2. new stream');
-    stream.pipe(fileWriter);
-
-    stream.on('end', function () {
-      console.log('3 end stream');
-      fileWriter.end();
-
-      console.log('4 wrote to file ' + outFile);
-    });
-  });
-});
 
 
 module.exports = app;

@@ -1,110 +1,34 @@
-function handle(stream, meta) {
+(function(window){
 
-	window.Stream = client.createStream();
-
-	if (!navigator.getUserMedia)
-		navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
-		navigator.mozGetUserMedia || navigator.msGetUserMedia;
-
-	if (navigator.getUserMedia) {
-		navigator.getUserMedia({
-			audio: true
-		}, success, function (e) {
-			alert('Error capturing audio.');
-		});
-	} else alert('getUserMedia not supported in this browser.');
-
-
-
-
-	function success(e) {
-		audioContext = window.AudioContext || window.webkitAudioContext;
-		context = new audioContext();
-
-		// the sample rate is in context.sampleRate
-		audioInput = context.createMediaStreamSource(e);
-
-		var bufferSize = 2048;
-		recorder = context.createScriptProcessor(bufferSize, 1, 1);
-
-		recorder.onaudioprocess = function (e) {
-			if (!recording) return;
-			console.log('recording');
-
-			// let today = new Date();
-			// let time = today.getMinutes() + ":" + today.getSeconds();
-			
-			// document.querySelector('#time').innerHTML = time;
-		
-
-			var left = e.inputBuffer.getChannelData(0);
-			window.Stream.write(convertoFloat32ToInt16(left));
-		}
-
-		audioInput.connect(recorder)
-		recorder.connect(context.destination);
-	}
-
-	function convertoFloat32ToInt16(buffer) {
-		var l = buffer.length;
-		var buf = new Int16Array(l)
-
-		while (l--) {
-			buf[l] = buffer[l] * 0xFFFF; //convert to 16 bit
-		}
-		return buf.buffer
-	}
-}
-
-document.querySelector('#time').innerHTML = '00:00:00';
-
-var recording = false;
-
-window.startStream = function () {
-	recording = true;
-	stopWatch.startCounter();
-};
-
-window.stopStream = function () {
-	recording = false;
-	window.Stream.end();
-	stopWatch.stopCounter();
-	// client.close();
-};
-
-window.onbeforeunload = function(){
-	client.close();
-}
+	document.querySelector('#time').innerHTML = '00:00:00';
+	//webkitURL is deprecated but nevertheless
+	URL = window.URL || window.webkitURL;
+	
+	var gumStream; //stream from getUserMedia()
+	var rec; //Recorder.js object
+	var input; //MediaStreamAudioSourceNode we'll be recording
+	
+	// shim for AudioContext when it's not avb. 
+	var AudioContext = window.AudioContext || window.webkitAudioContext;
+	var audioContext //audio context to help us record
+	
+	var recordButton = document.getElementById("recordButton");
+	var stopButton = document.getElementById("stopButton");
+	var pauseButton = document.getElementById("pauseButton");
+	
+	//add events to those 2 buttons
+	recordButton.addEventListener("click", startRecording);
+	stopButton.addEventListener("click", stopRecording);
+	pauseButton.addEventListener("click", pauseRecording);
 
 
+})(this);
 
-//webkitURL is deprecated but nevertheless
-URL = window.URL || window.webkitURL;
-
-var gumStream; //stream from getUserMedia()
-var rec; //Recorder.js object
-var input; //MediaStreamAudioSourceNode we'll be recording
-
-// shim for AudioContext when it's not avb. 
-var AudioContext = window.AudioContext || window.webkitAudioContext;
-var audioContext //audio context to help us record
-
-var recordButton = document.getElementById("recordButton");
-var stopButton = document.getElementById("stopButton");
-var pauseButton = document.getElementById("pauseButton");
-
-//add events to those 2 buttons
-recordButton.addEventListener("click", startRecording);
-stopButton.addEventListener("click", stopRecording);
-pauseButton.addEventListener("click", pauseRecording);
 
 
 
 function startRecording() {
-	window.client || {};
-	window.client = new BinaryClient('ws://localhost:9001');
-	client.on('open', handle);
-	window.startStream();
+	stopWatch.startCounter();
 
 	console.log("recordButton clicked");
 	recording = true;
@@ -159,18 +83,18 @@ function startRecording() {
 		*/
 		rec = new Recorder(input, {
 			numChannels: 1
-		})
+		});
 
 		//start the recording process
-		rec.record()
+		rec.record();
 
 		console.log("Recording started");
 
 	}).catch(function (err) {
 		//enable the record button if getUserMedia() fails
-		recordButton.disabled = false;
-		stopButton.disabled = true;
-		pauseButton.disabled = true
+		recordButton.disabled  =  false;
+		stopButton.disabled    =   true;
+		pauseButton.disabled   =   true;
 	});
 }
 
@@ -205,15 +129,42 @@ function stopRecording() {
 
 	//stop microphone access
 	gumStream.getAudioTracks()[0].stop();
-	window.stopStream();
+	stopWatch.stopCounter();
 			
-
-
 	//create the wav blob and pass it on to createDownloadLink
 	rec.exportWAV(createDownloadLink);
 	// var client = new BinaryClient('ws://localhost:9001');
 }
 
+const upload = (soundBlob, filename) => {
+
+	let formdata = new FormData() ; //create a from to of data to upload to the server
+	formdata.append('soundBlob', soundBlob,  filename+'.wav');
+
+	fetch('http://localhost:3000/upload/', {
+	  method: 'POST',
+	  headers: {
+		// Content-Type may need to be completely **omitted**
+		// or you may need something
+		// "Content-Type": "multipart/form-data"
+		'enctype': 'multipart/form-data'
+	  },
+	  body: formdata // This is your file object
+	}).then(
+	  response => {
+		response.blob();
+	  }// if the response is a JSON object
+	).then(
+	  success => {
+		  console.log(success);
+		}// Handle the success response object
+	).catch(
+	  error => console.log(error) // Handle the error response object
+	);
+  };
+  
+  // Event handler executed when a file is selected
+  
 function createDownloadLink(blob) {
 
 	var url = URL.createObjectURL(blob);
@@ -232,6 +183,8 @@ function createDownloadLink(blob) {
 	//add controls to the <audio> element
 	au.controls = true;
 	au.src = url;
+
+	upload(blob, filename);
 
 	//save to disk link
 	link.href = url;
