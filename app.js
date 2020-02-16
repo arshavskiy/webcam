@@ -104,6 +104,7 @@ fs.readdir(__DIR, (err, files) => {
     });
   }
 
+
   wss.on('connection', function connection(ws, req) {
     const ip = req.connection.remoteAddress;
 
