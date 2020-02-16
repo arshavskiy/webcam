@@ -23,28 +23,23 @@ app.use(express.urlencoded({
 }));
 app.use(cookieParser());
 
+app.get('/read', function (req, res) {
+  res.send('POST request to the homepage');
+});
+let counter = 0;
+// catch 404 and forward to error handler
+
+const __DIR = path.join(__dirname, 'public');
+
+app.use('/', express.static(__DIR));
+app.use('/admin', express.static(__DIR));
+app.use('/chat', express.static(__DIR));
+app.use('/users', express.static(__DIR));
+
 app.use('/', usersRouter);
 app.use('/users', usersRouter);
 app.use('/chat/', chatRouter);
 app.use('/admin/', adminRouter);
-
-app.get('/read', function (req, res) {
-
-  res.send('POST request to the homepage');
-});
-
-let counter = 0;
-
-// catch 404 and forward to error handler
-
-
-
-
-
-app.use('/', express.static(path.join(__dirname, 'public')));
-app.use('/admin', express.static(path.join(__dirname, 'public')));
-app.use('/chat', express.static(path.join(__dirname, 'public')));
-app.use('/users', express.static(path.join(__dirname, 'public')));
 
 app.use(function (req, res, next) {
   next(createError(404));
@@ -87,53 +82,60 @@ const wss = new WebSocket.Server({
   }
 });
 
-const messages = {};
-const messagesAll = [];
-const DIR = path.join(__dirname, 'public');
+let messages = {};
+let messagesAll = [];
+let textedMsgs;
+
+
+fs.readdir(__DIR, (err, files)=> {
+  let fileDate = [];
+  files = files.join(',');
+  if (files.includes('messages')){
+    let data = fs.readFileSync(__DIR + '/messages.txt', 'utf8');
+    textedMsgs = data.split('_EOL_');
+  } else {
+    fs.writeFile(__DIR +'/messages.txt','',err =>{
+      if (err) throw err;
+      console.log('File is created successfully.');
+    });
+  }
 
 wss.on('connection', function connection(ws, req) {
   const ip = req.connection.remoteAddress;
 
+    console.log(textedMsgs);
 
-  let data = fs.readFileSync(DIR + '/messages.txt', 'utf8');
-  textedMsgs = data.split('_EOL_');
-  console.log(textedMsgs);
-
-  wss.clients.forEach(function each(client) {
-    if (client == ws && client.readyState === WebSocket.OPEN) {
-      client.send(wss.clients.size - 1, 'connection opened');
-      if (textedMsgs.length>0){
+    wss.clients.forEach(function each(client) {
+      if (client == ws && client.readyState === WebSocket.OPEN) {
+        client.send(wss.clients.size - 1, 'connection opened');
+        if (textedMsgs.length>0){
           textedMsgs.forEach( msg=>{
             client.send(msg);
           });
+        }
+        // if (messagesAll.length > 0){
+        //   messagesAll.forEach( msg=>{
+        //     client.send(msg);
+        //   });
+        // }
+
+        console.log(wss.clients.size - 1 , ' connection opened' );
       }
-      // if (messagesAll.length > 0){
-      //   messagesAll.forEach( msg=>{
-      //     client.send(msg);
-      //   });
-      // }
-     
-      console.log(wss.clients.size - 1 , ' connection opened' );
-    }
-  });
+    });
 
   ws.on('message', function incoming(message) {
-
     if ( Object.keys(messages)!= ip){
       messages[ip] = [];
     }
     messages[ip].push(message);
     // messagesAll.push(ip + ' : ' + message);
-   
-    fs.appendFile(DIR + '/messages.txt', ip + ' : ' + message + '_EOL_ \r\n', function (err) {
+    fs.appendFile(__DIR + '/messages.txt', ip + ' : ' + message + '_EOL_ \r\n', function (err) {
       if (err) throw err;
       console.log('Saved!');
     });
 
-
     wss.clients.forEach(function each(client) {
       if (client.readyState === WebSocket.OPEN) {
-       
         console.log('received: %s', messages[ip]);
         client.send(ip + ' : ' + message);
       }
@@ -144,6 +146,13 @@ wss.on('connection', function connection(ws, req) {
   ws.on('open', function open() {
     ws.send('open something');
   });
+
+});
+
+
+
+
+
 
 
 });

@@ -3,7 +3,7 @@ var router = express.Router();
 var path = require('path');
 var fs = require('fs');
 
-const DIR = 'd:\\web\\stream\\public\\records';
+const DIR = path.join(__dirname, "..", 'public/records');
 
 function getFilesizeInBytes(filename) {
   const stats = fs.statSync(path.join(DIR, filename));
