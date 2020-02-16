@@ -10,7 +10,6 @@ const multer = require('multer'); //use multer to upload blob data
 const upload = multer(); // set multer to be the upload variable (just like express, see above ( include it, then use it/set it up))
 
 const indexRouter = require('./routes/index');
-const chatRouter = require('./routes/chat');
 const usersRouter = require('./routes/users');
 const adminRouter = require('./routes/admin');
 
