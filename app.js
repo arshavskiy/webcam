@@ -32,17 +32,11 @@ const __DIR = path.join(__dirname, 'public');
 
 app.use('/', express.static(__DIR));
 app.use('/admin', express.static(__DIR));
-app.use('/chat', express.static(__DIR));
-app.use('/users', express.static(__DIR));
 
 app.use('/', usersRouter);
-app.use('/users', usersRouter);
-app.use('/chat/', chatRouter);
 app.use('/admin/', adminRouter);
 
-
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
-  // console.log(req.file); // see what got uploaded
   let uploadLocation = __DIR + '\\records\\' + req.file.originalname // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
     console.log('4 wrote to file ' + req.file.originalname);
