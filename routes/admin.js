@@ -3,6 +3,10 @@ var router = express.Router();
 var path = require('path');
 var fs = require('fs');
 
+        // Do whatever you want to do with the file
+
+router.get('/', function (req, res, next) {
+    
 const DIR = path.join(__dirname, "..", 'public/records');
 
 function getFilesizeInBytes(filename) {
@@ -32,9 +36,7 @@ if (files.length) {
         }
     });
 }
-        // Do whatever you want to do with the file
 
-router.get('/', function (req, res, next) {
     console.log('files: ', files);
     console.log('date: ', fileDate);
     res.render('admin', {title: 'Express', records: bigfiles.reverse(), date: fileDate.reverse()});
