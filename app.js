@@ -5,6 +5,7 @@ const cookieParser = require('cookie-parser');
 const logger = require('morgan');
 const wav = require('wav');
 const app = express();
+const fs = require('fs');
 
 const indexRouter = require('./routes/index');
 const chatRouter = require('./routes/chat');
@@ -87,19 +88,29 @@ const wss = new WebSocket.Server({
 
 const messages = {};
 const messagesAll = [];
+const DIR = path.join(__dirname, 'public');
 
 wss.on('connection', function connection(ws, req) {
   const ip = req.connection.remoteAddress;
 
+
+  let data = fs.readFileSync(DIR + '/messages.txt', 'utf8');
+  textedMsgs = data.split('_EOL_');
+  console.log(textedMsgs);
+
   wss.clients.forEach(function each(client) {
     if (client == ws && client.readyState === WebSocket.OPEN) {
       client.send(wss.clients.size - 1, 'connection opened');
-
-      if (messagesAll.length > 0){
-        messagesAll.forEach( msg=>{
-          client.send(msg);
-        });
+      if (textedMsgs.length>0){
+          textedMsgs.forEach( msg=>{
+            client.send(msg);
+          });
       }
+      // if (messagesAll.length > 0){
+      //   messagesAll.forEach( msg=>{
+      //     client.send(msg);
+      //   });
+      // }
      
       console.log(wss.clients.size - 1 , ' connection opened' );
     }
@@ -111,7 +122,12 @@ wss.on('connection', function connection(ws, req) {
       messages[ip] = [];
     }
     messages[ip].push(message);
-    messagesAll.push(ip + ' : ' + message);
+    // messagesAll.push(ip + ' : ' + message);
+   
+    fs.appendFile(DIR + '/messages.txt', ip + ' : ' + message + '_EOL_ \r\n', function (err) {
+      if (err) throw err;
+      console.log('Saved!');
+    });
 
 
     wss.clients.forEach(function each(client) {

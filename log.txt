@@ -8949,3 +8949,466 @@ file mtime: 06.1.2020 22:39
 file size: 1306668
 file mtime: 06.1.2020 22:49
 0 ' connection opened'
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+{ Error: listen EADDRINUSE :::8080
+    at Server.setupListenHandle [as _listen2] (net.js:1286:14)
+    at listenInCluster (net.js:1334:12)
+    at Server.listen (net.js:1421:7)
+    at new WebSocketServer (D:\Web\stream\node_modules\ws\lib\websocket-server.js:75:20)
+    at Object.<anonymous> (D:\Web\stream\app.js:65:13)
+    at Module._compile (internal/modules/cjs/loader.js:688:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:699:10)
+    at Module.load (internal/modules/cjs/loader.js:598:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:537:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:529:3)
+  errno: 'EADDRINUSE',
+  code: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8080 }
+listening on *:3000
+0 ' connection opened'
+[0mGET /? [32m200 [0m336.071 ms - 914[0m
+[0mGET /stylesheets/style.css [36m304 [0m2.037 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.996 ms - 401452[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.362 ms - -[0m
+[0mGET /? [36m304 [0m17.911 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.300 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.274 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m10.845 ms - 1222[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m35.139 ms - 1516[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.935 ms - -[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.480 ms - 3232[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.343 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.425 ms - -[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [36m304 [0m29.165 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.522 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.277 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.341 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.439 ms - -[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [36m304 [0m25.999 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.486 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.354 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.433 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.355 ms - -[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [36m304 [0m22.377 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.447 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.580 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.696 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.816 ms - -[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [36m304 [0m20.764 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.563 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.487 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.442 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.533 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.370 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.727 ms - 105426[0m
+[0mGET /? [36m304 [0m12.893 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.294 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.379 ms - -[0m
+[0mGET / [32m200 [0m16.373 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.625 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.523 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.541 ms - 401452[0m
+1 ' connection opened'
+[0mGET /favicon.ico [33m404 [0m7.723 ms - 1222[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m23.373 ms - 1516[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.897 ms - 3232[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.997 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.515 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.447 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.686 ms - 401452[0m
+2 ' connection opened'
+received: ASD A DAS A
+received: ASD A DAS A
+received: ASD A DAS A
+received: ASD A DAS A,d as das as d adsf asdf a
+received: ASD A DAS A,d as das as d adsf asdf a
+received: ASD A DAS A,d as das as d adsf asdf a
+[0mGET / [32m200 [0m11.309 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.601 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.577 ms - 811[0m
+2 ' connection opened'
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.606 ms - 401452[0m
+[0mGET / [32m200 [0m12.808 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.505 ms - 3232[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.561 ms - 811[0m
+2 ' connection opened'
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.648 ms - 401452[0m
+[0mGET /favicon.ico [33m404 [0m4.853 ms - 1222[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m23.594 ms - 1516[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.715 ms - 3232[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.482 ms - 1590[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.931 ms - 811[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.887 ms - 7600[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.587 ms - 401452[0m
+2 ' connection opened'
+[0mGET /favicon.ico [33m404 [0m6.353 ms - 1222[0m
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m14.093 ms - 1516[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.823 ms - 3232[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.297 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.343 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.280 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.529 ms - 401452[0m
+2 ' connection opened'
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m10.817 ms - 1516[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m3.651 ms - 3232[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m3.208 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m2.271 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m2.066 ms - 811[0m
+2 ' connection opened'
+[0mGET /favicon.ico [33m404 [0m6.100 ms - 1222[0m
+[0mGET /chat/ [32m200 [0m4.009 ms - 415[0m
+[0mGET /chat/stylesheets/chat.css [32m200 [0m0.696 ms - 680[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.538 ms - 811[0m
+2 ' connection opened'
+listening on *:3000
+0 ' connection opened'
+[0mGET / [32m200 [0m338.462 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m3.050 ms - 2902[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.162 ms - 401452[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.626 ms - 811[0m
+1 ' connection opened'
+[0mGET /favicon.ico [33m404 [0m12.133 ms - 1222[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.640 ms - 73772[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.482 ms - 106540[0m
+[0mGET / [32m200 [0m31.810 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.221 ms - 2902[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.340 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.512 ms - 401452[0m
+1 ' connection opened'
+[0mGET / [32m200 [0m26.616 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.306 ms - 2902[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.533 ms - 811[0m
+1 ' connection opened'
+listening on *:3000
+0 ' connection opened'
+[0mGET / [32m200 [0m344.180 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m6.158 ms - 2933[0m
+[0mGET /javascripts/chat.js [32m200 [0m3.361 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.038 ms - 401452[0m
+1 ' connection opened'
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m33.410 ms - 1516[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m2.080 ms - 2933[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m2.576 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m2.824 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.919 ms - 811[0m
+1 ' connection opened'
+[0mGET / [32m200 [0m25.494 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.979 ms - 2933[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.827 ms - 811[0m
+1 ' connection opened'
+listening on *:3000
+0 ' connection opened'
+[0mGET / [32m200 [0m340.240 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m4.604 ms - 2933[0m
+[0mGET /javascripts/chat.js [32m200 [0m2.356 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.069 ms - 401452[0m
+1 ' connection opened'
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m40.119 ms - 1522[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m2.200 ms - 2933[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m2.558 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.355 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.401 ms - 811[0m
+1 ' connection opened'
+received: asdsadasdasda
+received: asdsadasdasda
+listening on *:3000
+0 ' connection opened'
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m362.744 ms - 1522[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m6.345 ms - 3021[0m
+[0mGET /javascripts/recorder.js [32m200 [0m4.401 ms - 7600[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m4.644 ms - 1590[0m
+[0mGET /javascripts/chat.js [32m200 [0m4.297 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.991 ms - 401452[0m
+1 ' connection opened'
+received: sa dsa 
+received: sa dsa 
+received: sa dsa ,a sdsa d
+received: sa dsa ,a sdsa d
+2 ' connection opened'
+[0mGET /admin/stylesheets/style.css [36m304 [0m1.309 ms - -[0m
+[0mGET / [32m200 [0m25.623 ms - 914[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.891 ms - 3021[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.785 ms - 811[0m
+2 ' connection opened'
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m44.945 ms - 1522[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.016 ms - 3043[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.542 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.760 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.959 ms - 811[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.667 ms - 401452[0m
+2 ' connection opened'
+files:  [ '15.1__1581802277448.wav' ]
+date:  [ '06.1.2020 23:31' ]
+[0mGET /admin/ [32m200 [0m29.398 ms - 1522[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.771 ms - 3043[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.721 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.716 ms - 7600[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.476 ms - 811[0m
+2 ' connection opened'

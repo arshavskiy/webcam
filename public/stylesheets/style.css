@@ -1,29 +1,3 @@
-div#call {
-  position: relative;
-  display: block;
-  margin: 0 auto;
-  width: 500px;
-  height: 500px;
-}
-
-video {
-  background: black;
-  border: 1px solid gray;
-}
-
-video#local {
-  width: 150px;
-  height: 150px;
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-video#remote {
-  width: 500px;
-  height: 500px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -39,7 +13,7 @@ form {
   padding: 3px;
   position: fixed;
   bottom: 0;
-  width: 28em;
+  width: 100%;
   display: flex;
 }
 
@@ -59,7 +33,8 @@ form button {
 #messages {
   list-style-type: none;
   position: absolute;
-  width: 28em;
+  width: 90%;
+  margin-left: calc(5% - 5px);
   bottom: 50px;
   padding: 0;
   background: lightseagreen;
@@ -184,7 +159,7 @@ li {
 }
 
 #recordingsList{
-  max-width: 28em;
+  width: 100%;;
   height: 280px;
   overflow-x: scroll;
 }
@@ -210,7 +185,8 @@ li {
 main{
   display: flex;
   flex-direction: column;
-  max-width: 28em;
+  width: 100%;
+  padding: 5px;
   margin: 0 auto;
 }
 
@@ -224,4 +200,16 @@ main{
 
 #recordButton{
   color: #fff;
+}
+
+section#form{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  margin-left: -5px;
+}
+
+section#form input{
+  width: 80%;
 }
