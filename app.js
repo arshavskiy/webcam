@@ -28,7 +28,8 @@ app.use('/users', usersRouter);
 app.use('/chat/', chatRouter);
 app.use('/admin/', adminRouter);
 
-app.post('/save', function (req, res) {
+app.get('/read', function (req, res) {
+
   res.send('POST request to the homepage');
 });
 
@@ -88,7 +89,7 @@ const wss = new WebSocket.Server({
 
 const messages = {};
 const messagesAll = [];
-const DIR = path.join(__dirname, 'public');
+
 
 wss.on('connection', function connection(ws, req) {
   const ip = req.connection.remoteAddress;

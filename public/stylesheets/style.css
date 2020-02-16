@@ -41,7 +41,8 @@ form button {
   border: solid 1px;
   border-radius: 6px;
   height: 150px;
-  overflow: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #messages li {
@@ -161,7 +162,8 @@ li {
 #recordingsList{
   width: 100%;;
   height: 280px;
-  overflow-x: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #users #recordingsList{
