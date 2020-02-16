@@ -89,7 +89,7 @@ const wss = new WebSocket.Server({
 
 const messages = {};
 const messagesAll = [];
-
+const DIR = path.join(__dirname, 'public');
 
 wss.on('connection', function connection(ws, req) {
   const ip = req.connection.remoteAddress;
