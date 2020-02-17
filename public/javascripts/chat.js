@@ -5,7 +5,7 @@
   const senMsg = document.querySelector('button#msgAction');
   // Connection opened
   ws.addEventListener('open', function (event) {
-    ws.send('Hello Server!');
+    ws.send('Hello Server from clinet!', event);
     senMsg.addEventListener('click', e => {
       e.preventDefault(); // prevents page reloading
       if (msgBox.value) {
@@ -20,5 +20,5 @@
   ws.addEventListener('message', function (event) {
     console.log('Message from server ', event.data);
     $('#messages').append($('<li>').text(event.data));
-    msgBoard.scrollTop = msgBoard.scrollHeight;
+    msgBoard.scrollTop = window.scrollHeight;
   });

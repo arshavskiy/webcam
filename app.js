@@ -67,7 +67,7 @@ app.use(function (err, req, res, next) {
 
 
 const WebSocket = require('ws');
-const ws = new WebSocket('ws://localhost:8080');
+// const ws = new WebSocket('ws://f19ba7e5.ngrok.io:8080');
 const wss = new WebSocket.Server({
   port: 8080,
   perMessageDeflate: {
@@ -160,6 +160,30 @@ fs.readdir(__DIR, (err, files) => {
   });
 });
 
+
+function noop() {}
+
+function heartbeat() {
+  this.isAlive = true;
+}
+
+wss.on('connection', function connection(ws) {
+  ws.isAlive = true;
+  ws.on('pong', heartbeat);
+});
+
+const interval = setInterval(function ping() {
+  wss.clients.forEach(function each(ws) {
+    if (ws.isAlive === false) return ws.terminate();
+
+    ws.isAlive = false;
+    ws.ping(noop);
+  });
+}, 30000);
+
+wss.on('close', function close() {
+  clearInterval(interval);
+});
 
 
 // const BinaryServer = require('binaryjs').BinaryServer;
