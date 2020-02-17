@@ -13,6 +13,7 @@ const upload = multer(); // set multer to be the upload variable (just like expr
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const adminRouter = require('./routes/admin');
+const chatRouter = require('./routes/chat');
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -32,9 +33,11 @@ let counter = 0;
 const __DIR = path.join(__dirname, 'public');
 
 app.use('/', express.static(__DIR));
+app.use('/test', express.static(__DIR));
 app.use('/admin', express.static(__DIR));
 
 app.use('/', usersRouter);
+app.use('/test', chatRouter);
 app.use('/admin/', adminRouter);
 
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {

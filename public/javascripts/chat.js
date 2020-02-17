@@ -5,15 +5,16 @@
   const senMsg = document.querySelector('button#msgAction');
   // Connection opened
   ws.addEventListener('open', function (event) {
-    // ws.send('Hello Server!');
-    senMsg.addEventListener('click', e => {
-      e.preventDefault(); // prevents page reloading
-      if (msgBox.value) {
-        ws.send(msgBox.value);
-        msgBox.value = '';
-      }
-      return false;
-    });
+    ws.send('Hello Server!');
+  });
+
+  senMsg.addEventListener('click', e => {
+    e.preventDefault(); // prevents page reloading
+    if (msgBox.value) {
+      ws.send(msgBox.value);
+      msgBox.value = '';
+    }
+    return false;
   });
 
   // Listen for messages
