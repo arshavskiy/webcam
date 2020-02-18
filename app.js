@@ -43,7 +43,7 @@ app.use('/admin/', adminRouter);
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
   let uploadLocation = __DIR + '\\records\\' + req.file.originalname // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
-    console.log('4 wrote to file ' + req.file.originalname);
+    console.log('wrote to file ' + req.file.originalname);
     res.sendStatus(200);
   });
 
@@ -69,7 +69,7 @@ app.use(function (err, req, res, next) {
 const WebSocket = require('ws');
 // const ws = new WebSocket('ws://f19ba7e5.ngrok.io:8080');
 const wss = new WebSocket.Server({
-  port: 8080,
+  port: 8443,
   perMessageDeflate: {
     zlibDeflateOptions: {
       // See zlib defaults.

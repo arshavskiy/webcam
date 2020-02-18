@@ -1,4 +1,4 @@
-  const ws = new WebSocket('ws://localhost:8080');
+  const ws = new WebSocket('ws://localhost:8443');
 
   const msgBoard = document.querySelector("ul#messages");
   const msgBox = document.querySelector('input');

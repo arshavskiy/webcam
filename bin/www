@@ -7,7 +7,14 @@
 var app = require('../app');
 var debug = require('debug')('app2:server');
 var http = require('http');
+const https = require('https');
+const fs = require('fs');
 
+
+const options = {
+  key: fs.readFileSync('openssl/key.pem'),
+  cert: fs.readFileSync('openssl/cert.pem')
+};
 
 /**
  * Get port from environment and store in Express.
@@ -20,19 +27,17 @@ app.set('port', port);
  * Create HTTP server.
  */
 
-var server = http.createServer(app);
-
-
-
+var httpServer = http.createServer(app);
+var httpsServer = https.createServer(options, app);
 
 /**
  * Listen on provided port, on all network interfaces.
  */
-server.listen(port, function(){
+httpServer.listen(port, function(){
   console.log('listening on *:' + port);
 });
-server.on('error', onError);
-server.on('listening', onListening);
+httpServer.on('error', onError);
+httpServer.on('listening', onListening);
 
 
 /**
@@ -88,7 +93,7 @@ function onError(error) {
  */
 
 function onListening() {
-  var addr = server.address();
+  var addr = httpServer.address();
   var bind = typeof addr === 'string'
     ? 'pipe ' + addr
     : 'port ' + addr.port;
