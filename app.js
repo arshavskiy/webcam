@@ -69,7 +69,7 @@ app.use(function (err, req, res, next) {
 const WebSocket = require('ws');
 // const ws = new WebSocket('ws://f19ba7e5.ngrok.io:8080');
 const wss = new WebSocket.Server({
-  port: 8443,
+  port: 8080,
   perMessageDeflate: {
     zlibDeflateOptions: {
       // See zlib defaults.
