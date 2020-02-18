@@ -6,14 +6,13 @@ head
     link(rel='stylesheet', href='./stylesheets/chat.css')
     script(src='https://code.jquery.com/jquery-1.11.1.js')
     script(language='javascript' type='text/javascript').
-        var wsUri = "wss://echo.websocket.org/";
         var output;
         function init() {
             output = document.getElementById("output");
             testWebSocket();
         }
         function testWebSocket() {
-            websocket = new WebSocket(wsUri);
+            websocket = new WebSocket('wss://echo.websocket.org/');
             websocket.onopen = function (evt) {
                 onOpen(evt)
             };

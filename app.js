@@ -66,124 +66,32 @@ app.use(function (err, req, res, next) {
 });
 
 
-const WebSocket = require('ws');
+// const WebSocket = require('ws');
 // const ws = new WebSocket('ws://f19ba7e5.ngrok.io:8080');
-const wss = new WebSocket.Server({
-  port: 8080,
-  perMessageDeflate: {
-    zlibDeflateOptions: {
-      // See zlib defaults.
-      chunkSize: 1024,
-      memLevel: 7,
-      level: 3
-    },
-    zlibInflateOptions: {
-      chunkSize: 10 * 1024
-    },
-    // Other options settable:
-    clientNoContextTakeover: true, // Defaults to negotiated value.
-    serverNoContextTakeover: true, // Defaults to negotiated value.
-    serverMaxWindowBits: 10, // Defaults to negotiated value.
-    // Below options specified as default values.
-    concurrencyLimit: 10, // Limits zlib concurrency for perf.
-    threshold: 1024 // Size (in bytes) below which messages
-    // should not be compressed.
-  }
-});
-
-let messages = {};
-let messagesAll = [];
-let textedMsgs;
+// const wss = new WebSocket.Server({
+//   port: 8080,
+//   perMessageDeflate: {
+//     zlibDeflateOptions: {
+//       // See zlib defaults.
+//       chunkSize: 1024,
+//       memLevel: 7,
+//       level: 3
+//     },
+//     zlibInflateOptions: {
+//       chunkSize: 10 * 1024
+//     },
+//     // Other options settable:
+//     clientNoContextTakeover: true, // Defaults to negotiated value.
+//     serverNoContextTakeover: true, // Defaults to negotiated value.
+//     serverMaxWindowBits: 10, // Defaults to negotiated value.
+//     // Below options specified as default values.
+//     concurrencyLimit: 10, // Limits zlib concurrency for perf.
+//     threshold: 1024 // Size (in bytes) below which messages
+//     // should not be compressed.
+//   }
+// });
 
 
-fs.readdir(__DIR, (err, files) => {
-  let fileDate = [];
-  files = files.join(',');
-  if (files.includes('messages')) {
-    let data = fs.readFileSync(__DIR + '/messages.txt', 'utf8');
-    textedMsgs = data.split('_EOL_');
-  } else {
-    fs.writeFile(__DIR + '/messages.txt', '', err => {
-      if (err) throw err;
-      console.log('File is created successfully.');
-    });
-  }
-
-
-  wss.on('connection', function connection(ws, req) {
-    const ip = req.connection.remoteAddress;
-
-    console.log(textedMsgs);
-
-    wss.clients.forEach(function each(client) {
-      if (client == ws && client.readyState === WebSocket.OPEN) {
-        client.send(wss.clients.size - 1, 'connection opened');
-        if (textedMsgs.length > 0) {
-          textedMsgs.forEach(msg => {
-            client.send(msg);
-          });
-        }
-        // if (messagesAll.length > 0){
-        //   messagesAll.forEach( msg=>{
-        //     client.send(msg);
-        //   });
-        // }
-
-        console.log(wss.clients.size - 1, ' connection opened');
-      }
-    });
-
-    ws.on('message', function incoming(message) {
-      if (Object.keys(messages) != ip) {
-        messages[ip] = [];
-      }
-      messages[ip].push(message);
-      // messagesAll.push(ip + ' : ' + message);
-      fs.appendFile(__DIR + '/messages.txt', ip + ' : ' + message + '_EOL_ \r\n', function (err) {
-        if (err) throw err;
-        console.log('Saved!');
-      });
-
-      wss.clients.forEach(function each(client) {
-        if (client.readyState === WebSocket.OPEN) {
-          console.log('received: %s', messages[ip]);
-          client.send(ip + ' : ' + message);
-        }
-
-      });
-    });
-
-    ws.on('open', function open() {
-      ws.send('open something');
-    });
-
-  });
-});
-
-
-function noop() {}
-
-function heartbeat() {
-  this.isAlive = true;
-}
-
-wss.on('connection', function connection(ws) {
-  ws.isAlive = true;
-  ws.on('pong', heartbeat);
-});
-
-const interval = setInterval(function ping() {
-  wss.clients.forEach(function each(ws) {
-    if (ws.isAlive === false) return ws.terminate();
-
-    ws.isAlive = false;
-    ws.ping(noop);
-  });
-}, 30000);
-
-wss.on('close', function close() {
-  clearInterval(interval);
-});
 
 
 // const BinaryServer = require('binaryjs').BinaryServer;

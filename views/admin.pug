@@ -21,12 +21,11 @@ block content
               a(href="/records/" + r download="playlist.wav") Save to disk  
 
     ul#messages
-    section#form
-      input#m(autocomplete='off')
-      button#msgAction Send
+      each m, inedx in mesages
+        li= m
 
   //- script(src="https://cdn.jsdelivr.net/binaryjs/0.2.1/binary.min.js")
   //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
   script(src="/javascripts/stopwatch.js")
   script(src="/javascripts/recorder.js")
-  script(src='/javascripts/chat.js')
+  //- script(src='/javascripts/chat.js')
