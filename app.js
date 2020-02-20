@@ -60,7 +60,7 @@ app.use('/test', chatRouter);
 app.use('/admin/', adminRouter);
 
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
-  let uploadLocation = __DIR + '\\records\\' + req.file.originalname // where to save the file to. make sure the incoming name has a .wav extension
+  let uploadLocation = __DIR + '\\records\\' + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
     console.log('wrote to file ' + req.file.originalname);
     res.sendStatus(200);

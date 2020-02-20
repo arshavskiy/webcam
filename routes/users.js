@@ -1,21 +1,23 @@
-var express = require('express');
-var router = express.Router();
-var path = require('path');
-var fs = require('fs');
+const express = require('express');
+const router = express.Router();
+const path = require('path');
+const fs = require('fs');
 
-const { initUsers } = require('../server/utils');
+const {
+    initUsers
+} = require('../server/utils');
 
 function handleFn(req, res, next) {
 
-  initUsers().then( payload => {
+    initUsers().then(payload => {
 
-    res.render('users', {
-      title: 'Express',
-      records: payload.bigfiles.reverse(),
-      date: payload.fileDate.reverse()
+        res.render('users', {
+            title: 'Express',
+            records: payload.bigfiles.reverse(),
+            date: payload.fileDate.reverse()
+        });
+
     });
-
-  });
 
 }
 

@@ -3,20 +3,19 @@ const router = express.Router();
 const path = require('path');
 const fs = require('fs');
 
-const { initAdmin } = require('../server/utils');
-// Do whatever you want to do with the file
+const {
+    initAdmin
+} = require('../server/utils');
 
 function handleFn(req, res, next) {
-    
-    initAdmin().then( payload => {
+
+    initAdmin().then(payload => {
 
         res.render('admin', {
-
             title: 'Express',
             records: payload.bigfiles.reverse(),
             date: payload.fileDate.reverse(),
             mesages: payload.textedMsgs
-
         });
 
     });
