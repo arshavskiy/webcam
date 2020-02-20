@@ -1,2 +1,4 @@
 node_modules
 log.txt
+public/records
+public/messages.txt
