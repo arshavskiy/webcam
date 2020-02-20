@@ -9412,3 +9412,547 @@ date:  [ '06.1.2020 23:31' ]
 [0mGET /javascripts/recorder.js [32m200 [0m1.716 ms - 7600[0m
 [0mGET /javascripts/chat.js [32m200 [0m1.476 ms - 811[0m
 2 ' connection opened'
+listening on *:3000
+[0mGET / [32m200 [0m312.410 ms - 1643[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.430 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.436 ms - -[0m
+[
+  '::1 : good morning!!!',
+  ' \r\n::1 : asdas das ',
+  ' \r\n::1 : asd asd asd asd ',
+  ' \r\n::1 :  asd asd asd ',
+  ' \r\n::1 :  as das d',
+  ' \r\n::1 :  asd asd as',
+  ' \r\n::1 : xzcxzc zxc xz',
+  ' \r\n::1 : asdf asdf dsf ',
+  ' \r\n::1 : as dsad',
+  ' \r\n::1 : sdas dasd asd ',
+  ' \r\n::1 : asd asd asd as das d',
+  ' \r\n::1 :  sad sad asd asd asd ',
+  ' \r\n::1 : as dasd ',
+  ' \r\n::1 : asd asd f asdf asdf asdf asdf a',
+  ' \r\n::1 : asdasdsadadsad',
+  ' \r\n::1 : asdsadasda',
+  ' \r\n::1 : asdadasda',
+  ' \r\n::1 : asdasdasdasda',
+  ' \r\n::1 : s asd asd ',
+  ' \r\n::1 :  asd asd asd',
+  ' \r\n::1 :  asd asd asd ',
+  ' \r\n::1 : sd fsd fds ',
+  ' \r\n::1 : as as asd a fasd fas fa',
+  ' \r\n::1 : aaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+  ' \r\n::1 : good morning',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : sa dsa dsa d',
+  ' \r\n::1 : zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz',
+  ' \r\n::1 : aaaaaaaaaaaaaaaa',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : sadsadad',
+  ' \r\n::1 : asdsadasd asd ',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : lkj;lkjm;lkjm;lkm',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Halll',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ... 7 more items
+]
+0  connection opened
+received: [ 'Hello Server from clinet!' ]
+Saved!
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.392 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.512 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.364 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.286 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.376 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m2.035 ms - 73772[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.844 ms - 196316[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.583 ms - 102562[0m
+received: [ 'Hello Server from clinet!', 'Hhhhhhh' ]
+Saved!
+received: [ 'Hello Server from clinet!', 'Hhhhhhh', 'Its wwwww' ]
+Saved!
+[0mGET / [32m200 [0m23.039 ms - 1643[0m
+[0mGET /favicon.ico [33m404 [0m14.926 ms - 1412[0m
+[0mGET /admin [36m301 [0m1.103 ms - 177[0m
+[0mGET /admin/ [32m200 [0m34.263 ms - 7042[0m
+[0mGET /favicon.ico [33m404 [0m10.299 ms - 1412[0m
+[0mGET /admin [36m301 [0m0.441 ms - 177[0m
+[0mGET /admin/ [32m200 [0m27.709 ms - 7042[0m
+[0mGET / [36m304 [0m13.719 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.286 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.357 ms - -[0m
+[
+  '::1 : good morning!!!',
+  ' \r\n::1 : asdas das ',
+  ' \r\n::1 : asd asd asd asd ',
+  ' \r\n::1 :  asd asd asd ',
+  ' \r\n::1 :  as das d',
+  ' \r\n::1 :  asd asd as',
+  ' \r\n::1 : xzcxzc zxc xz',
+  ' \r\n::1 : asdf asdf dsf ',
+  ' \r\n::1 : as dsad',
+  ' \r\n::1 : sdas dasd asd ',
+  ' \r\n::1 : asd asd asd as das d',
+  ' \r\n::1 :  sad sad asd asd asd ',
+  ' \r\n::1 : as dasd ',
+  ' \r\n::1 : asd asd f asdf asdf asdf asdf a',
+  ' \r\n::1 : asdasdsadadsad',
+  ' \r\n::1 : asdsadasda',
+  ' \r\n::1 : asdadasda',
+  ' \r\n::1 : asdasdasdasda',
+  ' \r\n::1 : s asd asd ',
+  ' \r\n::1 :  asd asd asd',
+  ' \r\n::1 :  asd asd asd ',
+  ' \r\n::1 : sd fsd fds ',
+  ' \r\n::1 : as as asd a fasd fas fa',
+  ' \r\n::1 : aaaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+  ' \r\n::1 : good morning',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : sa dsa dsa d',
+  ' \r\n::1 : zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz',
+  ' \r\n::1 : aaaaaaaaaaaaaaaa',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : sadsadad',
+  ' \r\n::1 : asdsadasd asd ',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : lkj;lkjm;lkjm;lkm',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Halll',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::1 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.20 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ' \r\n::ffff:192.168.1.12 : Hello Server from clinet!',
+  ... 7 more items
+]
+0  connection opened
+received: [
+  'Hello Server from clinet!',
+  'Hhhhhhh',
+  'Its wwwww',
+  'Hello Server from clinet!'
+]
+Saved!
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.324 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.615 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m1.388 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.902 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.855 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.684 ms - 188826[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.773 ms - 73772[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.717 ms - 196316[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.684 ms - 102562[0m
+[0mGET /admin/ [32m200 [0m19.326 ms - 7101[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.932 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.315 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.303 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.548 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.606 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.311 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.325 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.782 ms - 188826[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.744 ms - 196316[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.708 ms - 102562[0m
+[0mGET /admin/ [36m304 [0m23.015 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.823 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.545 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.327 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.467 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.619 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.299 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.534 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.831 ms - 188826[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.614 ms - 196316[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.533 ms - 73772[0m
+[0mGET /admin/ [36m304 [0m17.656 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.342 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.913 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.347 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.832 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.759 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.307 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.307 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.754 ms - 188826[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.681 ms - 102562[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.743 ms - 196316[0m
+[0mGET /admin/ [36m304 [0m18.357 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.387 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.697 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.299 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.360 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.588 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.737 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.806 ms - 188826[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.557 ms - 73772[0m
+[0mGET / [32m200 [0m18.250 ms - 1643[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.967 ms - 3128[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.714 ms - 828[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m0.784 ms - 204844[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.684 ms - 516140[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.811 ms - 368684[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.981 ms - 499756[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.729 ms - 401452[0m
+[0mGET /favicon.ico [33m404 [0m6.393 ms - 1412[0m
+[0mGET /favicon.ico [33m404 [0m6.627 ms - 1412[0m
+[0mGET /favicon.ico [33m404 [0m7.538 ms - 1412[0m
+[0mGET /admin/ [32m200 [0m37.868 ms - 7101[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.440 ms - 3128[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.895 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.712 ms - 6649[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m0.560 ms - 204844[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.681 ms - 516140[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m1.633 ms - 368684[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m1.895 ms - 499756[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m2.238 ms - 401452[0m
+[0mGET /admin/ [32m200 [0m30.721 ms - 7101[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m0.837 ms - 3128[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.622 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m1.355 ms - 6649[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m0.673 ms - 204844[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m1.276 ms - 368684[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m1.458 ms - 516140[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.325 ms - 401452[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m1.306 ms - 499756[0m
+[0mGET /admin [36m301 [0m0.593 ms - 177[0m
+[0mGET /admin/ [32m200 [0m26.415 ms - 7101[0m
+[0mGET /admin/stylesheets/style.css [32m200 [0m1.089 ms - 3128[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.950 ms - 6649[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.432 ms - 1590[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m0.683 ms - 204844[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.746 ms - 516140[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.590 ms - 368684[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.941 ms - 499756[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.691 ms - 401452[0m
+[0mGET /favicon.ico [33m404 [0m13.217 ms - 1412[0m
+[0mGET /favicon.ico [33m404 [0m13.180 ms - 1412[0m
+[0mGET /favicon.ico [33m404 [0m8.836 ms - 1412[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.368 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.792 ms - 65028[0m
+[0mGET / [36m304 [0m12.811 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.009 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.340 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.476 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.300 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.530 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.434 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.533 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m1.120 ms - 213924[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.707 ms - 172442[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m1.296 ms - 54756[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.527 ms - 93766[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.305 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.983 ms - 54756[0m
+[0mGET /admin [36m301 [0m0.562 ms - 177[0m
+[0mGET /admin/ [32m200 [0m23.791 ms - 7101[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.520 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.326 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.352 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.367 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.375 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.299 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.267 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.463 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.607 ms - 203055[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.697 ms - 73772[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.511 ms - 204844[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.603 ms - 22878[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.345 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m1.109 ms - 73772[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.416 ms - -[0m
+[0mGET /admin/ [36m304 [0m24.322 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.584 ms - 203055[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.517 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.426 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.297 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.440 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.332 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.319 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.342 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.400 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.786 ms - 203055[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.732 ms - 22878[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.708 ms - 204844[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.756 ms - 204844[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.428 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.719 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.748 ms - 22878[0m
+[0mGET /admin/ [36m304 [0m16.366 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.472 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.424 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.312 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.771 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.281 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.412 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.415 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.481 ms - -[0m
+[0mGET / [36m304 [0m12.165 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.661 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.324 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.340 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.212 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.292 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.294 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.278 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.733 ms - 188826[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.752 ms - 73772[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.800 ms - 102562[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.780 ms - 196316[0m
+[0mGET / [36m304 [0m17.462 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.296 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.324 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.296 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.279 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.321 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.227 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.631 ms - 188826[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.912 ms - 196316[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.529 ms - 73772[0m
+[0mGET / [36m304 [0m10.323 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.987 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.219 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.416 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.322 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.304 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.620 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.526 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.502 ms - 73772[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.738 ms - 196316[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.645 ms - 102562[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.740 ms - 188826[0m
+[0mGET / [36m304 [0m13.971 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.287 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.252 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.288 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.546 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m1.944 ms - 73772[0m
+[0mGET / [36m304 [0m11.127 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.369 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.475 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.365 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.371 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.373 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.412 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.665 ms - 188826[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.600 ms - 73772[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.796 ms - 196316[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.776 ms - 102562[0m
+[0mGET /admin/ [36m304 [0m13.358 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.575 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.285 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.300 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.282 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.425 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.407 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.610 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.975 ms - 188826[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.534 ms - 73772[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.640 ms - 196316[0m
+[0mGET /admin/ [36m304 [0m17.915 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.657 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.694 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.290 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.417 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.289 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.286 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m0.800 ms - 204844[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m1.238 ms - 516140[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.859 ms - 401452[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m1.081 ms - 368684[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.779 ms - 499756[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m1.047 ms - 74714[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m1.148 ms - 419322[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m1.199 ms - 360154[0m
+[0mGET /admin/ [36m304 [0m15.611 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.316 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.595 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.216 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.298 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.348 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.280 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.312 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.278 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.655 ms - 471652[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.647 ms - 386924[0m
+[0mGET /records/18.1__1582059506731.wav [32m206 [0m0.618 ms - 42316[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.624 ms - 327756[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.744 ms - 248516[0m
+[0mGET /admin/ [36m304 [0m13.064 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.527 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.361 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.341 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.601 ms - 516140[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.883 ms - 368684[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.863 ms - 499756[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.362 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.643 ms - 401452[0m
+[0mGET /admin/ [36m304 [0m10.846 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.513 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.212 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.337 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.315 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.319 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.304 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.456 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.242 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.697 ms - 220708[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.588 ms - 65108[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.771 ms - 74138[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.688 ms - 172442[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.328 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [32m206 [0m0.617 ms - 74138[0m
+[0mGET /admin/ [36m304 [0m11.190 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.297 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.862 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.287 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.322 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.261 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.312 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.326 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.727 ms - 220708[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.655 ms - 65108[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.697 ms - 172442[0m
+[0mGET /admin/ [36m304 [0m12.049 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.543 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.490 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.292 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.331 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.416 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.323 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.612 ms - 220708[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.442 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [32m206 [0m0.604 ms - 65108[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.291 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [36m304 [0m0.341 ms - -[0m
+[0mGET /records/16.1__1581887765103.wav [32m206 [0m0.633 ms - 172442[0m
+[0mGET /admin/ [36m304 [0m15.016 ms - -[0m
+[0mGET /admin/stylesheets/style.css [36m304 [0m0.608 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.511 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.301 ms - -[0m
+[0mGET /records/18.1__1582059506731.wav [36m304 [0m0.427 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.361 ms - -[0m
+[0mGET /records/15.1__1581802277448.wav [36m304 [0m0.484 ms - -[0m
+[0mGET /records/18.1__1582057281417.wav [36m304 [0m0.261 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [36m304 [0m0.304 ms - -[0m
+[0mGET /records/18.1__1582059326722.wav [32m206 [0m0.786 ms - 220708[0m

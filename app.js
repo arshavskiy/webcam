@@ -9,8 +9,9 @@ const app = express();
 const fs = require('fs');
 const multer = require('multer'); //use multer to upload blob data
 const upload = multer(); // set multer to be the upload variable (just like express, see above ( include it, then use it/set it up))
+const utils = require('./server/utils');
 
-const indexRouter = require('./routes/index');
+// const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const adminRouter = require('./routes/admin');
 const chatRouter = require('./routes/chat');
@@ -20,6 +21,24 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
 app.use(logger('dev'));
+app.use( function (req, res, next){
+  const DIR = path.join(__dirname, 'public/records');
+  let files = fs.readdirSync(DIR);
+  if (files && files.length) {
+      files.forEach(file => {
+          const size = utils.getFilesizeInBytes(file);
+          if (size < 200484) {
+              fs.unlink(path.join(DIR, file), (err) => {
+                  if (err) reject(err);
+                  console.log(path.join(DIR, file), 'too small file was deleted');
+              });
+          }
+        });
+      }
+
+  next();
+});
+
 app.use(express.json());
 app.use(express.urlencoded({
   extended: false

@@ -12,16 +12,16 @@ block content
     #formats Format: start recording to see sample rate
     br
     strong Live:
-      br
-      ol#recordingsList
-        each r, inedx in records
-          li
-            span.record_title= date[inedx]
-            audio(controls="" src="/records/" + r type="audio/wav")
-              a(href="/records/" + r download="playlist.wav") Save to disk  
+    br
+    ol#recordingsList
+      each r, i in records
+        li
+          span.record_title= date[i]
+          audio(controls="" src="/records/" + r type="audio/wav")
+            a(href="/records/" + r download="playlist.wav") Save to disk  
 
     ul#messages
-      each m, inedx in mesages
+      each m, i in mesages
         li= m
 
   //- script(src="https://cdn.jsdelivr.net/binaryjs/0.2.1/binary.min.js")

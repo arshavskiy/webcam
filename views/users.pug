@@ -1,4 +1,3 @@
-
 extends layout
 
 block content
@@ -9,9 +8,9 @@ block content
     strong Live:
     br
     ol#recordingsList
-      each r, inedx in records
+      each r, i in records
         li
-          span.record_title= date[inedx]
+          span.record_title= date[i]
           audio(controls="" src="/records/" + r type="audio/wav")
         //- a(href="/records/" + r download="playlist.wav") Save to disk  
 
