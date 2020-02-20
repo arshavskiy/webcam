@@ -8,16 +8,13 @@ const {
 } = require('../server/middleware');
 
 function handleFn(req, res, next) {
-
     initAdmin().then(payload => {
-
         res.render('admin', {
             title: 'Express',
             records: payload.bigfiles.reverse(),
             date: payload.fileDate.reverse(),
             mesages: payload.textedMsgs
         });
-
     });
 }
 

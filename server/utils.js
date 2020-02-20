@@ -5,7 +5,7 @@ const fs = require('fs');
 const __RECORDS = path.join(__dirname, "..", 'public/records');
 const __PUBLIC = path.join(__dirname, "..", 'public');
 
-function utils() { 
+function utils() {
 
 }
 
@@ -20,17 +20,17 @@ utils.cleanSmallFile = () => {
                     console.log(path.join(__RECORDS, file), 'too small file was deleted');
                 });
             }
-          });
-        }
-    };
-  
+        });
+    }
+};
 
-utils.setFileName = file =>{
+
+utils.setFileName = file => {
     let day = file.mtime.getDate();
     let month = file.mtime.getMonth() + 1;
-    day = day < 10 ? '0' + day  : day;
-    month = month < 10 ? '0' + month: month;
-    let date = day + '.' + month  + '.' + file.mtime.getFullYear();
+    day = day < 10 ? '0' + day : day;
+    month = month < 10 ? '0' + month : month;
+    let date = day + '.' + month + '.' + file.mtime.getFullYear();
     return date + ' ' + file.mtime.getHours() + ':' + (file.mtime.getMinutes() < 10 ? '0' + file.mtime.getMinutes() : file.mtime.getMinutes());
 };
 
@@ -40,7 +40,7 @@ utils.getFilesizeInBytes = filename => {
     return fileSizeInBytes;
 };
 
-utils.payload = ()=>{
+utils.payload = () => {
     return new Promise((resolve, reject) => {
         fs.readdir(__RECORDS, (err, files) => {
             let fileDate = [];
@@ -50,11 +50,11 @@ utils.payload = ()=>{
                 const stats = fs.statSync(path.join(__RECORDS, file));
                 const mtime = utils.setFileName(stats);
                 // if (size > 200484) {
-                    fileDate.push(mtime);
-                    bigfiles.push(file);
+                fileDate.push(mtime);
+                bigfiles.push(file);
                 // }
             });
-    
+
             const payload = {
                 fileDate,
                 bigfiles
@@ -63,13 +63,12 @@ utils.payload = ()=>{
             resolve(payload);
         });
     });
-   
 };
 
 module.exports = {
-    setFileName : utils.setFileName,
-    getFilesizeInBytes : utils.getFilesizeInBytes,
+    setFileName: utils.setFileName,
+    getFilesizeInBytes: utils.getFilesizeInBytes,
     payload: utils.payload,
-    cleanSmallFile : utils.cleanSmallFile,
+    cleanSmallFile: utils.cleanSmallFile,
 
 };

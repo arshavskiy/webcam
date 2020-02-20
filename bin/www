@@ -13,12 +13,6 @@ const WebSocket = require('ws');
 const path = require('path');
 
 const __DIR = path.join(__dirname, '..', 'public');
-// const options = {
-//   key: fs.readFileSync('openssl/key.pem'),
-//   cert: fs.readFileSync('openssl/cert.pem')
-// };
-
-
 
 /**
  * Get port from environment and store in Express.

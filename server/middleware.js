@@ -89,8 +89,6 @@ middleware.initMessages = ()=>{
     });
 };
 
-
-
 middleware.initUsers = () => {
     return utils.payload();
 };
