@@ -1,7 +1,5 @@
 
-## run
-
-You’ll start by editing this README file to learn how to edit a file in Bitbucket.
+## Audio streamer with chat
 
 1. Install dpendencies with *npm install*
 2. **Run** with *npm start*
