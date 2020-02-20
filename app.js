@@ -10,6 +10,7 @@ const fs = require('fs');
 const multer = require('multer'); //use multer to upload blob data
 const upload = multer(); // set multer to be the upload variable (just like express, see above ( include it, then use it/set it up))
 const utils = require('./server/utils');
+const middleware = require('./server/middleware');
 
 // const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
@@ -20,9 +21,18 @@ const chatRouter = require('./routes/chat');
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'pug');
 
+let devcounter = 0;
+
 app.use(logger('dev'));
 app.use( function (req, res, next){
-  utils.cleanSmallFile();
+
+  //use only per state
+  if (!req.originalUrl.includes('.')){
+    console.debug('originalUrl: ', req.originalUrl, devcounter++);
+    utils.cleanSmallFile();
+    middleware.initMessages();
+  }
+
   next();
 });
 

@@ -1,3 +1,13 @@
+const express = require('express');
+const path = require('path');
+const fs = require('fs');
+
+const __PUBLIC = path.join(__dirname, "..", 'public');
+
+function middleware() {
+    
+}
+
 function ws(params) {
 
     // const WebSocket = require('ws');
@@ -60,4 +70,24 @@ function ws(params) {
 
 }
 
-module.exports = {};
+middleware.initMessages = ()=>{
+
+    fs.readdir(__PUBLIC, (err, files) => {
+        let fileDate = [];
+        files = files.join(',');
+        if (files.includes('messages')) {
+          let data = fs.readFileSync(__PUBLIC + '/messages.txt', 'utf8');
+          textedMsgs = data.split('_EOL_');
+        } else {
+          fs.writeFile(__PUBLIC + '/messages.txt', '', err => {
+            if (err) throw err;
+            console.log('File is created successfully.');
+          });
+        }
+    });
+};
+
+
+module.exports = {
+    initMessages: middleware.initMessages
+};

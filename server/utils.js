@@ -10,15 +10,14 @@ function utils() {
 }
 
 utils.cleanSmallFile = () => {
-    const DIR = path.join(__dirname, 'public/records');
-    let files = fs.readdirSync(DIR);
+    let files = fs.readdirSync(__RECORDS);
     if (files && files.length) {
         files.forEach(file => {
             const size = utils.getFilesizeInBytes(file);
             if (size < 200484) {
-                fs.unlink(path.join(DIR, file), (err) => {
+                fs.unlink(path.join(__RECORDS, file), (err) => {
                     if (err) reject(err);
-                    console.log(path.join(DIR, file), 'too small file was deleted');
+                    console.log(path.join(__RECORDS, file), 'too small file was deleted');
                 });
             }
           });
