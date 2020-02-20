@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const {
     initUsers
-} = require('../server/utils');
+} = require('../server/middleware');
 
 function handleFn(req, res, next) {
 

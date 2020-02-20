@@ -2,6 +2,8 @@ const express = require('express');
 const path = require('path');
 const fs = require('fs');
 
+const utils = require('./utils');
+
 const __PUBLIC = path.join(__dirname, "..", 'public');
 
 function middleware() {
@@ -88,6 +90,32 @@ middleware.initMessages = ()=>{
 };
 
 
+
+middleware.initUsers = () => {
+    return utils.payload();
+};
+
+middleware.initAdmin = ()=>{
+
+    return utils.payload().then( payload => {
+
+        return new Promise((resolve, reject) => {
+            fs.readdir(__PUBLIC, (err, files) => {
+                files = files.join(',');
+                if (files.includes('messages')) {
+                    let data = fs.readFileSync(__PUBLIC + '/messages.txt', 'utf8');
+                    textedMsgs = data.split('_EOL_');
+                }
+                payload.textedMsgs = textedMsgs;
+                resolve(payload);
+            });
+        });
+    });
+
+};
+
 module.exports = {
-    initMessages: middleware.initMessages
+    initMessages: middleware.initMessages,
+    initUsers: middleware.initUsers,
+    initAdmin: middleware.initAdmin
 };

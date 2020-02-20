@@ -26,37 +26,18 @@ utils.cleanSmallFile = () => {
   
 
 utils.setFileName = file =>{
-        let day = file.mtime.getDate();
-        let month = file.mtime.getMonth() + 1;
-        day = day < 10 ? '0' + day  : day;
-        month = month < 10 ? '0' + month: month;
-        let date = day + '.' + month  + '.' + file.mtime.getFullYear();
-        return date + ' ' + file.mtime.getHours() + ':' + (file.mtime.getMinutes() < 10 ? '0' + file.mtime.getMinutes() : file.mtime.getMinutes());
+    let day = file.mtime.getDate();
+    let month = file.mtime.getMonth() + 1;
+    day = day < 10 ? '0' + day  : day;
+    month = month < 10 ? '0' + month: month;
+    let date = day + '.' + month  + '.' + file.mtime.getFullYear();
+    return date + ' ' + file.mtime.getHours() + ':' + (file.mtime.getMinutes() < 10 ? '0' + file.mtime.getMinutes() : file.mtime.getMinutes());
 };
 
 utils.getFilesizeInBytes = filename => {
     const stats = fs.statSync(path.join(__RECORDS, filename));
     const fileSizeInBytes = stats.size;
     return fileSizeInBytes;
-};
-
-utils.initAdmin = ()=>{
-
-    return utils.payload().then( payload => {
-
-        return new Promise((resolve, reject) => {
-            fs.readdir(__PUBLIC, (err, files) => {
-                files = files.join(',');
-                if (files.includes('messages')) {
-                    let data = fs.readFileSync(__PUBLIC + '/messages.txt', 'utf8');
-                    textedMsgs = data.split('_EOL_');
-                }
-                payload.textedMsgs = textedMsgs;
-                resolve(payload);
-            });
-        });
-    });
-
 };
 
 utils.payload = ()=>{
@@ -85,17 +66,10 @@ utils.payload = ()=>{
    
 };
 
-utils.initUsers = () => {
-
-    return utils.payload();
-
-};
-
 module.exports = {
     setFileName : utils.setFileName,
     getFilesizeInBytes : utils.getFilesizeInBytes,
-    initAdmin : utils.initAdmin,
-    initUsers : utils.initUsers,
+    payload: utils.payload,
     cleanSmallFile : utils.cleanSmallFile,
 
 };
