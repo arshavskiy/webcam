@@ -39,7 +39,8 @@ form button {
   list-style-type: none;
   position: relative;
   width: 90%;
-  height: calc(100vh - 20rem) !important;
+  top: 10rem;
+  height: calc(100vh - 30rem) !important;
   background: lightseagreen;
   border: solid 1px;
   border-radius: 6px;
