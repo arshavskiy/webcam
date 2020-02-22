@@ -3,26 +3,35 @@ extends layout
 
 block content
   main#admin
-    section.time
-      #time
-    #controls
-      button#recordButton Record
-      button#pauseButton(disabled='') Pause
-      button#stopButton(disabled='') Stop
-    #formats Format: start recording to see sample rate
-    br
-    strong Live:
-    br
-    ol#recordingsList
-      each r, i in records
-        li
-          span.record_title= date[i]
-          audio(controls="" src="/records/" + r type="audio/wav")
-            a(href="/records/" + r download="playlist.wav") Save to disk  
+    section.player_container
+     
+      .player_controls
+        i#recordButton
+        i#pauseButton
+        i#stopButton
 
-    ul#messages
-      each m, i in mesages
-        li= m
+        section.player_time-bar
+          #time
+
+      #formats Format: start recording to see sample rate
+
+      section#messages_container
+        ul#messages
+          each m, i in mesages
+            li= m
+
+    section.continer_songlist
+      br
+      strong Live:
+      br
+      ol#recordingsList
+        each r, i in records
+          li
+            span.record_title= date[i]
+            audio(controls="" src="/records/" + r type="audio/wav")
+              a(href="/records/" + r download="playlist.wav") Save to disk  
+
+      
 
   //- script(src="https://cdn.jsdelivr.net/binaryjs/0.2.1/binary.min.js")
   //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")

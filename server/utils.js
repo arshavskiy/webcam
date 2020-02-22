@@ -50,6 +50,7 @@ utils.payload = () => {
                 const stats = fs.statSync(path.join(__RECORDS, file));
                 const mtime = utils.setFileName(stats);
                 // if (size > 200484) {
+                console.log('mtime', mtime);
                 fileDate.push(mtime);
                 bigfiles.push(file);
                 // }

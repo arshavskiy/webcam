@@ -3,9 +3,7 @@ const router = express.Router();
 const path = require('path');
 const fs = require('fs');
 
-const {
-    initAdmin
-} = require('../server/middleware');
+const { initAdmin } = require('../server/middleware');
 
 function handleFn(req, res, next) {
     initAdmin().then(payload => {

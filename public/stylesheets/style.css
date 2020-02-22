@@ -30,13 +30,16 @@ form button {
   padding: 10px;
 }
 
+#messages_container {
+  display: flex;
+  justify-content: center;
+}
+
 #messages {
   list-style-type: none;
-  position: absolute;
+  position: relative;
   width: 90%;
-  margin-left: calc(5% - 5px);
-  bottom: 50px;
-  padding: 0;
+  height: calc(100vh - 20rem) !important;
   background: lightseagreen;
   border: solid 1px;
   border-radius: 6px;
@@ -59,88 +62,68 @@ form button {
 a {
   color: #337ab7;
 }
+
 p {
   margin-top: 1rem;
 }
+
 a:hover {
-  color:#23527c;
+  color: #23527c;
 }
+
 a:visited {
   color: #8d75a3;
 }
 
 body {
-	line-height: 1.5;
-	font-family: sans-serif;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	color:black;
-	margin:2em;
+  line-height: 1.5;
+  font-family: sans-serif;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: black;
+  margin: 2em;
 }
 
 h1 {
-	text-decoration: underline red;
-	text-decoration-thickness: 3px;
-	text-underline-offset: 6px;
-	font-size: 220%;
-	font-weight: bold;
+  text-decoration: underline red;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+  font-size: 220%;
+  font-weight: bold;
 }
 
 h2 {
-	font-weight: bold;
-	color: #005A9C;
-	font-size: 140%;
-	text-transform: uppercase;
+  font-weight: bold;
+  color: #005A9C;
+  font-size: 140%;
+  text-transform: uppercase;
 }
 
 red {
-	color: red;
+  color: red;
 }
 
-#controls {
+.player_controls {
   display: flex;
   margin-top: 2rem;
   max-width: 28em;
-} 
+  background: orange;
+  border-radius: 25px;
+  padding: 12px;
+  margin: auto;
+}
 
-button {
-  flex-grow: 1;
-  height: 3.5rem;
-  min-width: 2rem;
-  border: none;
-  border-radius: 0.15rem;
-  background: #ed341d;
-  margin-left: 2px;
-  box-shadow: inset 0 -0.15rem 0 rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+.player_time-bar {
   display: flex;
   justify-content: center;
   align-items: center;
-  color:#ffffff;
-  font-weight: bold;
-  font-size: 1.5rem;
+  margin-left: 20px;
+  color: #fff;
 }
 
-button:hover, button:focus {
-  outline: none;
-  background: #c72d1c;
-}
-
-button::-moz-focus-inner {
-  border: 0;
-}
-
-button:active {
-  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.2);
-  line-height: 3rem;
-}
-
-button:disabled {
-  pointer-events: none;
-  background: lightgray;
-}
-button:first-child {
-  margin-left: 0;
+#time {
+  font-size: 3rem;
+  font-family: monospace;
 }
 
 audio {
@@ -157,34 +140,27 @@ li {
 #formats {
   margin-top: 0.5rem;
   font-size: 80%;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-#recordingsList{
-  width: 100%;;
-  height: 280px;
+#recordingsList {
+  width: 100%;
+  ;
+  height: 80vh;
   overflow-y: auto;
   overflow-x: hidden;
 }
 
-#users #recordingsList{
+#users #recordingsList {
   max-width: 28em;
   height: 380px;
   overflow-x: scroll;
 }
 
-.time{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
-
-#time{
-  font-size: 3rem;
-  font-family: monospace;
-}
-
-main{
+main {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -192,19 +168,45 @@ main{
   margin: 0 auto;
 }
 
-.record_title{
+.record_title {
   display: flex;
-    justify-content: center;
-    font-family: fantasy;
-    letter-spacing: 2px;
-    font-size: 2rem;
+  justify-content: center;
+  font-family: fantasy;
+  letter-spacing: 2px;
+  font-size: 2rem;
 }
 
-#recordButton{
-  color: #fff;
+.clicked {
+  box-shadow: inset 0px 0px 5px 2px rgba(0, 0, 0, 0.25) !important;
+  border: none !important;
 }
 
-section#form{
+#recordButton,
+#pauseButton,
+#stopButton {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  box-shadow: 0px 4px 5px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  border: 1px solid;
+}
+
+#recordButton {
+  background: url('../assets/player/play.svg');
+  margin-left: 0;
+}
+
+#pauseButton {
+  background: url('../assets/player/pause.svg');
+}
+
+#stopButton {
+  background: url('../assets/player/stop.svg');
+}
+
+section#form {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -212,6 +214,62 @@ section#form{
   margin-left: -5px;
 }
 
-section#form input{
+section#form input {
   width: 80%;
+}
+
+main#admin {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 10px;
+}
+
+section.player_container {
+  width: 40%;
+  margin-top: 6rem;
+}
+
+#messages_container {}
+
+section.continer_songlist {
+  width: 60%;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #recordingsList {
+    height: 280px;
+  }
+
+  main#admin {
+    flex-direction: column;
+  }
+
+  section.player_container {
+    width: 100%;
+
+  }
+
+  #messages {
+    list-style-type: none;
+    position: absolute;
+    width: 90%;
+    top: 65vh;
+    height: 30vh !important;
+    background: lightseagreen;
+    border: solid 1px;
+    border-radius: 6px;
+    height: 150px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 auto;
+  }
+
+  #messages_container {}
+
+  section.continer_songlist {
+    width: 100%;
+  }
+
 }

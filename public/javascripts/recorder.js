@@ -28,6 +28,10 @@
 
 
 function startRecording() {
+	stopButton.classList.remove('clicked');
+	recordButton.classList.add('clicked');
+	pauseButton.classList.remove('clicked');
+
 	stopWatch.startCounter();
 
 	console.log("recordButton clicked");
@@ -38,7 +42,7 @@ function startRecording() {
 		https://addpipe.com/blog/audio-constraints-getusermedia/
 	*/
 
-	var constraints = {
+	let constraints = {
 		audio: true,
 		video: false
 	}
@@ -47,10 +51,7 @@ function startRecording() {
 		Disable the record button until we get a success or fail from getUserMedia() 
 	*/
 
-	recordButton.disabled = true;
-	stopButton.disabled = false;
-	pauseButton.disabled = false
-
+	
 	/*
 		We're using the standard promise based getUserMedia() 
 		https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
@@ -92,9 +93,6 @@ function startRecording() {
 
 	}).catch(function (err) {
 		//enable the record button if getUserMedia() fails
-		recordButton.disabled  =  false;
-		stopButton.disabled    =   true;
-		pauseButton.disabled   =   true;
 	});
 }
 
@@ -103,11 +101,13 @@ function pauseRecording() {
 	if (rec.recording) {
 		//pause
 		rec.stop();
-		pauseButton.innerHTML = "Resume";
+		pauseButton.classList.add('clicked');
+		recordButton.classList.remove('clicked');
+		stopButton.classList.remove('clicked');
 	} else {
 		//resume
-		rec.record()
-		pauseButton.innerHTML = "Pause";
+		rec.record();
+		pauseButton.classList.remove('clicked');
 
 	}
 }
@@ -117,12 +117,11 @@ function stopRecording() {
 	console.log("stopButton clicked");
 
 	//disable the stop button, enable the record too allow for new recordings
-	stopButton.disabled = true;
-	recordButton.disabled = false;
-	pauseButton.disabled = true;
-
 	//reset button just in case the recording is stopped while paused
-	pauseButton.innerHTML = "Pause";
+	stopButton.classList.add('clicked');
+	recordButton.classList.remove('clicked');
+	pauseButton.classList.remove('clicked');
+
 
 	//tell the recorder to stop the recording
 	rec.stop();
@@ -175,20 +174,26 @@ function createDownloadLink(blob) {
 
 	//name of .wav file to use during upload and download (without extendion)
 	const now = new Date(Date.now());
-	const filename = now.getDate() + '.' + now.getMonth() + '__' + Date.now();
-
-	const date = (now.getDay() < 10 ? '0' + now.getDay(): now.getDay()) + '.' + now.getMonth() + '.' + now.getFullYear();
+	let day = now.getDate();
+    let month = now.getMonth() + 1;
+    day = day < 10 ? '0' + day : day;
+    month = month < 10 ? '0' + month : month;
+    let date = day + '.' + month + '.' + now.getFullYear();
+	let filenameN =  date + '__' + Date.now();
+	
+	// const filename = now.getDate() + '.' + now.getMonth() + '__' + Date.now();
+	// const date = (now.getDay() < 10 ? '0' + now.getDay(): now.getDay()) + '.' + now.getMonth() + '.' + now.getFullYear();
 	const recordTitleName = date + ' ' + now.getHours() + ':' + (now.getMinutes() < 10 ? '0' + now.getMinutes() : now.getMinutes());
 
 	//add controls to the <audio> element
 	au.controls = true;
 	au.src = url;
 
-	upload(blob, filename);
+	upload(blob, filenameN);
 
 	//save to disk link
 	link.href = url;
-	link.download = filename + ".wav"; //download forces the browser to donwload the file using the  filename
+	link.download = filenameN + ".wav"; //download forces the browser to donwload the file using the  filename
 	link.innerHTML = "Save to disk";
 
 	//add the new audio element to li
