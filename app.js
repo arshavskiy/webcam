@@ -65,6 +65,25 @@ app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
 
 });
 
+app.post('/message', function (req, res, next) {
+  const message = req.body.message;
+  DIR = path.join(__dirname, 'public' , '/messages.txt');
+  if (message && message.length > 1){
+    fs.appendFile(DIR , ':' + message + '_EOL_ \r\n', function (err) {
+      if (err) {
+        throw err;
+      } else {
+        console.log( message, 'message Saved!');
+        res.send({ 'message': message });
+      }
+     
+    });
+  }
+
+  
+
+});
+
 
 app.use(function (req, res, next) {
   next(createError(404));

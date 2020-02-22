@@ -11,7 +11,7 @@ function handleFn(req, res, next) {
             title: 'Express',
             records: payload.bigfiles.reverse(),
             date: payload.fileDate.reverse(),
-            mesages: payload.textedMsgs
+            messages: payload.textedMsgs
         });
     });
 }

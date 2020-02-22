@@ -32,19 +32,19 @@ form button {
 
 #messages_container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  width: 90%;
+  top: 10rem;
+  height: calc(100vh - 30rem) !important;
 }
 
 #messages {
   list-style-type: none;
   position: relative;
-  width: 90%;
-  top: 10rem;
-  height: calc(100vh - 30rem) !important;
   background: lightseagreen;
   border: solid 1px;
   border-radius: 6px;
-  height: 150px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -231,7 +231,6 @@ section.player_container {
   margin-top: 6rem;
 }
 
-#messages_container {}
 
 section.continer_songlist {
   width: 60%;
@@ -249,15 +248,15 @@ section.continer_songlist {
 
   section.player_container {
     width: 100%;
+    margin-top: 1rem;
 
   }
 
   #messages {
     list-style-type: none;
     position: absolute;
-    width: 90%;
-    top: 65vh;
-    height: 30vh !important;
+    width: 100%;
+    top: 55vh;
     background: lightseagreen;
     border: solid 1px;
     border-radius: 6px;
@@ -267,10 +266,23 @@ section.continer_songlist {
     margin: 0 auto;
   }
 
-  #messages_container {}
+  #messages_container {
+    position: absolute;
+    top: auto;
+  }
+
+  .input_container{
+    position: absolute;
+    bottom: -1rem;
+  }
 
   section.continer_songlist {
     width: 100%;
+
+  }
+
+  section.continer_songlist strong{
+    display: none;
   }
 
 }
