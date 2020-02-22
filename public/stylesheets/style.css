@@ -34,7 +34,7 @@ form button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 90%;
+  width: 96%;
   top: 10rem;
   height: calc(100vh - 30rem) !important;
 }

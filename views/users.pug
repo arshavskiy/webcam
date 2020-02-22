@@ -2,23 +2,29 @@ extends layout
 
 block content
   main#users
-    a(href='/admin/') 
-      h5 Admin
-    br
-    strong Live:
-    br
-    ol#recordingsList
-      each r, i in records
-        li
-          span.record_title= date[i]
-          audio(controls="" src="/records/" + r type="audio/wav")
-        //- a(href="/records/" + r download="playlist.wav") Save to disk  
+    section.player_container
+      
+      section#messages_container
+        ul#messages
+          each m, i in messages
+            li= m
+        div.input_container
+          input#messagesInput(autocomplete='off')
+          button#messagesAction Send
 
-    ul#messages
-    section#form
-      input#m(autocomplete='off')
-      button#msgAction Send
-  
-  //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
-  script(src="https://code.jquery.com/jquery-1.11.1.js")
+      section.continer_songlist
+        br
+        strong Live:
+        br
+        ol#recordingsList
+          each r, i in records
+            li
+              span.record_title= date[i]
+              audio(controls="" src="/records/" + r type="audio/wav")
+                a(href="/records/" + r download="playlist.wav") Save to disk  
+
+        
+
+    //- script(src="https://cdn.jsdelivr.net/binaryjs/0.2.1/binary.min.js")
+    //- script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js")
   script(src='/javascripts/chat.js')

@@ -14,7 +14,8 @@ function handleFn(req, res, next) {
         res.render('users', {
             title: 'Express',
             records: payload.bigfiles.reverse(),
-            date: payload.fileDate.reverse()
+            date: payload.fileDate.reverse(),
+            messages: payload.textedMsgs
         });
 
     });

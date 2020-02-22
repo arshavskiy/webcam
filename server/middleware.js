@@ -90,7 +90,7 @@ middleware.initMessages = ()=>{
 };
 
 middleware.initUsers = () => {
-    return utils.payload();
+    return middleware.initAdmin();
 };
 
 middleware.initAdmin = ()=>{
