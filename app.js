@@ -52,7 +52,7 @@ app.use('/', express.static(__DIR));
 app.use('/test', express.static(__DIR));
 app.use('/admin', express.static(__DIR));
 
-app.use('/', usersRouter);
+app.use('/', adminRouter); //usersRouter
 app.use('/test', chatRouter);
 app.use('/admin/', adminRouter);
 
