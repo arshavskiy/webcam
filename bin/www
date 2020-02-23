@@ -18,20 +18,23 @@ const __DIR = path.join(__dirname, '..', 'public');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT || '3000');
+var port = normalizePort(process.env.PORT || '4400');
 app.set('port', port);
 
 /**
  * Create HTTP server.
  */
 
-var httpServer = http.createServer(app);
-// var httpsServer = https.createServer(options, app);
+let ssl = {
+  key: fs.readFileSync('openssl/server.key'),
+  cert: fs.readFileSync('openssl/server.crt'),
+  // passphrase: 'satriani'
+};
 
-const wsHttpsServer = https.createServer({
-  key: fs.readFileSync('openssl/key.pem'),
-  cert: fs.readFileSync('openssl/cert.pem')
-});
+const wsHttpsServer = https.createServer(ssl, app);
+const server = https.createServer(ssl, app);
+
+
 
 const wss = new WebSocket.Server({
   port: 8080,
@@ -155,11 +158,11 @@ wss.on('close', function close() {
 /**
  * Listen on provided port, on all network interfaces.
  */
-httpServer.listen(port, function () {
+server.listen(port, function () {
   console.log('listening on *:' + port);
 });
-httpServer.on('error', onError);
-httpServer.on('listening', onListening);
+server.on('error', onError);
+server.on('listening', onListening);
 
 
 /**
@@ -215,7 +218,7 @@ function onError(error) {
  */
 
 function onListening() {
-  var addr = httpServer.address();
+  var addr = server.address();
   var bind = typeof addr === 'string' ?
     'pipe ' + addr :
     'port ' + addr.port;
