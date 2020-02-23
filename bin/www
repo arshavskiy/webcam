@@ -37,7 +37,7 @@ const server = https.createServer(ssl, app);
 
 
 const wss = new WebSocket.Server({
-  port: 8080,
+  port: 4401,
   perMessageDeflate: {
     zlibDeflateOptions: {
       // See zlib defaults.
@@ -153,7 +153,7 @@ wss.on('close', function close() {
   clearInterval(interval);
 });
 
-wsHttpsServer.listen(8080);
+wsHttpsServer.listen(4401);
 
 /**
  * Listen on provided port, on all network interfaces.

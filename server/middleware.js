@@ -13,9 +13,9 @@ function middleware() {
 function ws(params) {
 
     // const WebSocket = require('ws');
-    // const ws = new WebSocket('ws://localhost:8080');
+    // const ws = new WebSocket('ws://localhost:4401');
     // const wss = new WebSocket.Server({
-    //   port: 8080,
+    //   port: 4401,
     //   perMessageDeflate: {
     //     zlibDeflateOptions: {
     //       // See zlib defaults.
