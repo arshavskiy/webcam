@@ -8,7 +8,7 @@
   messagesAction.addEventListener('click', e => {
     e.preventDefault(); // prevents page reloading
     if (messagesInput.value) {
-      fetch('//localhost:4400/message', {
+      fetch('https://localhost:4400/message', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
           'Content-Type': 'application/json'

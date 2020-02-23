@@ -140,7 +140,7 @@ const upload = (soundBlob, filename) => {
 	let formdata = new FormData() ; //create a from to of data to upload to the server
 	formdata.append('soundBlob', soundBlob,  filename+'.wav');
 
-	fetch('//localhost:4400/upload/', {
+	fetch('https://localhost:4400/upload/', {
 	  method: 'POST',
 	  headers: {
 		// Content-Type may need to be completely **omitted**
