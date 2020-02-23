@@ -46,7 +46,7 @@ app.use(cors());
 let counter = 0;
 // catch 404 and forward to error handler
 
-const __DIR = path.join(__dirname, 'public');
+let __DIR = path.join(__dirname, 'public');
 
 app.use('/', express.static(__DIR));
 app.use('/test', express.static(__DIR));
@@ -57,9 +57,10 @@ app.use('/test', chatRouter);
 app.use('/admin/', adminRouter);
 
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
-  let uploadLocation = __DIR + '\\records\\' + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
+  __DIR = path.join(__dirname, 'public/records/');
+  let uploadLocation = __DIR + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
-    console.log('wrote to file ' + req.file.originalname);
+    console.log('wrote to file ' , uploadLocation);
     res.sendStatus(200);
   });
 
