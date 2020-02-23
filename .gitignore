@@ -1,5 +1,5 @@
 node_modules/
 log.txt
-openssl/
+#openssl/
 public/records/*.*
 public/messages.txt
