@@ -1,4 +1,4 @@
-  // const ws = new WebSocket('ws://192.168.1.20:8080');
+  const ws = new WebSocket('ws://ps001.taboolasyndication.com:8080');
 
   const msgBoard = document.querySelector("ul#messages");
   const msgBox = document.querySelector('input');
@@ -8,7 +8,7 @@
   messagesAction.addEventListener('click', e => {
     e.preventDefault(); // prevents page reloading
     if (messagesInput.value) {
-      fetch('https://localhost:4400/message', {
+      fetch('https://ps001.taboolasyndication.com:4400/message', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
           'Content-Type': 'application/json'
