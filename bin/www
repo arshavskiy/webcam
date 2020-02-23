@@ -31,7 +31,7 @@ let ssl = {
   // passphrase: 'satriani'
 };
 
-const wsHttpsServer = https.createServer(ssl, app);
+// const wsHttpsServer = https.createServer(ssl, app);
 const server = https.createServer(ssl, app);
 
 
@@ -153,7 +153,7 @@ wss.on('close', function close() {
   clearInterval(interval);
 });
 
-wsHttpsServer.listen(4401);
+// wsHttpsServer.listen(4401);
 
 /**
  * Listen on provided port, on all network interfaces.
