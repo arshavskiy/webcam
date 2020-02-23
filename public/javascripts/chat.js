@@ -1,4 +1,4 @@
-  const ws = new WebSocket('ws://ps001.taboolasyndication.com:4401');
+  const ws = new WebSocket('wss://ps001.taboolasyndication.com:4401');
 
   const msgBoard = document.querySelector("ul#messages");
   const msgBox = document.querySelector('input');
