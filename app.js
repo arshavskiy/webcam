@@ -66,6 +66,17 @@ app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
 
 });
 
+app.post('/video', upload.single('video'), function (req, res, next) {
+  __DIR = path.join(__dirname, 'public/records/');
+  const data = { ...req.body, filePath: req.file.path };
+  let uploadLocation = __DIR + data + '.webm'; // where to save the file to. make sure the incoming name has a .wav extension
+  fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
+    console.log('wrote to file ' , uploadLocation);
+    res.sendStatus(200);
+  });
+
+});
+
 app.post('/message', function (req, res, next) {
   const message = req.body.message;
   DIR = path.join(__dirname, 'public' , '/messages.txt');

@@ -37,3 +37,351 @@ mtime 22.02.2020 21:40
 [0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.657 ms - 327724[0m
 [0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m0.752 ms - 745516[0m
 [0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m0.680 ms - 761900[0m
+listening on *:3000
+listening on *:3000
+[0mGET /stylesheets/style.css [36m304 [0m3.493 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.498 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.816 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.480 ms - -[0m
+[0mGET /assets/player/pause.svg [36m304 [0m0.640 ms - -[0m
+[0mGET /assets/player/stop.svg [36m304 [0m0.614 ms - -[0m
+[0mGET /assets/player/play.svg [36m304 [0m0.331 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m395.776 ms - 1412[0m
+listening on *:3000
+originalUrl:  / 0
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+[0mGET / [32m200 [0m5829.236 ms - 10382[0m
+[0mGET /javascripts/recorder.js [32m200 [0m17.716 ms - 6939[0m
+[0mGET /javascripts/chat.js [32m200 [0m6.643 ms - 2133[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m16.556 ms - 1590[0m
+[0mGET /stylesheets/style.css [32m200 [0m27.413 ms - 4281[0m
+[0mGET /assets/player/play.svg [32m200 [0m1.207 ms - 499[0m
+[0mGET /assets/player/pause.svg [32m200 [0m1.446 ms - 432[0m
+[0mGET /assets/player/stop.svg [32m200 [0m1.233 ms - 437[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m8.905 ms - 327724[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m5.546 ms - 327724[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m9.080 ms - 426028[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m58.043 ms - 401452[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m7.668 ms - 745516[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m17.178 ms - 860204[0m
+[0mGET /favicon.ico [33m404 [0m28.698 ms - 1412[0m
+originalUrl:  /upload/ 1
+[0mOPTIONS /upload/ [32m204 [0m1.401 ms - 0[0m
+originalUrl:  /upload/ 2
+wrote to file 23.02.2020__1582436561990.wav
+[0mPOST /upload/ [32m200 [0m18.312 ms - 2[0m
+originalUrl:  / 3
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [32m200 [0m31.928 ms - 10620[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.705 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.235 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.466 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.334 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m0.762 ms - 548908[0m
+[0mGET /assets/player/play.svg [36m304 [0m0.341 ms - -[0m
+[0mGET /assets/player/pause.svg [36m304 [0m0.328 ms - -[0m
+[0mGET /assets/player/stop.svg [36m304 [0m0.549 ms - -[0m
+[0mGET /records/22.02.2020__1582400451446.wav [36m304 [0m0.711 ms - -[0m
+[0mGET /records/21.02.2020__1582309709991.wav [36m304 [0m0.359 ms - -[0m
+[0mGET /records/21.02.2020__1582309541080.wav [36m304 [0m0.294 ms - -[0m
+[0mGET /records/21.02.2020__1582309345199.wav [36m304 [0m0.325 ms - -[0m
+[0mGET /records/21.02.2020__1582299678949.wav [36m304 [0m0.289 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.288 ms - -[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m0.668 ms - 16380[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m1.328 ms - 113650[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m1.275 ms - 418202[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m0.632 ms - 532890[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.490 ms - 93874[0m
+originalUrl:  / 4
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [32m200 [0m30.467 ms - 10620[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.774 ms - 4281[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.715 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.819 ms - 6939[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.041 ms - 2133[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m0.634 ms - 548908[0m
+[0mGET /assets/player/play.svg [32m200 [0m0.731 ms - 499[0m
+[0mGET /assets/player/stop.svg [32m200 [0m0.624 ms - 437[0m
+[0mGET /assets/player/pause.svg [32m200 [0m0.687 ms - 432[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m1.781 ms - 327724[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m1.960 ms - 860204[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m1.116 ms - 327724[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m1.216 ms - 426028[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m1.485 ms - 745516[0m
+[0mGET /favicon.ico [33m404 [0m14.919 ms - 1412[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.615 ms - 401452[0m
+[0mGET /records/22.02.2020__1582400451446.wav [36m304 [0m0.481 ms - -[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m1.112 ms - 16794[0m
+originalUrl:  / 5
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m22.857 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.505 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.473 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.624 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.372 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [36m304 [0m0.395 ms - -[0m
+[0mGET /records/21.02.2020__1582309709991.wav [36m304 [0m0.302 ms - -[0m
+[0mGET /records/21.02.2020__1582309541080.wav [36m304 [0m0.370 ms - -[0m
+[0mGET /records/21.02.2020__1582309345199.wav [36m304 [0m0.380 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.407 ms - -[0m
+[0mGET /records/21.02.2020__1582299678949.wav [36m304 [0m0.337 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m1.139 ms - 237978[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.642 ms - 32812[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m0.751 ms - 552764[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m1.420 ms - 90522[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m1.231 ms - 435042[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m0.860 ms - 98714[0m
+originalUrl:  / 6
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m27.668 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.325 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.564 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.501 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.416 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [36m304 [0m0.358 ms - -[0m
+[0mGET /records/21.02.2020__1582309709991.wav [36m304 [0m0.789 ms - -[0m
+[0mGET /records/22.02.2020__1582400451446.wav [36m304 [0m0.583 ms - -[0m
+[0mGET /records/21.02.2020__1582309541080.wav [36m304 [0m0.298 ms - -[0m
+[0mGET /records/21.02.2020__1582309345199.wav [36m304 [0m0.397 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.351 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m0.605 ms - 237978[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.728 ms - 32812[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m1.112 ms - 552764[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m0.763 ms - 435042[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.676 ms - 90522[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.342 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.978 ms - 90522[0m
+originalUrl:  / 7
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m25.001 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.657 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m1.133 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.565 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.502 ms - -[0m
+[0mGET /records/22.02.2020__1582400451446.wav [36m304 [0m0.466 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [36m304 [0m0.543 ms - -[0m
+[0mGET /records/21.02.2020__1582309709991.wav [36m304 [0m0.318 ms - -[0m
+[0mGET /records/21.02.2020__1582309345199.wav [36m304 [0m1.245 ms - -[0m
+[0mGET /records/21.02.2020__1582309541080.wav [36m304 [0m1.161 ms - -[0m
+[0mGET /records/21.02.2020__1582299678949.wav [36m304 [0m1.338 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.300 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m1.064 ms - 237978[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.711 ms - 32812[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m2.563 ms - 98714[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m3.752 ms - 435042[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m3.309 ms - 552764[0m
+originalUrl:  / 8
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [32m200 [0m23.409 ms - 10620[0m
+originalUrl:  / 9
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [32m200 [0m24.948 ms - 10620[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.918 ms - 4281[0m
+[0mGET /javascripts/chat.js [32m200 [0m0.916 ms - 2133[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.668 ms - 6939[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m1.005 ms - 1590[0m
+[0mGET /assets/player/pause.svg [32m200 [0m0.704 ms - 432[0m
+[0mGET /assets/player/play.svg [32m200 [0m0.715 ms - 499[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m0.768 ms - 2[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m0.596 ms - 2[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.577 ms - 2[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m0.613 ms - 2[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m0.728 ms - 2[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.766 ms - 2[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m0.541 ms - 2[0m
+[0mGET /assets/player/stop.svg [32m200 [0m0.560 ms - 437[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m0.626 ms - 327724[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m0.726 ms - 745516[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m0.742 ms - 548908[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.434 ms - 327724[0m
+[0mGET /records/22.02.2020__1582400451446.wav [32m206 [0m0.841 ms - 16428[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m0.630 ms - 860204[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m0.506 ms - 426028[0m
+[0mGET /records/21.02.2020__1582309345199.wav [32m206 [0m0.675 ms - 8236[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.645 ms - 401452[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m1.249 ms - 8236[0m
+[0mGET /records/21.02.2020__1582309541080.wav [32m206 [0m0.589 ms - 8236[0m
+[0mGET /records/21.02.2020__1582299678949.wav [32m206 [0m0.667 ms - 16428[0m
+[0mGET /records/21.02.2020__1582309709991.wav [32m206 [0m0.663 ms - 16428[0m
+[0mGET /records/21.02.2020__1582299218607.wav [32m206 [0m0.742 ms - 8236[0m
+[0mGET /favicon.ico [33m404 [0m6.996 ms - 1412[0m
+[0mGET /favicon.ico [33m404 [0m7.348 ms - 1412[0m
+originalUrl:  / 10
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [32m200 [0m44.836 ms - 10585[0m
+[0mGET /stylesheets/style.css [32m200 [0m1.087 ms - 4281[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.628 ms - -[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.899 ms - 6959[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.023 ms - 2174[0m
+[0mGET /records/22.02.2020__1582400451446.wav [36m304 [0m0.598 ms - -[0m
+[0mGET /records/21.02.2020__1582309541080.wav [36m304 [0m0.654 ms - -[0m
+[0mGET /records/21.02.2020__1582309709991.wav [36m304 [0m0.512 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [32m206 [0m0.682 ms - 548908[0m
+[0mGET /assets/player/play.svg [32m200 [0m0.836 ms - 499[0m
+[0mGET /assets/player/pause.svg [32m200 [0m0.997 ms - 432[0m
+[0mGET /assets/player/stop.svg [32m200 [0m0.608 ms - 437[0m
+[0mGET /records/21.02.2020__1582309345199.wav [36m304 [0m0.619 ms - -[0m
+[0mGET /records/21.02.2020__1582299678949.wav [36m304 [0m0.672 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.765 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m16.849 ms - 1412[0m
+originalUrl:  / 11
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [32m200 [0m28.546 ms - 10585[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.575 ms - 4281[0m
+[0mGET /javascripts/stopwatch.js [32m200 [0m0.943 ms - 1590[0m
+[0mGET /javascripts/recorder.js [32m200 [0m0.978 ms - 6959[0m
+[0mGET /javascripts/chat.js [32m200 [0m1.105 ms - 2174[0m
+[0mGET /assets/player/play.svg [32m200 [0m1.020 ms - 499[0m
+[0mGET /assets/player/pause.svg [32m200 [0m1.122 ms - 432[0m
+[0mGET /assets/player/stop.svg [32m200 [0m1.311 ms - 437[0m
+[0mGET /favicon.ico [33m404 [0m9.463 ms - 1412[0m
+originalUrl:  / 12
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m30.392 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.443 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.711 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.762 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.837 ms - -[0m
+[0mGET /assets/player/play.svg [36m304 [0m0.545 ms - -[0m
+[0mGET /assets/player/pause.svg [36m304 [0m0.689 ms - -[0m
+[0mGET /assets/player/stop.svg [36m304 [0m0.775 ms - -[0m
+originalUrl:  / 13
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m20.644 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.400 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.322 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.441 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.469 ms - -[0m
+[0mGET /assets/player/play.svg [36m304 [0m0.544 ms - -[0m
+[0mGET /assets/player/pause.svg [36m304 [0m0.532 ms - -[0m
+[0mGET /assets/player/stop.svg [36m304 [0m0.556 ms - -[0m
+[0mGET /records/23.02.2020__1582436561990.wav [36m304 [0m0.364 ms - -[0m
+[0mGET /records/22.02.2020__1582400451446.wav [36m304 [0m0.355 ms - -[0m
+[0mGET /records/21.02.2020__1582309709991.wav [36m304 [0m0.299 ms - -[0m
+[0mGET /records/21.02.2020__1582309541080.wav [36m304 [0m0.715 ms - -[0m
+[0mGET /records/21.02.2020__1582309345199.wav [36m304 [0m1.440 ms - -[0m
+[0mGET /records/21.02.2020__1582299678949.wav [36m304 [0m0.369 ms - -[0m
+[0mGET /records/21.02.2020__1582299218607.wav [36m304 [0m0.323 ms - -[0m
+originalUrl:  / 14
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m25.535 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.488 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m1.149 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m1.147 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m1.402 ms - -[0m
+originalUrl:  / 15
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m20.508 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.581 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.972 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.742 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.742 ms - -[0m
+originalUrl:  / 16
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m19.338 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.458 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.463 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.940 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.974 ms - -[0m
+originalUrl:  / 17
+mtime 21.02.2020 17:33
+mtime 21.02.2020 17:41
+mtime 21.02.2020 20:22
+mtime 21.02.2020 20:25
+mtime 21.02.2020 20:28
+mtime 22.02.2020 21:40
+mtime 23.02.2020 7:42
+[0mGET / [36m304 [0m16.275 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.303 ms - -[0m
+[0mGET /javascripts/stopwatch.js [36m304 [0m0.742 ms - -[0m
+[0mGET /javascripts/recorder.js [36m304 [0m0.691 ms - -[0m
+[0mGET /javascripts/chat.js [36m304 [0m0.862 ms - -[0m

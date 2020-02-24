@@ -8,7 +8,8 @@
   messagesAction.addEventListener('click', e => {
     e.preventDefault(); // prevents page reloading
     if (messagesInput.value) {
-      fetch('https://ps001.taboolasyndication.com:4400/message', {
+      // fetch('https://ps001.taboolasyndication.com:4400/message', {
+      fetch('//localhost:4500/message', {
         method: 'POST', // *GET, POST, PUT, DELETE, etc.
         headers: {
           'Content-Type': 'application/json'
