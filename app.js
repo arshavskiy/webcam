@@ -47,6 +47,7 @@ let counter = 0;
 // catch 404 and forward to error handler
 
 let __DIR = path.join(__dirname, 'public');
+let __records = path.join(__dirname, 'public/records/');
 
 app.use('/', express.static(__DIR));
 app.use('/test', express.static(__DIR));
@@ -57,8 +58,7 @@ app.use('/test', chatRouter);
 app.use('/admin/', adminRouter);
 
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
-  __DIR = path.join(__dirname, 'public/records/');
-  let uploadLocation = __DIR + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
+  let uploadLocation = __records + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
     console.log('wrote to file ' , uploadLocation);
     res.sendStatus(200);
@@ -67,9 +67,7 @@ app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
 });
 
 app.post('/video', upload.single('video'), function (req, res, next) {
-  __DIR = path.join(__dirname, 'public/records/');
-  const data = { ...req.body, filePath: req.file.path };
-  let uploadLocation = __DIR + data + '.webm'; // where to save the file to. make sure the incoming name has a .wav extension
+  let uploadLocation = __records + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
     console.log('wrote to file ' , uploadLocation);
     res.sendStatus(200);

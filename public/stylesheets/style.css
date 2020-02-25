@@ -182,6 +182,7 @@ main {
   border: none !important;
 }
 
+#recordButton_video,
 #recordButton,
 #pauseButton,
 #stopButton {
@@ -194,6 +195,7 @@ main {
   border: 1px solid;
 }
 
+#recordButton_video,
 #recordButton {
   background: url('../assets/player/play.svg');
   margin-left: 0;

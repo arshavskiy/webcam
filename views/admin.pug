@@ -3,15 +3,31 @@ extends layout
 block content
   main#admin
 
-    
+    i#recordButton_video
     section.player_container
 
-      setion.video_recorder
-        a#download Download
-        button#stop Stop
-        video#player(controls width="80%" height="300px" autoplay)
-          source(src="//s3cdn.panda-os.com/2996/content/entry/data/1/217/0_htzkav6b_0_215hhc6k_2.mp4" type="video/mp4")
-        input(type="file" accept="video/*" capture="camera" id="recorder")
+      section.video_test
+          p
+            button#record(disabled) Record
+            button#stop(disabled) Stop
+
+          div.row
+            figure
+              video#live(width="320")
+              br
+              captionlive preview
+            
+            figure
+              video#recording(controls width="320")
+              br
+              caption recorded clip
+
+      //- setion.video_recorder
+      //-   a#download Download
+      //-   button#stop Stop
+      //-   video#player(controls width="80%" height="300px" autoplay='')
+      //-     //- source(src="//s3cdn.panda-os.com/2996/content/entry/data/1/217/0_htzkav6b_0_215hhc6k_2.mp4" type="video/mp4")
+      //-   input(type="file" accept="video/*" capture="camera" id="recorder")
 
      
       .player_controls
@@ -33,6 +49,10 @@ block content
           button#messagesAction Send
 
     section.continer_songlist
+
+      video#videoPlayer(controls width="80%" height="300px" autoplay)
+          source(src="//s3cdn.panda-os.com/2996/content/entry/data/1/217/0_htzkav6b_0_215hhc6k_2.mp4" type="video/mp4")
+
       br
       strong Live:
       br
@@ -50,79 +70,3 @@ block content
   script(src="/javascripts/stopwatch.js")
   script(src="/javascripts/recorder.js")
   script(src='/javascripts/chat.js')
-  script.
-     var player = document.getElementById('player');
-
-     recorder.addEventListener('change', function(e) {
-      var file = e.target.files[0];
-      // Do something with the video file.
-      player.src = URL.createObjectURL(file);
-    });
-   let shouldStop = false;
-    let stopped = false;
-    const downloadLink = document.getElementById('download');
-    const stopButton = document.getElementById('stop');
-
-    stopButton.addEventListener('click', function() {
-      shouldStop = true;
-    })
-
-    const uploadvideo = (recordedChunks, filename) => {
-
-      let formdata = new FormData() ; //create a from to of data to upload to the server
-      formdata.append('soundBlob', recordedChunks,  filename+'.webm');
-
-      // fetch('https://ps001.taboolasyndication.com:4400/upload/', {
-      fetch('//localhost:4500/video/', {
-          method: 'POST',
-          headers: {
-          // Content-Type may need to be completely **omitted**
-          // or you may need something
-          // "Content-Type": "multipart/form-data"
-          'enctype': 'multipart/form-data'
-          },
-          body: formdata // This is your file object
-        }).then(
-          response => {
-          response.blob();
-          }// if the response is a JSON object
-        ).then(
-          success => {
-            console.log(success);
-          }// Handle the success response object
-        ).catch(
-          error => console.log(error) // Handle the error response object
-        );
-      };
-
-    function handleSuccess(stream) {
-      player.srcObject = stream;
-
-      const options = {mimeType: 'video/webm'};
-      const recordedChunks = [];
-      window._mediaRecorder = new MediaRecorder(stream, options);
-
-      window._mediaRecorder.addEventListener('dataavailable', function(e) {
-        if (e.data.size > 0) {
-          recordedChunks.push(e.data);
-        }
-
-        if(shouldStop === true && stopped === false) {
-          window._mediaRecorder.stop();
-          stopped = true;
-        }
-      });
-
-      window._mediaRecorder.addEventListener('stop', function() {
-        downloadLink.href = URL.createObjectURL(new Blob(recordedChunks));
-        downloadLink.download = 'acetest.webm';
-        uploadvideo(recordedChunks, 'video_test');
-        player.srcObject = null;
-
-      });
-
-      window._mediaRecorder.start();
-    };
-
-    navigator.mediaDevices.getUserMedia({ audio: true, video: true })
-        .then(handleSuccess);
