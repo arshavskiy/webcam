@@ -244,7 +244,7 @@ window.onload = function () {
 	const uploadvideo = (recordedChunks, filename) => {
 
 		let formdata = new FormData(); //create a from to of data to upload to the server
-		formdata.append('movBlob', recordedChunks, filename);
+		formdata.append('movBlob', recordedChunks, filename + '.mp4');
 
 		// fetch('https://ps001.taboolasyndication.com:4400/upload/', {
 

@@ -66,7 +66,7 @@ app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
 
 });
 
-app.post('/video', upload.single('video'), function (req, res, next) {
+app.post('/video', upload.single('movBlob'), function (req, res, next) {
   let uploadLocation = __records + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension
   fs.writeFile(uploadLocation, Buffer.from(new Uint8Array(req.file.buffer)), function () { // write the blob to the server as a file
     console.log('wrote to file ' , uploadLocation);
