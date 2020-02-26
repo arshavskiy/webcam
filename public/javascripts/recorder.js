@@ -135,7 +135,7 @@ window.onload = function () {
 		formdata.append('soundBlob', soundBlob, filename + '.wav');
 
 		// fetch('https://ps001.taboolasyndication.com:4400/upload/', {
-		fetch('//localhost:4500/upload/', {
+		fetch('//https://ps001.taboolasyndication.com:4500//upload/', {
 			method: 'POST',
 			headers: {
 				// Content-Type may need to be completely **omitted**
@@ -248,7 +248,7 @@ window.onload = function () {
 
 		// fetch('https://ps001.taboolasyndication.com:4400/upload/', {
 
-		fetch('//localhost:4500/video/', {
+		fetch('//https://ps001.taboolasyndication.com:4500//video/', {
 			method: 'POST',
 			headers: {
 				// Content-Type may need to be completely **omitted**

@@ -51,11 +51,13 @@ let __records = path.join(__dirname, 'public/records/');
 
 app.use('/', express.static(__DIR));
 app.use('/test', express.static(__DIR));
+app.use('/users', express.static(__DIR));
 app.use('/admin', express.static(__DIR));
 
 app.use('/', adminRouter); //usersRouter
 app.use('/test', chatRouter);
-app.use('/admin/', adminRouter);
+app.use('/users', usersRouter);
+app.use('/admin', adminRouter);
 
 app.post('/upload', upload.single('soundBlob'), function (req, res, next) {
   let uploadLocation = __records + req.file.originalname; // where to save the file to. make sure the incoming name has a .wav extension

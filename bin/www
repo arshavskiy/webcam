@@ -32,8 +32,8 @@ let ssl = {
 };
 
 // const wsHttpsServer = https.createServer(ssl, app);
-// const server = https.createServer(ssl, app);
-const server = http.createServer(app);
+const server = https.createServer(ssl, app);
+// const server = http.createServer(app);
 
 
 
