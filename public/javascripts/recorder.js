@@ -12,28 +12,17 @@ window.onload = function () {
 
 	// shim for AudioContext when it's not avb. 
 	var AudioContext = window.AudioContext || window.webkitAudioContext;
-	var audioContext //audio context to help us record
+	var audioContext; //audio context to help us record
 
 	var recordButton = document.getElementById("recordButton");
 	var stopButton = document.getElementById("stopButton");
 	var pauseButton = document.getElementById("pauseButton");
 
 
-
-
-
 	//add events to those 2 buttons
 	recordButton.addEventListener("click", startRecordingAudio);
 	stopButton.addEventListener("click", stopRecordingAudio);
 	pauseButton.addEventListener("click", pauseRecordingAudio);
-
-
-
-
-
-
-
-
 
 	function startRecordingAudio() {
 		stopButton.classList.remove('clicked');
@@ -135,7 +124,7 @@ window.onload = function () {
 		formdata.append('soundBlob', soundBlob, filename + '.wav');
 
 		// fetch('https://ps001.taboolasyndication.com:4400/upload/', {
-		fetch('https://ps001.taboolasyndication.com:4600/upload/', {
+		fetch('localhost:4600/upload/', {
 			method: 'POST',
 			headers: {
 				// Content-Type may need to be completely **omitted**
@@ -248,7 +237,7 @@ window.onload = function () {
 
 		// fetch('https://ps001.taboolasyndication.com:4400/upload/', {
 
-		fetch('https://ps001.taboolasyndication.com:4600/video/', {
+		fetch('localhost:4600/video/', {
 			method: 'POST',
 			headers: {
 				// Content-Type may need to be completely **omitted**

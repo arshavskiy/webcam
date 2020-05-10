@@ -1,6 +1,6 @@
 stopWatch = ()=>{};
 
-stopWatch.running = 0;
+stopWatch.running = 0;ß
 stopWatch.time = 0;
 stopWatch.hour = 0;
 stopWatch.min = 0;
@@ -9,7 +9,7 @@ stopWatch.millisec = 0;
 
 stopWatch.startCounter = ()=> {
     stopWatch.started = window.setInterval(stopWatch.clockRunning, 1000);
-}
+};
 
 stopWatch.stopCounter = ()=>{
     stopWatch.running = 0;
@@ -19,7 +19,7 @@ stopWatch.stopCounter = ()=>{
     stopWatch.sec = 0;
     stopWatch.millisec = 0;
     window.clearInterval(stopWatch.started);
-}
+};
 
 stopWatch.clockRunning = ()=>{
     // stopWatch.millisec++;
